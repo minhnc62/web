@@ -1,0 +1,64 @@
+.header{
+    background-color:rgb(255, 255, 255) ;
+    height: 80px;
+    text-align: center;
+   
+}
+.nav_menu{
+    background-color: rgb(161, 203, 241); 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav_menu li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.img{
+    padding: 170px;
+    text-align:center;
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+}
+h2{
+    font-family:"Brush Script MT", cursive;
+}
+p{
+   
+        font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    line-height: 1.8;
+}
+b{
+    text-shadow: 2px 2px 5px rgb(50, 175, 224);
+}
+strong{
+    font-weight: bold;
+    color: #009e3b;
+}
+.italic{
+    font-style: italic;
+}
+a:hover{
+   
+    display: inline-block;
+    text-decoration: none;
+    background-color: green;
+    text-align: center;
+    color: ivory;
+}
+a:link{
+   
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(161, 203, 241);
+    text-align: center;
+    color: ivory;
+}
