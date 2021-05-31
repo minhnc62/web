@@ -36,14 +36,7 @@ a:hover{
     text-align: center;
     color: ivory;
 }
-a:link{
-   
-    display: inline-block;
-    text-decoration: none;
-    background-color: rgb(161, 203, 241);
-    text-align: center;
-    color: ivory;
-}
+
 h1{
     text-shadow: 2px 2px 5px rgb(243, 28, 12);
     background-color:white ;
