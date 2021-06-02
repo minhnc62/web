@@ -1,0 +1,118 @@
+
+
+*{
+    box-sizing:border-box ;
+    margin:0;/*khong ap dung so lieu mac dinh  */
+    padding:0;
+}
+.d-inline-block {
+    display: inline-block;
+    word-spacing: normal;
+}
+
+.ws-1 {
+    word-spacing: -1ch;
+}
+
+h1{
+    text-align:center;
+}
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 50px 0 50px 30px;
+}
+
+.navigation {
+    background-color: #b7b7fa;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-item {
+    margin: 0 10px 0 10px;
+}
+
+.menu-link {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    color: aqua;
+    font-weight: 700;
+}
+
+.menu-link.active {
+    color: chocolate;
+}
+.main {
+    background-color: #edeef6;
+    width: calc(75% - 10px);
+    margin-right: 10px;
+}
+
+.aside {
+    background-color: #e0fbff;
+    width: 25%;
+    vertical-align: top;
+}
+
+.section {
+    background-color: #c4c4c4;
+    padding: 10px;
+}
+
+.product {
+    width: calc((100% - 20px) / 3);
+    height: 100px;
+    
+    background-color: #fdfafa;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #ae9696;
+    padding: 50px 0 50px 0;
+}
+
+.product-img {
+    width: 100%;
+}
+.intro{
+    width: 60%;
+    height: 100px;
+    
+    background-color: #c4c4c4;
+    vertical-align: top;
+}
+.intro-body{
+    display: block;
+    margin-inline-start: 20px;
+}
+.intro-product{
+    display: block;
+    margin-inline-start: 20px;
+}
+.text-red{
+    color:red
+}
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
