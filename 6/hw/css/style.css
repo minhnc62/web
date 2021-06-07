@@ -1,0 +1,383 @@
+*{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    color: #6c6c6f;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: left;
+}
+header ,nav{
+    display: block;
+}
+.header.abs-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+}
+
+div{
+    display: block;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: -15px;
+    padding-left: -15px;
+    
+   
+}
+.logo {
+    
+    flex-basis: 25%;
+    max-width: 25%;
+
+}
+.logo-spa{
+    
+        display: block;
+        max-width: 109px;
+    
+}
+.col{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navigation{
+    position: relative;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    flex: 0 0 75%;
+    max-width: 75%;
+    text-align: center;
+    list-style-type: none;
+    
+}
+.menu-item {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+.menu-link {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    color: #263a41;
+    font-weight: 700;
+}
+
+
+.j-center{
+    justify-content: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+
+.a-end{
+    align-items: flex-end;
+}
+section{
+    display: block;
+    position: relative;
+    padding: 50px 0 ;
+    width: 100%;
+    
+}
+.banner{
+    padding-top: 15%;
+    
+}
+.banner{
+    
+    background: url(https://demo.themeies.com/leospa/images/leaf.png) no-repeat left center/12.5%;
+    padding: 12% 0;
+}
+.banner .spa-img {
+    width: 43.4%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-style: none;
+}
+.intro{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.banner span {
+    color: #ff817e;
+    display: block;
+    font-family: "Rufina", serif;
+    letter-spacing: 1.5px;
+    
+    margin-bottom: 20px;
+}
+.banner h2 {
+    color: #1e2528;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+.banner p {
+    color: #555;
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: #ff817e;
+    border-radius: 0;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 25px;
+}
+.btn-video{
+    background-color: #7e8bff;
+    border-radius: 0;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 15px;
+    
+}
+.about {
+    text-align: center;
+    height: 540px;
+}
+.about .flower-1 {
+    position:absolute;
+    left: 16%;
+    top: 0;
+    max-width: 160px;
+}
+.about .flower-2 {
+    position:absolute;
+    right: 135px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 88px;
+}
+
+.m-auto{
+    margin: auto!important;
+}
+.heading {
+    margin-bottom: 70px;
+    position: relative;
+    text-align: center;
+}
+      
+    
+.leaves{
+    max-width: 84px;
+    margin: 0 auto 40px;
+}
+ .tagline {
+    color: #888;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: .8;
+    margin-bottom: 27px;
+}
+.x-title {
+    color: #1e2528;
+    font-size: 42px;
+    margin-bottom: 32px;
+}
+.about-heading p {
+    color: #888;
+    margin-bottom: 0;
+}
+.btn-round{
+    border-radius: 50px;
+}
+.service-caro{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    ;
+}
+
+.imgs{
+    flex-basis: 25%;
+    position: relative;
+}
+.service-img{
+    width: 100%;
+    padding-right:10px ;
+}
+.menu-post{
+    flex-basis: 33.333333%;
+    max-width: 33.333333%;
+}
+.post{
+    border: 1px solid #e3e6ea;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.post img{
+    margin-bottom: 35px;
+}
+.post h4, .post h4 a {
+    color: #263a41;
+    font-size: 22px;
+}
+
+.post h4 , .post p {
+    margin-bottom: 22px;
+}
+.quote{
+    margin: 0 auto 45px;
+    width: 59px;
+}
+
+.text{
+    text-align: center;
+}
+.thumb{
+    border-radius: 50%;
+    margin-bottom: 22px;
+    height: 76px;
+    width: 76px;
+    
+}
+.avatar{  
+    flex-basis: 33.333333%;
+    max-width: 33.333333%;
+}
+.memb{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.appointment-form{
+    flex-basis: 100%;
+    padding: 30px 15px;
+}
+form{
+    max-width: 650px;
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.form-field{
+    position: relative;
+    width:100%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+.input {
+    border: none;
+    border-bottom: 1px solid #d4d3d3;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+textarea{
+    resize: none;
+}
+ address {
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 80px;
+    position: relative;
+}
+address span {
+    background-color: #ff817e;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+}
+.menu-contact{
+    flex-basis: 58.333333%;
+    max-width: 58.333333%;
+    
+}
+input , textarea{
+    border: 1px solid #e3e6ea;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #fff9f8;
+    padding: 80px 0 60px;
+}
+.foo-logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.foo-nav{
+    position: relative;
+    margin: 30px 0 30px 0;
+}
+
+.foo-nav ul{
+        text-align: center!important;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    
+}

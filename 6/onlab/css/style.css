@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex-grow: 1;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:20px ;
+    
+}
+label {
+    margin-bottom:10px ;
+}
+input , textarea{
+    background-color: rgb(142, 215, 243);
+}
+form > input{
+    color: cornsilk     ;
+    background-color: blue;
+    margin: 20px 0 0 0;
+}
+textarea{
+    resize: none;
+}
