@@ -1,0 +1,452 @@
+
+.site-nav {
+  z-index: 9;
+  width: 100%;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-nav-wrap {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: #717171!important;
+}
+
+.pb-15{
+  padding-bottom:15px ;
+}
+.mr{
+  margin: 0px 250px 0px 300px;
+}
+a{
+  color: #000!important ;
+  text-decoration: none!important;
+}
+.mb{
+  margin-right: 3rem;
+  
+}
+.mbot{
+  margin-bottom: 50px;
+}
+.a-self-center{
+  align-self: center;
+}
+.g-5{
+  --bs-gutter-x: 3rem;
+  --bs-gutter-y: 3rem;
+  
+}
+.mb-4 {
+  margin-bottom: 1.5rem!important;
+}
+
+.row-1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.j-between{
+  justify-content: space-between;
+}
+.j-end{
+  justify-content: flex-end;
+}
+.j-center{
+  justify-content: center;
+}
+.a-center{
+  align-items: center;
+}
+
+.pr{
+  padding-right: calc(var(--bs-gutter-x) / 2);
+}
+.pl{
+  padding-left: calc(var(--bs-gutter-x) / 2);
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.search-form {
+  position: relative;
+  margin: 0;
+}
+.search-form [class^="icon-"] {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: #ccc;
+  font-size: 16px;
+}
+
+.search-form input[type="search"] {
+  padding-left: 40px;
+  height: 38px;
+  font-size: 14px;
+}
+.form-control {
+  display: block;
+  border-color: #ccc;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  padding: .375rem .75rem;
+  height: 50px;
+  font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    
+    appearance: none;
+}
+.section {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.text-center{
+  text-align: center !important;
+}
+.logo {
+  font-size: 20px;
+  color: #000!important;
+  font-weight: 700;
+  top: 6px;
+  position: relative;
+  text-transform: uppercase!important;
+  text-decoration: none;
+}
+.pt-5 {
+  padding-top: 3rem!important;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  top: 5px;
+    position: relative;
+    margin: 0;
+}
+
+.list-unstyled li{
+  display: inline-block;
+}
+.list-unstyled li a{
+  color: #000;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.section .heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+img{
+  max-width:100%;
+  border-radius: 7px;
+  height: auto;
+}
+.avatar {
+  
+  flex: 0 0 45px;
+  margin-right: 10px;
+}
+
+.avatar img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.thumbnail {
+  -webkit-box-flex: 0!important;
+  -ms-flex: 0 0 100%!important;
+  flex: 0 0 100%!important;
+  margin-bottom: 30px;
+}
+.post-entry .content .heading {
+  font-size: 18px;
+}
+.fw-bold {
+  font-weight: 700!important;
+}
+.d-grid {
+  
+  display: grid!important;
+}
+
+.btn.btn-primary {
+  background-color: #f79918;
+  color: #fff;
+  border: 2px solid transparent;
+}
+.btn {
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
+.btn.btn-primary:hover {
+  border: 2px solid transparent;
+  background-color: #fff;
+  color: #f79918;
+
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+}
+.site-footer {
+  font-size: 14px;
+  color: #888;
+  padding: 70px 0;
+}
+.site-footer .widget {
+  margin-bottom: 40px;
+  display: block;
+}
+.social {
+  top: 5px;
+  position: relative;
+  margin: 0;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.site-footer .social li {
+  display: inline-block;
+}
+.site-footer .social li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background: #ccc;
+  border-radius: 40%;
+}
+.social li a {
+  color: #000;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.site-footer .social li a>i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+}
+.site-footer .social li a:hover {
+  background: #f79918;
+  color: #fff;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides-1 {
+  display: none;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgba(114, 108, 108, 0.747);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot-1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* .active, .dot:hover {
+  background-color: #717171;
+} */
+.active1{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: rgb(255, 255, 255); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  box-shadow: -10px 0 20px -10px rgb(0 0 0 / 10%);
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+.menu-item {
+  position: relative;
+}
+
+.menu-link {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.menu-link.actives {
+  color: #f79918;
+}
+
+.sub-menu {
+  display: none;
+  background-color: #ffffff;
+
+  position: absolute;
+  top: 100%;
+  bottom:  0;
+}
+
+.sub-link {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.menu-item:hover > .menu-link {
+  color: #f79918;
+}
+
+.menu-item:hover > .sub-menu {
+  display: block;
+}
+
+.sub-item {
+  position: relative;
+}
+
+.sub-item:hover > .sub-link {
+  color: #ffffff;
+  background-color: #fff;
+}
