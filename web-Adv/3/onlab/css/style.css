@@ -1,0 +1,642 @@
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Kaushan Script", cursive;
+    --bs-font-sans-serif: Roboto, system-ui, -apple-system, "Segoe UI",
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+body {
+    color: #999999;
+    font-size: 15px;
+    line-height: 1.6;
+    font-variant: normal;
+    letter-spacing: normal;
+}
+
+/* Header */
+.banner {
+    background-image: linear-gradient(
+            0deg,
+            rgba(252, 227, 138, 0.5) 0%,
+            rgba(243, 129, 129, 0.5) 100%
+        ),
+        url(../img/picture.png);
+}
+
+.header {
+    margin-bottom: 150px;
+}
+
+.navbar-light .navbar-brand {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-family: var(--primary-font);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fce38a;
+}
+
+.banner-sub-heading {
+    font-size: 72px;
+    font-family: var(--secondary-font);
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-heading {
+    font-size: 150px;
+    font-family: var(--primary-font);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.933;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.dashed {
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 3px !important;
+    opacity: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.btn-learn-more {
+    font-size: 14px;
+    font-family: var(--primary-font);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    padding: 10px 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.carousel-indicators {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    list-style: none;
+}
+
+.carousel-indicators .indicator {
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    cursor: pointer;
+    text-indent: 0;
+    background-color: transparent;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+}
+
+.carousel-indicators .indicator:not(:last-child) {
+    margin-right: 30px;
+}
+
+.indicator .timmer {
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Pseudo Element */
+.indicator .timmer::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: #999999;
+}
+
+.indicator.active .timmer::after {
+    width: 100%;
+    transition: width 3s;
+}
+
+.indicator .slide-number {
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.indicator .text {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.text-1 h3{
+    padding-top: 92px;
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-family: var(--secondary-font);
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+    
+ 
+  
+}.text-1 h2{
+
+padding-bottom: 24px;
+    font-size: 30px;
+    font-family: var(--primary-font);
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+
+.text-2 .d-flex h2{
+font-size: 24px;
+font-family: var(--secondary-font);
+color: rgb(51, 51, 51);
+line-height: 1.2;
+text-align: left;
+}
+.dashed-1{
+background-color: rgb(243, 129, 129);
+width: 60px;
+height: 3px !important;
+opacity: 1;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+ 
+}
+.dashed-2{
+background-color: rgb(243, 129, 129);
+width: 60px;
+height: 3px !important;
+opacity: 1;
+display: block;
+
+margin-bottom: 50px;
+ 
+}
+.text-1 p{
+    padding-bottom: 105px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+    
+ 
+  
+}
+
+.pics{
+position: relative;
+
+}
+.Layer_1{
+    position: relative;
+}
+.users {
+
+color: rgb(255, 255, 255);
+position: absolute;
+right: 50%;
+bottom: 50%;
+
+}
+
+.users-share {
+    display: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 25%;
+    bottom: 42%;
+    
+    }
+
+    .share-1{
+
+       
+         background-color: rgb(252, 241, 90);
+        border-right: rgb(243, 129, 129) solid 1px;
+        color: rgb(243, 129, 129);
+        padding: 15px 20px 15px 20px;
+    }
+    .pics>.Layer_1:hover{
+
+        box-shadow: 10px 10px rgb(149, 225, 211);
+    
+    }
+    .Layer_1:hover > .users-share{
+        display: block;
+    }
+     .users-share>.d-flex> .share-1:hover{
+        background-color: rgb(243, 129, 129);
+        color: rgb(255, 255, 255);
+    }
+.user-heading h2{
+    
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;      
+position: absolute;
+right: 36%;
+bottom: 30%;
+}
+
+
+ .Layer_44 {
+    
+height: 250px;
+
+background-image: linear-gradient(
+        0deg,
+        rgba(252,227,138, 0.5) 0%,
+        rgba(243,129,129, 0.5) 100%
+    ),
+    url( ../img/Layer44.jpg);
+}
+.pics>.Layer_44:hover{
+
+    box-shadow: 10px 10px rgb(149, 225, 211);
+
+}
+.facts {
+background-color: rgb(149, 225, 211);
+margin-top: 110px;
+}
+
+.Layer_1 {
+
+    height: 250px;
+    
+    background-image:  url( ../img/Layer44.jpg);
+    }
+    .Layer {
+    
+        height: 250px;
+        
+        background-image: linear-gradient(
+                0deg,
+                rgba(252,227,138, 0.5) 0%,
+                rgba(243,129,129, 0.5) 100%
+            ),
+            url( ../img/Layer44.jpg);
+        }
+
+.number-1{
+
+text-align: center;
+padding-top: 90px;
+padding-bottom: 90px;
+
+}
+.bd-right{
+
+border-right: rgb(255, 255, 255) solid 1px;
+}
+.bd-bottom{
+
+border-bottom:rgb(229, 229, 229) solid 1px;
+}
+
+
+.number-1 h2{
+    text-align: center!important;
+    font-size: 70px;
+    font-family: var(--primary-font);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    
+  
+  
+}
+.number-1 p{
+
+    font-size: 12px;
+    font-family: var(--primary-font);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    
+  
+  
+}
+
+.icon-1{
+color: rgb(149, 225, 211); 
+}
+h2{
+    font-size: 14px;
+    font-family: var(--primary-font);
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+.text-2 h2{
+
+    font-size: 14px;
+    font-family: var(--primary-font);
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    
+  
+  
+}
+.text-2 p{
+
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: left;
+    
+  
+}
+.pd-b{
+padding-bottom: 53px;
+}
+.pd-b-1{
+    padding-bottom: 30px;
+}
+.pd-bottom{
+padding-bottom: 110px;
+}
+.pd-t{
+padding-top: 53px;
+}
+.pd-right{
+padding-right:85px ;
+}
+.feauture{
+position: relative;
+background-image: url(../img/Rectangle.jpg);
+}
+/* .thumbnal{
+display: block;
+position: relative;
+} */
+
+.display {
+
+    text-align: center;
+
+
+}
+
+.image img{
+ max-width: 100%;
+ 
+}
+
+.quote{
+
+    background-color: rgb(196, 189, 189);
+   padding-top: 80px;
+   padding-bottom: 75px;
+  
+}
+.icon-2{
+ text-align: center;
+ padding-top: 48px;
+ padding-bottom: 48px;
+color: rgb(149, 225, 211); 
+border: rgb(149, 225, 211) solid 2px;
+}
+
+.pics>h2{
+    
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(51, 51, 51);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+       
+      
+      
+}
+.pics>p{
+   
+        font-size: 15px;
+        font-family: "Roboto";
+        color: rgb(153, 153, 153);
+        font-style: italic;
+        line-height: 1.6;
+        text-align: center;
+       
+      
+}
+.logos{
+    background-image: linear-gradient(
+        0deg,
+        rgba(248, 248, 248, 0.5) 0%,
+        rgba(248, 248, 248, 0.5) 100%
+    ),
+    url(../img/Rectangle-10.jpg);
+        
+        margin-top: 110px;
+        
+     
+      
+
+}
+img{
+    max-width: 100%;
+}
+.testimonial{
+    background-color: rgb(196, 189, 189);
+    padding-top: 80px;
+    padding-bottom: 75px;
+}
+.avatar img{
+    width: 208px;
+    height: 208px;
+    border-radius: 50%;
+   
+
+}
+
+.avatars img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+   
+
+}
+
+.service-2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(243, 235, 235, 0.925) 0%,
+        rgba(230, 227, 227, 0.897) 100%
+    ),
+    url(../img/Rectangle-22.jpg);
+    
+}
+.Layer-2{
+    width: 65px;
+    background-color: rgb(149, 225, 211);
+    padding: 15px 15px;
+    position: absolute;
+    top: 153px;
+    bottom: 5px;
+    left: -15px;
+    z-index: 1;
+}
+.Layer-2 h2{
+    
+        font-size: 30px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        
+     
+      
+}
+.Layer-2 p{
+    
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    
+ 
+  
+}
+.blog-conten{
+    border-bottom:rgb(229, 229, 229) solid 1px;
+}
+
+.map{
+    background-image: linear-gradient(
+        0deg,
+        rgba(243, 235, 235, 0.925) 0%,
+        rgba(230, 227, 227, 0.897) 100%
+    ),
+    url(../img/Rectangle-map.jpg);
+    
+}
+.text-3{
+        padding: 58px ;
+        font-size: 24px;
+        font-family: "Montserrat";
+        color: rgb(243, 129, 129);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+       
+     
+      
+}
+.footer{
+    padding: 80px;
+    
+}
+.footer-conten{
+    border-bottom:rgb(229, 229, 229) solid 1px;
+}
+.footer-heading{
+    
+    
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(204, 204, 204);
+        font-weight: bold;
+        line-height: 1.2;
+       
+      
+}
+.share{
+    color: rgb(149, 225, 211);
+    padding: 15px 20px 0 0;
+}
+
+
+  .Subscribe {
+    background-color: rgb(149, 225, 211);
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  
+  }
+  
+  .d-flex-1{
+      display: flex;
+      
+      padding: 2.5px;
+  }
+  .pd-5{
+      padding-right: 5px;
+  }
