@@ -103,7 +103,7 @@ color: #101010;
     box-shadow: none!important;
 }
 .text {
-  max-width: 544px;
+  max-width: 450px;
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 600;
