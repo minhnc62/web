@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Application</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row ">
+        <div class="col-12">
+          <div class="header ">
+            <div class="row  ">
+              <div class="col-8">
+                <div class="date-wrapper">
+                  <div class="row">
+                    <div class="col-12">
+                      <span class="day"></span>
+                    </div>
+                    <div class="col-12" style="margin-bottom: 30px">
+                      <span class="date"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 align-self-center">
+                <div class="d-flex  justify-content-end">
+                  <div class="icon-calenra">
+                    <i class="bi bi-calendar3"style="font-size: 3rem; "></i>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row doing">
+        <div class="header bd-b">
+          <p class="label d-flex ">
+            Chưa hoàn thành
+            <span class="todo-number d-flex
+            justify-content-center
+            align-items-center"></span>
+          </p>
+        </div>
+
+        <div class="list-item">
+          <ul  id="list">
+
+            <!-- <li class="item">
+              <i class="bi bi-circle co" job="complete" id="0"></i>
+              <p class="text">Drink Coffee</p>
+              <i class="bi bi-trash-fill de" job="delete" id="0"></i> 
+          </li>  -->
+
+          </ul>
+
+            <div class="new-todo">
+            
+              <input
+               id="input"
+                
+                type="text"
+                class="todo-input bd-b"
+                placeholder="Bạn muốn làm gì?"
+              />
+            
+
+            <button class="btn-cancel">
+              <i class="bi bi-x-circle-fill"></i>
+            </button>
+          </div>
+
+          <button class="btn-add" style="margin-bottom: 90px;">
+            <i class="bi bi-plus-circle-fill de "></i>
+            Thêm công việc mới
+          </button> 
+        </div>
+      </div>
+
+      <div class="row completed">
+        <div class="header d-flex justify-content-between
+        align-items-center bd-b">
+          <p class="label d-flex ">
+            Đã hoàn thành
+            <span
+              class="
+                todo-number
+                d-flex
+                justify-content-center
+                align-items-center
+              "
+            ></span>
+          </p>
+
+          <button class="btn-clear">
+            <i class="bi bi-trash-fill"></i>
+          </button>
+        </div>
+
+        <div class="list">
+          <ul class="todo-list"></ul>
+
+          <button class="btn-more"></button>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js" ></script>
+  </body>
+</html>
