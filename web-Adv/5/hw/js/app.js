@@ -61,12 +61,12 @@ updateDate();
 
 document.querySelector(".btn-add").addEventListener("click", function () {
     newTodo.style.display = "block";
-    Input.focus();
+    input.focus();
 });
 
 document.querySelector(".btn-cancel").addEventListener("click", function () {
     newTodo.style.display = "";
-    Input.value = "";
+    input.value = "";
 });
 
 

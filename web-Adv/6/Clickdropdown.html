@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" item="IE=edge" />
+    <meta name="viewport" item="width=device-width, initial-scale=1.0" />
+    <title>Click dropdown</title>
+    <style>
+   
+      .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.drop-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+ 
+
+.drop-btn:hover, .drop-btn:focus {
+    background-color: #3e8e41;
+}
+ 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+
+.dropdown-item {
+    
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+ 
+
+.dropdown-item a {
+    
+    
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+
+.dropdown-item a:hover {background-color: #f1f1f1}
+ 
+
+.show {display:block;}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h2> Tạo Menu Dropdown</h2>
+        <div class="dropdown">
+            <button value="laptrinh" class="drop-btn">Lập trình</button>
+            <div id="laptrinh" class="dropdown-item">
+                <a href="#">PHP</a>
+                <a href="#">CSS</a>
+                <a href="#">HTML</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button value="thuthuat" class="drop-btn">Lập trình</button>
+            <div id="thuthuat" class="dropdown-item">
+                <a href="#">PHP</a>
+                <a href="#">CSS</a>
+                <a href="#">HTML</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* Thêm hoặc xóa class show ra khỏi phần tử */
+        function myFunction(id) {
+            document.getElementById(id).classList.toggle("show");
+        }
+        //lấy tất cả các button menu
+        let buttons = document.getElementsByClassName('drop-btn');
+        //lấy tất cả các thẻ chứa menu con
+        let items = document.getElementsByClassName('dropdown-item');
+        //lặp qua tất cả các button menu và gán sự kiện
+        for (let i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function(){
+                //lấy value của button
+                let id = this.value;
+                //ẩn tất cả các menu con đang được hiển thị
+                for (let i = 0; i < items.length; i++) {
+                    items[i].classList.remove("show");
+                }
+                //hiển thị menu vừa được click
+                myFunction(id);
+            });
+        }
+        //nếu click ra ngoài các button thì ẩn tất cả các menu con
+        window.addEventListener("click", function(){
+             if (!event.target.matches('.drop-btn')){
+                for (let i = 0; i < items.length; i++) {
+                    items[i].classList.remove("show");
+                }
+             }
+        });
+    </script>
+  
+  </body>
+</html>
