@@ -1,6 +1,6 @@
 let xhr = new XMLHttpRequest();
 
-xhr.open("GET", "https://reqres.in/api/users/2");
+xhr.open("GET", "https://reqres.in/api/users?page=2");
 
 xhr.send();
 
