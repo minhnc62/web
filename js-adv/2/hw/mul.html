@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Luckiest Guy', cursive;
+  background-color: #E6E6EA;
+}
+    .container {
+  width: 100vw;
+}
+
+.header {
+  background-color: #ff5959;
+  color: #f9f3f3;
+  height: 90px;
+  margin-bottom: 100px;
+}
+.logo {
+  font-size: 30px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+.nav-link{
+    color: white;
+    
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+}
+.active::after{
+  content: '-';
+  font-size: 4px;
+  background-color: white;
+  display: block;
+}
+.question {
+  margin-bottom: 20px;
+}
+.question div {
+  font-size: 120px;
+  line-height: 160px;
+  margin-right: 40px;
+}
+.result-options {
+  font-size: 60px;
+  line-height: 160px;
+  color: #ff5959;
+  
+}
+.answer-options {
+  font-size: 90px;
+  line-height: 90px;
+  margin-bottom: 20px;
+}
+.answer1 {
+  width: 258.99px;
+  height: 123.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+  background: #F8EEEE;
+  cursor: pointer;
+transform: rotate(-3.95deg);
+}
+.answer2 {
+  width: 258.99px;
+  height: 123.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+  background: #F8EEEE;
+  cursor: pointer;
+
+}
+.answer3 {
+  width: 258.99px;
+  height: 123.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+  background: #F8EEEE;
+  transform: rotate(5.57deg);
+}
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header d-flex justify-content-between ">
+              <div class="col-3 logo">
+                <img src="img/award.svg" />
+                <span> MATH QUIZ </span>
+                
+              </div>
+              <ul class="nav justify-content-end align-self-center">
+                <li class="nav-item ">
+                  <a class="nav-link "  href="index.html">Add</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sub.html">Sub</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="mul.html">Mul</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="div.html">Div</a>
+                  </li>
+                
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="question d-flex justify-content-center">
+            </div>
+            <div class="answer-options d-flex justify-content-center">
+                <ul class="answer-item d-flex justify-content-center" >
+
+                </ul>
+            </div>
+            <div class="result-options d-flex justify-content-center"></div>
+          </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="js/mul.js"></script>
+</body>
+</html>
