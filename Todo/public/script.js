@@ -53,22 +53,36 @@ function gettodo(callback){
 }
 
 function rendertodo(todos){
-    let doingList = document.querySelector(".todo-list");
-    let htmls = todos.map(function(todo){
+    // let doingList = document.querySelector(".todo-list");
+    // let htmls = todos.map(function(todo){
 
-        return `
-            <li class = "todo-item todo-item-${todo.id}">
-            <i  class="bi bi-circle todo-icon"></i> ${todo.title}
-            <button class="btn-clear" >
-                <i onclick = "deletetodo(${todo.id})" class="bi bi-trash-fill"></i>
-            </li>
+    //     return `
+    //         <li class = "todo-item todo-item-${todo.id}">
+    //         <i  class="bi bi-circle todo-icon"></i> ${todo.title}
+    //         <button class="btn-clear" >
+    //             <i onclick = "deletetodo(${todo.id})" class="bi bi-trash-fill"></i>
+    //         </li>
 
-        `;
+    //     `;
         
-    });
-    doingList.innerHTML = htmls.join("");
+    // });
+    // doingList.innerHTML = htmls.join("");
     
-    
+    $(".doing .todo-list").append(
+        todos.map((todo) => $(`<li class = "todo-item todo-item-${todo.id}">
+                                    <i  class="bi bi-circle todo-icon"></i> ${todo.title}
+                                <button class="btn-clear" >
+                                    <i onclick = "deletetodo(${todo.id})" class="bi bi-trash-fill"></i>
+                                </li>`))
+    );
+
+    // $(".completed .todo-list").append(
+    //     todos.map((todo) => $(`<li class = "todo-item todo-item-${todo.id}">
+    //                                 <i  class="bi bi-check2 todo-icon"></i> ${todo.title}
+    //                             <button class="btn-clear" >
+                                    
+    //                             </li>`))
+    // );
     
     
 //     let li = document.createElement("li");
@@ -81,7 +95,7 @@ function rendertodo(todos){
 //     return li;
     
 // });
-// doingList.innerHTML.append(...htmls);
+// doingList.append(...htmls);
     
    
 }
@@ -128,8 +142,6 @@ function deletetodo(id){
             "Content-Type": "application/json",
         },
         
-    }).then(function(response){
-        response.json();
     })
     .then(() =>{
        let todoitem =  document.querySelector('.todo-item-' + id);

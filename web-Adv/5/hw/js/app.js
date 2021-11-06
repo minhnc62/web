@@ -71,7 +71,7 @@ document.querySelector(".btn-cancel").addEventListener("click", function () {
 
 
 function addToDo(toDo, id, done, trash){
-    
+        
     if(trash){ return; }
     
     const DONE = done ? CHECK : UNCHECK;
