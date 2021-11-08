@@ -13,7 +13,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-size: 62.5%;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 a {
   text-decoration: none !important;
 }
@@ -22,10 +28,6 @@ ul {
 }
 .pd-left {
   padding-left: initial !important;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn {
@@ -57,7 +59,7 @@ body {
   font-weight: 500;
   line-height: 0.8;
   text-align: center;
-  min-width: 170px;
+  
   padding: 22px 25px;
   text-decoration: none;
 }
@@ -70,6 +72,9 @@ body {
   transition: background 0.5s 0s ease;
 }
 
+img{
+  width:100%;
+}
 
 /* -----------------------------------------------------------header---------------------------------------------- */
 
@@ -79,7 +84,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 10px 124px;
+  padding: 10px 9%;
   background: #cb1c22;
   box-shadow: var(--box-shadow);
 }
@@ -176,8 +181,8 @@ body {
   position: absolute;
   top: 110%;
   right: -110%;
-  width: 20rem;
-  height: 3rem;
+  width: 30rem;
+  height: 4rem;
   background: #fff;
   border-radius: 4px;
   overflow: hidden;
@@ -217,7 +222,7 @@ body {
   position: absolute;
   top: 110%;
   right: -110%;
-  width: 20rem;
+  width: 35rem;
   padding: 10px;
   background: #fff;
   border-radius: 0.5rem;
@@ -236,6 +241,7 @@ body {
 }
 .header .shopping-cart .box img {
   height: 100px;
+  width: auto;
 }
 .header .shopping-cart .box .bi-trash-fill {
   font-size: 20px;
@@ -272,35 +278,34 @@ body {
   margin: 10px;
 }
 /* -----------------------------------------------------------banner---------------------------------------------- */
-.banner {
-  margin-top: 83px;
-  position: relative;
+section{
+  padding: 2rem 9%;
 }
-.banner .container-fluid {
+.banner{
   padding: 0;
+  padding-top: 8.3rem;
 }
-.banner img {
-  width: 100%;
+.banner .banner-slide .slide{
+min-height: 65vh;
+display: flex;
+align-items: center;
+padding: 2rem;
+padding-left: 9%;
+background-size: cover!important;
+background-position: center!important;
 }
-.banner-content {
-  padding: 0 124px;
-  position: absolute;
-  z-index: 1;
-  top: 15%;
+.banner .banner-slide .slide .content h1{
+  font-weight: bold;
+font-size: 60px;
+line-height: 54px;
 }
-.banner-content h1 {
-  font-size: 60px;
+.banner .banner-slide .slide .content span{
   font-weight: 500;
-  line-height: 54px;
+font-size: 26px;
+line-height: 34px;
 }
-.banner-content span {
-  padding-top: 14px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 34px;
-}
+
+
 
 /* -----------------------------------------------------------Featured---------------------------------------------- */
 
@@ -606,25 +611,26 @@ body {
 .carousel-caption h5{
   font-size: 20px;
   color: #fff;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 .carousel-caption .buttons .btn-default {
   margin : 0 20px 0 20px;
-  padding: 18.5px 50px;
-  min-width: 174px;
+  padding: 18.5px 65px;
+  min-width: initial;
   background: rgba(255, 255, 255, 0.1);
   display: none;
-  position: absolute;
+  font-size: 14px;
+  /* position: absolute;
   left: 60%;
   top: 50%;
-  font-size: 14px;
-  transform: translateX(-50%);
+  
+  transform: translateX(-50%); */
 
 }
 .carousel-caption .buttons .btn-default-1{
   margin : 0 20px 0 20px;
-  padding: 18.5px 50px;
-  min-width: 174px;
+  padding: 18.5px 42px;
+  min-width: initial;
   font-weight: 500;
   line-height: 0.8;
   text-align: center;
@@ -633,11 +639,12 @@ body {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
   display: none;
-  position: absolute;
+  font-size: 14px;
+  /* position: absolute;
   left: 33%;
   top: 50%;
-  font-size: 14px;
-  transform: translateX(-50%);
+ 
+  transform: translateX(-50%); */
 }
 .show-case-phone:hover .carousel-caption .buttons .btn-default {
   display: block;
@@ -655,6 +662,77 @@ body {
   -o-transition: background 0.5s 0s ease;
   transition: background 0.5s 0s ease;
 }
+/* --------------------------------------------------------------------------------------------- */
+
+.in-bl{
+  display: inline-block;
+}
+.product-laptop, .product-tv{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-img-laptop {
+  width: 36%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+.product-laptop .btn{
+  border: 1px solid #D9D9D9;
+}
+.btn-button{
+  background-color: #fff;
+}
+
+.btn-button-1{
+  background-color: #ff5353;
+}
+
+.product-laptop .btn-button-1{
+  border: initial;
+  color: #fff;
+}
+
+/* -----------------------------------------------------------product-pk---------------------------------------------- */
+
+.product-phukien {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+  
+.product-phukien .swiper-pagination{
+  bottom: -3px;
+  
+}
+.product-phukien .swiper-pagination-bullet{
+  background: #585858!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -806,8 +884,10 @@ body {
 
 /* -----------------------------------------------------------responsive---------------------------------------------- */
 
-@media (max-width: 1024px) {
-  
+@media (max-width: 991px) {
+  html{
+    font-size: 55%;
+  }
   .header {
     padding: 12px;
   }
@@ -836,27 +916,35 @@ body {
     line-height: 26px;
   }
 }
+
+
+
+
 @media (max-width: 768px) {
+  html{
+    font-size: 50%;
+  }
   #menu-btn {
     display: inline-block;
   }
   .header .navbar {
     position: absolute;
-    top: 100%;
+    top: 99%;
     right: 0;
     left: 0;
     border-top: var(--border-top);
     background: rgb(255, 255, 255);
-    display: none;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    
   }
   .header .navbar a {
-    font-size: 14px;
+    
     margin: 10px 25px;
     display: block;
     color: #000000 !important;
   }
   .header .navbar.active {
-    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header .navbar ul li {
     width: 100%;
@@ -881,6 +969,9 @@ body {
 }
 
 @media (max-width: 450px) {
+  html{
+    font-size: 50%;
+  }
   .header .search-form {
     position: absolute;
     top: 110%;

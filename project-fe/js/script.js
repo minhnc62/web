@@ -1,9 +1,4 @@
 
-
-
-
-
-
 // ------------------
 
 $(document).ready(function () {
@@ -34,12 +29,34 @@ $(document).ready(function () {
 // -----------------------------------------
 
 
+var swiper = new Swiper(".banner-slide", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 6500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
 
 
 
-
-
+var swiper = new Swiper(".pk-slider", {
+  slidesPerView: 4,
+  
+  spaceBetween: 30,
+  freeMode: true,
+  
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
 
 
