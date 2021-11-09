@@ -78,7 +78,19 @@ var swiper = new Swiper(".pk-slider", {
 
 
 
-
+var swiper = new Swiper(".banner-store-slider", {
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  centeredSlides: true,
+  loop: true,
+});
+     
 
 
 

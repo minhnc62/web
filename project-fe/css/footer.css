@@ -1,0 +1,117 @@
+
+/* -----------------------------------------------------------footer---------------------------------------------- */
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer {
+    background-color: #e9e2d8;
+    display: block;
+    padding: 18px 9%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .footer .container{
+      padding-left: initial;
+      padding-right: initial;
+  }
+  .pd{
+      padding-left: initial;
+      padding-right: initial;
+  }
+  .foo-top {
+    padding-top: 18px;
+    border-bottom: 1px solid #d6d8d9;
+  }
+  .widget {
+    position: relative;
+  }
+  .footer .widget .widget-title {
+    margin-bottom: 25px;
+    font-size: 16px;
+  
+    text-transform: uppercase;
+  }
+  .widget-navigation ul {
+    padding-left: initial;
+  }
+  .widget-navigation li a {
+    font-size: 14px;
+    color: #888;
+    line-height: 30px;
+  }
+  .offset-md-1 {
+    margin-left: 8.333333%;
+  }
+  .app-btn {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d6d8d9;
+    padding-bottom: 30px;
+  }
+  .app-btn a {
+    flex-basis: 49%;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    padding-left: 35px;
+  }
+  .app-btn a i {
+    color: #ff5353;
+    font-size: 20px;
+    margin-right: 5px;
+    position: absolute;
+    left: 9px;
+    top: 30%;
+  }
+  .app-btn a p {
+    margin-bottom: 0;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+  }
+  .app-btn a p span {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #4a4a4a;
+    line-height: 0.8;
+    margin-bottom: 5px;
+  }
+  .app-btn a:hover,
+  .app-btn a.app-store {
+    background-color: #ff5353;
+  }
+  
+  .app-btn a:hover p,
+  .app-btn a:hover span,
+  .app-btn a:hover i,
+  .app-btn a.app-store p,
+  .app-btn a.app-store span,
+  .app-btn a.app-store i {
+    color: #fff;
+  }
+  .social-media a {
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+  }
+  .social-media a {
+    background-color: #fff;
+    line-height: 32px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  
+  
+  
