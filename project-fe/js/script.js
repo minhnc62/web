@@ -95,7 +95,24 @@ var swiper = new Swiper(".banner-store-slider", {
 
 
 
+// const btntop = document.getElementById('btn-top')
 
+// // Window scroll đến khoảng nào đó => hiện button
+// window.addEventListener('scroll', function() {
+//     if(document.documentElement.scrollTop > 300) {
+//         btntop.classList.remove('hide')
+//     } else {
+//         btntop.classList.add('hide')
+//     }
+// })
+
+// // Bấm vào nút TOP thì quay về đầu trang
+// btntop.addEventListener('click', function() {
+//     window.scrollTo({
+//         top: 0,
+//         behavior: 'smooth'
+//     })
+// })
 
 
 

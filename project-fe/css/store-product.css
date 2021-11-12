@@ -41,22 +41,88 @@
   }
   /* ------------------------------------------product----------------------------------------------------------------- */
   .product-header{
-    background-color: #fff;
+    background-color: white;
+    box-shadow: 0 0 3px 0 #dee2e6;
   }
+
+
+.list-tab span{
+  font-size: 14px;
+    line-height: 14px;
+    color: #555;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+
+.btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary,
+ .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show,
+  .btn-outline-primary:active
+  {
+    background-color: #ff5353;
+    border-color: initial;
+  }
+ 
+
+
+
+
+
+
+
+
+
   .Featured-phone .card ,.Featured-laptop .card,
  .Featured-tv .card .Featured-phukien .card{
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-bottom: none;
   border-radius: initial;
+  
 }
+.Featured-phone .card-product:hover{
+  border: solid 1px #dee2e6;
+  
+  
+}
+.button-cart{
+  
+  display: block;
+  /* position: absolute;
+  top:100%;
+  left: 0; */
+  
+    
+}
+.Featured-phone .card-product:hover .button-cart{
+display: block;
+}
+/* .Featured-phone .card-product:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: calc(100% + 35px);
+  background: #fff;
+  
+  
+  
+  
+} */
 .Featured-phone .card:hover .card-img-pk, .Featured-laptop .card:hover  .card-img-pk,
 .Featured-tv .card:hover  .card-img-pk, .Featured-phukien .card:hover  .card-img-pk{
-  transform: scale(1.1);
+  transform: scale(1.09);
   
 }
 .card-product{
   position: relative;
+  
+  
+}
+.card{
+  margin-bottom: initial;
+  border: initial;
 }
 .Featured-phone .card-img-link ,.Featured-laptop .card-img-link ,
 .Featured-tv .card-img-link ,.Featured-phukien .card-img-link  {
@@ -64,17 +130,12 @@
   margin: 10px 15px;
 }
  .card-img-pk {
+  transition: all .5s;
   width: 90%;
   height: 100%;
   
 }
-/* .hot{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 15%;
-  height: 100%;
-} */
+
 .Featured-phone .card-body ,.Featured-laptop .card-body,
 .Featured-tv .card-body  ,.Featured-phukien .card-body {
   text-align: initial;
@@ -117,7 +178,7 @@
   line-height: 22px;
   border: initial;
   margin-top: initial;
-  padding: 9px 0;
+  
   background: none;
 }
 .Featured-phone .btn:hover ,.Featured-laptop .btn:hover,
@@ -174,4 +235,31 @@ line-height: 20px;
 .icon-3:hover .ram , .icon-4:hover .bn,
 .icon-5:hover .carddh , .icon-6:hover .kg {
   display: block;
+}
+
+
+
+
+ .Product-number{
+ 
+  color: #6c757d;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.btn-new{
+  padding: 11px 32px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+border: initial;
+border-radius: 4px;
+color: #8392a5;
+background-color: #e9ecef;
+}
+.btn-new:hover{
+  background-color:#dee2e6 ;
+  font-weight: 700;
+  color: #8392a5;
 }

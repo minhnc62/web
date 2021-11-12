@@ -83,7 +83,7 @@
 }
 .Featured-phone .card:hover .card-img-pk, .Featured-laptop .card:hover  .card-img-pk,
 .Featured-tv .card:hover  .card-img-pk, .Featured-phukien .card:hover  .card-img-pk{
-  transform: scale(1.1);
+  transform: scale(1.09);
   
 }
 .card-product{
