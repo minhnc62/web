@@ -16,10 +16,7 @@
      rel="stylesheet"
      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
    />
-   <link
-     rel="stylesheet"
-     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
-   />
+   
    <link
      rel="stylesheet"
      href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -183,7 +180,7 @@
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                   <li class="breadcrumb-item"><a href="dienthoai.html">Điện thoại</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Samsung Galaxy Z Flip3</li>
+                  <li class="breadcrumb-item active" aria-current="page">Xiaomi Redmi Note 10 Pro</li>
                 </ol>
               </nav>
         </div>
@@ -193,19 +190,59 @@
 
     <section class="clearfix">
         <div class="container">
-            <div class="d-flex flex-auto">
-                <div class="col-6">
-
+            <div class="d-flex flex-row flex-wrap">
+                <div class="col-12 col-sm-12 col-xl-5 mr-3">
+                 <div class="product-img">
+                  <div
+                  style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                  class="swiper mySwiper2"
+                >
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="img/chitiet-1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/chitiet-2.png" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/chitiet-3.png" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/chitiet-4.png" />
+                    </div>
+                    
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
                 </div>
-                <div class="col-6">
-                    <div class="Product-details">
+                <div thumbsSlider="" class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="img/chitiet-1-1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/chitiet-2-2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/chitiet-3-3.png" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/chitiet-4-4.png" />
+                    </div>
+                    
+                  </div>
+                </div>
+                 </div>
+                </div>
+                <div class="col-12 col-sm-12 col-xl-6 ">
+                    <div class="product-details">
                         <div class="d-flex flex-column">
-                            <h1 class="Product-details-heding">Redmi Note 8 Pro</h1>
+                            <h1 class="product-details-heding">Xiaomi Redmi Note 10 Pro</h1>
                             <div class="product-reviews">
                                 <d class="d-flex flex-row">
-                                    <div class="product-reviews-star">
+                                    <div class="product-reviews-star pr-1">
                                         <div class="d-flex">
-                                            <div class="product-reviews-star-number ">
+                                            <div class="product-reviews-star-number " style="margin-right: 0.5rem;">
                                                 4.5
                                             </div>
                                             <div class="product-reviews-star-icon">
@@ -217,10 +254,154 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="product-reviews-number pr-1 pl-1">
+                                      50 Đánh giá
+                                  </div>
+                                  <div class="product-reviews-sold pr-1 pl-1">
+                                      100 Đã bán
+                                  </div>
                                 </d>
                             </div>
+                            <div class="product-details-heding-price mt-3">
+                              <div class="d-flex  align-items-center">
+                                <h1 class="product-details-special-price">5.130.000 ₫ </h1>
+                                <h2 class="product-details-old-price pl-2 pr-2">5.700.000 ₫</h2>
+                                <span class="product-details-reduce pl-2"> 8% Giảm</span>
+                              </div>
+                            </div>
+                            <div class="product-details-color mt-3">
+                              <div class="d-flex  align-items-center">
+                                <span class=" col-2 product-details-color-title ">Màu sắc : </span>
+                              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                <label class="btn btn-color  color-1 mr-2" for="btnradio1">Xanh</label>
+                              
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                <label class="btn btn-color  color-2" for="btnradio2">Xám</label>
+
+                              </div>
+                              </div>
+                            </div>
+                            <div class="product-details-number mt-3">
+                              <div class="d-flex  align-items-center">
+                                <span class=" col-2 product-details-color-title">Số lượng :</span>
+                                <div class="buttons_added">
+                                  <input class="minus is-form" type="button" value="-">
+                                  <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
+                                  <input class="plus is-form" type="button" value="+">
+                                </div>
+                                <span class="product-details-product-number pl-2">10 sản phẩm có sẵn</span>
+
+                              </div>
+                              </div>
+                              <div class="product-details-promotion mt-3">
+                                <div class="d-flex  flex-column align-items-center">
+                                  <span class=" col-12 product-details-promotion-title">Khuyến mại đặc biệt</span>
+                                  <div class=" col-12 product-details-promotion-content mt-2">
+                                    <div class="d-flex flex-row align-items-center">
+                                      <i class="fas fa-check-circle pl-1"></i>
+                                      <span class=" product-details-promotion-content-text pl-1">Bảo hành 18 tháng</span>
+                                    </div>
+                                  </div>
+                                  <div class=" col-12 product-details-promotion-content mt-2">
+                                    <div class="d-flex flex-row align-items-center">
+                                      <i class="fas fa-check-circle pl-1"></i>
+                                      <span class=" product-details-promotion-content-text pl-1">Giảm 5% tối đa 500k khi thanh toán bằng ví Moca trên ứng dụng Grab (áp dụng đơn hàng từ 500k)</span>
+                                    </div>
+                                  </div>
+                                  <div class=" col-12 product-details-promotion-content mt-2">
+                                    <div class="d-flex flex-row align-items-center">
+                                      <i class="fas fa-check-circle pl-1"></i>
+                                      <span class=" product-details-promotion-content-text pl-1 pr-1">Thu cũ đổi mới trợ giá 15%</span>
+                                      <a href="#">Xem chi tiết</a>
+                                    </div>
+                                  </div>
+                                  
+  
+                                </div>
+                                </div>
+                                <div class="product-details-button mt-3">
+                                  <div class="d-flex  flex-row align-items-center">
+                                    <button type="button" class="product-details-button-btn btn-1 mr-2">Thêm vào giỏ hàng</button>
+                                    <button type="button" class="product-details-button-btn btn-2 ">Mua ngay</button>
+                                    
+    
+                                  </div>
+                                  </div>
+                              
+
+
+                            </div>
+                            
                         </div>
-                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-12 col-xl-5 mr-3 mt-5">
+                    <img src="img/chitiet.png" alt="chitiet" class="detailed-photo">
+                  </div>
+                  <div class="col-12 col-sm-12 col-xl-6 mt-5">
+                    <div class="product-details-parameter mt-5 ">
+                      <div class="d-flex  flex-column align-items-center">
+                        <span class=" col-12 product-details-parameter-title">Thông số sản phẩm</span>
+                        <div class=" col-12 product-details-parameter-content ">
+                          <table class="table table-striped table-hover">
+                           
+                            <tbody>
+                              <tr>
+                                <th scope="row">Màn hình</th>
+                                <td>6.43", FHD+, AMOLED, 1080 x 2400 Pixel
+                                </td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Hệ điều hành</th>
+                                <td>Android 11, chip Snapdragon 678</td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Camera sau</th>
+                                <td colspan="2">4 camera sau: 48MP + 8MP + 2MP + 2MP</td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Camera trước</th>
+                                <td colspan="2">13MP</td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">RAM</th>
+                                <td colspan="2">4 GB</td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Bộ nhớ trong</th>
+                                <td colspan="2">64 GB</td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Sim</th>
+                                <td colspan="2">2, Nano SIM</td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Pin, sạc</th>
+                                <td colspan="2">Dung lượng pin 5000 mAh</td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">Xuất xứ</th>
+                                <td colspan="2">Trung Quốc</td>
+                                
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        
+                        
+
+                      </div>
+                      </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -294,9 +475,6 @@
           </div>
         </div>
       </footer>
-
-
-
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
