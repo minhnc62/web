@@ -36,10 +36,10 @@ ul {
 }
 
 .btn {
-  margin-top: 10px;
+  margin-top: 1rem;
   display: inline-block;
-  padding: 8px 30px;
-  font-size: 16px;
+  padding: .8rem 3ewm;
+  font-size: 1.6rem;
   border-radius: 4px;
   border: 2px solid rgb(0, 0, 0);
   cursor: pointer;
@@ -51,7 +51,7 @@ ul {
 
 
 .btn-default {
-  margin-top: 30px;
+  margin-top: 3rem;
   background-color: #ff5353;
   border-radius: 4px;
   color: #fff;
@@ -60,12 +60,12 @@ ul {
 
   color: #fff;
   display: inline-block;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 500;
   line-height: 0.8;
   text-align: center;
   
-  padding: 22px 25px;
+  padding: 2.2rem 2.5rem;
   text-decoration: none;
 }
 .btn-default:hover {
@@ -81,12 +81,12 @@ img{
   width:100%;
 }
 .btn-top{
-  margin-top: 10px;
+  margin-top: 1rem;
   position: fixed;
-  bottom: 40px;
-  right: 40px;
-  padding: 8px 20px;
-  font-size: 16px;
+  bottom: 4rem;
+  right: 4rem;
+  padding: .8rem 2rem;
+  font-size: 1.6rem;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -116,29 +116,29 @@ background-position: center!important;
 }
 .banner .banner-slide .slide .content h1{
   font-weight: bold;
-font-size: 60px;
-line-height: 54px;
+font-size: 6rem;
+line-height: 5.4rem;
 }
 .banner .banner-slide .slide .content span{
   font-weight: 500;
-font-size: 26px;
-line-height: 34px;
+font-size: 2.6rem;
+line-height: 3.4rem;
 }
 .banner .swiper-button-next{
   top:90%;
-  right: 20px;
+  right: 2rem;
   
 }
 .banner .swiper-button-prev{
   top:90%;
-  right: 80px;
+  right: 8rem;
   left: auto;
   
 }
 .swiper-button-next,
  .swiper-button-prev{
-  height: 50px;
-  width: 50px;
+  height: 5rem;
+  width: 5rem;
   border-radius: 4px;
   background-color: rgba(204, 204, 204,0.5);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -147,7 +147,7 @@ line-height: 34px;
 }
 .swiper-button-next::after,
  .swiper-button-prev::after{
-  font-size: 20px;
+  font-size: 2rem;
   color: #4a4a4a;
   
 }
@@ -181,7 +181,7 @@ line-height: 34px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 4rem;
 }
 
 .product-title ul li {
@@ -191,11 +191,11 @@ line-height: 34px;
 .product-title ul li p {
   font-style: normal;
   cursor: pointer;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 2.8rem;
   text-align: center;
   color: #000;
-  padding-right: 40px;
+  padding-right: 4rem;
 }
 /* ---showcase ------------------------------------------------------------------------------------*/
 .show-case{
@@ -223,36 +223,36 @@ line-height: 34px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .card-title {
   color: #000;
   text-align: center;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
 }
 .product-large-link .card {
   margin-bottom: initial;
 }
 .product-large-link .card-title {
-  padding-top: 20px;
+  padding-top: 2rem;
 }
 .card-body {
   position: relative;
   text-align: center;
-  padding-bottom: 45px;
+  padding-bottom: 4.5rem;
 }
 .card-body .btn-default {
   margin-top: initial;
-  padding: 12px 14px;
-  min-width: 110px;
+  padding: 1.2rem 1.4rem;
+  min-width: 11rem;
   display: none;
   position: absolute;
   left: 50%;
  top: 50%;
-  font-size: 14px;
+  font-size:1.4rem;
   transform: translateX(-50%);
   
 }
@@ -309,13 +309,13 @@ line-height: 34px;
 .featured-links__item {
   align-items: center;
   color: #133881;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 600;
   display: flex !important;
   flex-direction: column;
   justify-content: center;
-  line-height: 1.5;
-  height: 40px !important;
+  line-height: 1.5rem;
+  height: 4rem !important;
   text-align: center;
   box-sizing: border-box;
   text-decoration: none;
@@ -344,26 +344,26 @@ line-height: 34px;
   color: #707070;
   cursor: pointer;
   font-size: 0;
-  height: 24px;
+  height: 2.4rem;
   padding: 0;
   position: absolute;
   text-align: center;
-  bottom: 15px;
-  width: 24px;
-  line-height: 24px;
+  bottom: 1.5rem;
+  width: 2.4rem;
+  line-height: 2.4rem;
   z-index: 99;
 }
 
 .tab-content--slider .slick-prev {
-  left: 15px;
+  left: 1.5rem;
 }
 
 .tab-content--slider .slick-next {
-  right: 15px;
+  right: 1.5rem;
 }
 
 .tab-content--slider .slick-dots li {
-  margin: 0 5px;
+  margin: 0 .5rem;
 }
 
 .tab-content--slider .slick-dots button {

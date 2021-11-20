@@ -115,24 +115,6 @@ $('input.input-qty').each(function() {
 
 
 
-// const btntop = document.getElementById('btn-top')
-
-// // Window scroll đến khoảng nào đó => hiện button
-// window.addEventListener('scroll', function() {
-//     if(document.documentElement.scrollTop > 300) {
-//         btntop.classList.remove('hide')
-//     } else {
-//         btntop.classList.add('hide')
-//     }
-// })
-
-// // Bấm vào nút TOP thì quay về đầu trang
-// btntop.addEventListener('click', function() {
-//     window.scrollTo({
-//         top: 0,
-//         behavior: 'smooth'
-//     })
-// })
 
 
 
@@ -185,9 +167,18 @@ var swiper2 = new Swiper(".mySwiper2", {
 
 
 
+// form danh gia chi tiet san pham
+let commentBtn= document.querySelector('#comment-btn')
+let formReview = document.querySelector('.form-review');
+let formClose= document.querySelector('#form-close')
 
+commentBtn.addEventListener('click', ()=>{
+  formReview.classList.add('active');
+})
 
-
+formClose.addEventListener('click', ()=>{
+  formReview.classList.remove('active');
+})
 
 
 

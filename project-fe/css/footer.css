@@ -8,9 +8,9 @@
   .footer {
     background-color: #e9e2d8;
     display: block;
-    padding: 18px 9%;
+    padding: 1.8rem 9%;
     height: auto;
-    margin-top: 50px;
+    margin-top: 5rem;
   }
   .footer .container{
       padding-left: initial;
@@ -21,15 +21,15 @@
       padding-right: initial;
   }
   .foo-top {
-    padding-top: 18px;
-    border-bottom: 1px solid #d6d8d9;
+    padding-top: 1.8rem;
+    
   }
   .widget {
     position: relative;
   }
   .footer .widget .widget-title {
-    margin-bottom: 25px;
-    font-size: 16px;
+    margin-bottom: 2.5rem;
+    font-size: 1.6rem;
   
     text-transform: uppercase;
   }
@@ -37,9 +37,9 @@
     padding-left: initial;
   }
   .widget-navigation li a {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #888;
-    line-height: 30px;
+    line-height: 3rem;
   }
   .offset-md-1 {
     margin-left: 8.333333%;
@@ -49,21 +49,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     border-bottom: 1px solid #d6d8d9;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
   }
   .app-btn a {
     flex-basis: 49%;
-    padding: 12px 10px;
+    padding: 1.2rem 1rem;
     border-radius: 5px;
     background-color: #fff;
     position: relative;
-    padding-left: 35px;
+    padding-left: 3.5rem;
   }
   .app-btn a i {
     color: #ff5353;
-    font-size: 20px;
+    font-size: 2rem;
     margin-right: 5px;
     position: absolute;
     left: 9px;
@@ -72,14 +72,14 @@
   .app-btn a p {
     margin-bottom: 0;
     color: #000;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 0.8;
     text-transform: uppercase;
   }
   .app-btn a p span {
     display: block;
-    font-size: 10px;
+    font-size: 1rem;
     font-weight: 400;
     color: #4a4a4a;
     line-height: 0.8;
@@ -100,16 +100,16 @@
   }
   .social-media a {
     display: inline-block;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #000;
   }
   .social-media a {
     background-color: #fff;
-    line-height: 32px;
+    line-height: 3.2rem;
     text-align: center;
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
   }
   
   
