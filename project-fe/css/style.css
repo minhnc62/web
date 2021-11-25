@@ -285,15 +285,15 @@ margin-bottom: initial;
   right: 15%;
   
   transform: translateY(-254%);
-  
-  font-size:1.0rem;
+  color: #A6A6A6;
+  font-size:1.2rem;
   
   transition: transform 500ms ease;
 
 }
 .card:hover .cart-text{
   transform: translateY(-500%);
-  color: #000;
+  
   
   
 }
@@ -303,7 +303,7 @@ margin-bottom: initial;
   padding: .8rem 1.4rem;
   min-width: 11rem;
   position: absolute;
-  left: 28%;
+  left: 25%;
   right: 25%;
   font-size:1.4rem;
   transform: translateY(85%);
@@ -345,7 +345,7 @@ margin-bottom: initial;
   position: relative;
   text-align: center;
   
-  padding: 1.5rem 0 6rem 0;
+  padding: 1.5rem 0 5.8rem 0;
   overflow: hidden;
 }
 .card-title-large{
@@ -363,7 +363,7 @@ margin-bottom: initial;
 }
 .cart-text-large{
   
-  
+  color: #A6A6A6;
   display:block;
   position: absolute;
   top: 100%;
@@ -376,7 +376,7 @@ margin-bottom: initial;
 }
 .card:hover .cart-text-large{
   transform: translateY(-580%);
-  color: #000;
+
   
   
 }
