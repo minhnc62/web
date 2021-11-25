@@ -32,21 +32,21 @@
 
   <header class="header">
     <div class="container">
-      <a href="index.html" class="logo">GREENTECH</a>
+      <a href="#" class="logo">GREENTECH</a>
       <nav class="navbar">
         <ul class="menu">
           <li class="menu-item">
             <a href="index.html" class="menu-link ">Trang chủ</a>
           </li>
           <li class="menu-item">
-            <a href="store.html" class="menu-link ">Cửa hàng</a>
+            <a href="store.html" class="menu-link active">Cửa hàng</a>
           </li>
           <li class="menu-item">
             <a href="" class="menu-link">Loại sản phẩm</a>
 
             <ul class="sub-menu">
               <li class="sub-item">
-                <a href="dienthoai.html" class="sub-link">Di động</a>
+                <a href="phone.html" class="sub-link">Di động</a>
                 <ul class="sub2-menu">
                   <li class="sub2-item">
                     <a href="" class="sub2-link">Iphone</a>
@@ -109,7 +109,7 @@
                 </ul>
               </li>
               <li class="sub-item">
-                <a href="phukien.html" class="sub-link">Phụ kiện</a>
+                <a href="accessories.html" class="sub-link">Phụ kiện</a>
                 <ul class="sub2-menu">
                   <li class="sub2-item">
                     <a href="" class="sub2-link">Tai nghe</a>
@@ -133,47 +133,54 @@
       <div class="icons">
         
         <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="tooltip-1 ">
+          <a href="cart.html" class="fas fa-shopping-cart">
+          
+          </a>
+          <div class="tooltiptext-1">
+            <div class="shopping-cart">
+              <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="img/cart-1.jpg" alt="cart" />
+                <div class="content">
+                  <h3>Redmi Note 8 Pro</h3>
+                  <span class="price">5.130.000 VND/-</span>
+                  <span class="quantity">sl : 1</span>
+                </div>
+              </div>
+    
+              <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="img/cart-1.jpg" alt="cart" />
+                <div class="content">
+                  <h3>Redmi Note 8 Pro</h3>
+                  <span class="price">5.130.000 VND/-</span>
+                  <span class="quantity">sl : 1</span>
+                </div>
+              </div>
+    
+              <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="img/cart-1.jpg" alt="cart" />
+                <div class="content">
+                  <h3>Redmi Note 8 Pro</h3>
+                  <span class="price">5.130.000 VND/-</span>
+                  <span class="quantity">sl : 1</span>
+                </div>
+              </div>
+    
+              <div class="total">Tổng : 15.390.000 VND</div>
+              <a href="#" class="btn">Thanh toán</a>
+            </div>
+          </div>
+        </div>
         <div class="fas fa-bars" id="menu-btn"></div>
       </div>
       <form action="" class="search-form">
         <input type="search" id="search-box" placeholder="search here..." />
         <label for="search-box" class="fas fa-search"></label>
       </form>
-      <div class="shopping-cart">
-        <div class="box">
-          <i class="bi bi-trash-fill"></i>
-          <img src="img/cart-1.jpg" alt="cart" />
-          <div class="content">
-            <h3>Redmi Note 8 Pro</h3>
-            <span class="price">5.130.000 VND/-</span>
-            <span class="quantity">sl : 1</span>
-          </div>
-        </div>
-
-        <div class="box">
-          <i class="bi bi-trash-fill"></i>
-          <img src="img/cart-1.jpg" alt="cart" />
-          <div class="content">
-            <h3>Redmi Note 8 Pro</h3>
-            <span class="price">5.130.000 VND/-</span>
-            <span class="quantity">sl : 1</span>
-          </div>
-        </div>
-
-        <div class="box">
-          <i class="bi bi-trash-fill"></i>
-          <img src="img/cart-1.jpg" alt="cart" />
-          <div class="content">
-            <h3>Redmi Note 8 Pro</h3>
-            <span class="price">5.130.000 VND/-</span>
-            <span class="quantity">sl : 1</span>
-          </div>
-        </div>
-
-        <div class="total">Tổng : 15.390.000 VND</div>
-        <a href="#" class="btn">Thanh toán</a>
-      </div>
+      
     </div>
   </header>
     <section class="breadcrumb-1">
@@ -193,14 +200,19 @@
        <div class="container">
          <div class="d-flex flex-column " >
            <div class="cart-header p-5">
-             <div class="d-flex flex-row flex-wrap justify-content-between">
-               <div class="cart-product col-sm-4 col-4  ">
-                <div class="form-check" >
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                  <label class="form-check-label" for="flexCheckChecked">
-                    Sản phẩm
-                  </label>
-                </div>
+             <div class="d-flex flex-row flex-wrap justify-content-between  align-items-center">
+               <div class="cart-product   col-md-4 col-4  ">
+                <div class="d-flex flex-row align-items-center">
+                  <div class="form-check" >
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                    <label class="form-check-label pl-1 pt-1" for="flexCheckChecked">
+                      Sản phẩm
+                    </label>
+                  </div>
+                  
+                  
+                 </div>
+                
 
                </div>
                <div class="cart-price-title  col-sm-3 col-3  text-center">Đơn giá</div>
@@ -212,7 +224,7 @@
            </div>
            <div class="cart-content p-5">
             <div class="d-flex flex-row flex-wrap justify-content-between  align-items-center" >
-              <div class="cart-content-product col-sm-4 col-4 ">
+              <div class="cart-content-product col-sm-4 col-12 ">
                
                <div class="d-flex flex-row align-items-center">
                 <div class="form-check" >
@@ -239,7 +251,7 @@
           </div>
           <div class="cart-content p-5">
             <div class="d-flex flex-row flex-wrap justify-content-between  align-items-center" >
-              <div class="cart-content-product col-sm-4 col-4 ">
+              <div class="cart-content-product col-sm-4 col-12 ">
                
                <div class="d-flex flex-row align-items-center">
                 <div class="form-check" >
@@ -264,20 +276,37 @@
               
             </div>
           </div>
-          <div class="cart-header p-5">
-            <div class="d-flex flex-row flex-wrap justify-content-between">
-              <div class="cart-product col-sm-4 col-4  ">
-               <div class="form-check" >
-                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                 <label class="form-check-label" for="flexCheckChecked">
-                   Sản phẩm
-                 </label>
+          <div class="cart-buy ">
+            <div class="d-flex flex-row flex-wrap justify-content-between align-items-center flex-auto">
+              <div class="cart-product  col-sm-3 col-4  ">
+               
+               <div class="d-flex flex-row align-items-center cart-product-text">
+                <div class="form-check" >
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecke" >
+                  <label class="form-check-label pl-1 pt-1" for="flexCheckChecke">
+                    Chọn tất cả
+                  </label>
+                </div>
+                <div class="cart-operation pl-1  ">xóa</div>
+                
+                
                </div>
 
               </div>
-              <div class="cart-price-title  col-sm-3 col-3  text-center">Đơn giá</div>
-                 <div class="cart-number-title  col-sm-3 col-3  text-center" >Số lượng</div>
-                 <div class="cart-operation-title  col-sm-2 col-2  text-center">Thao tác</div>
+              
+                 
+                 <div class="cart-operation-title-1  text-center">
+                  <div class="d-flex flex-row align-items-center justify-content-between">
+                    <div class="d-flex flex-row">
+                      <div class="total-title">
+                        Tổng thanh toán: 
+                      </div>
+                      <div class="total-number pl-1">10.260.000 ₫</div>
+                    </div>
+                    
+                    <a href="#" role="button" class="btn-buy"> Mua Hàng</a>
+                  </div>
+                 </div>
               
               
             </div>

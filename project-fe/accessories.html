@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <LINK REL="SHORTCUT ICON"  HREF="img/icon.svg">
+    <LINK REL="SHORTCUT ICON"  HREF="img/icon-r.svg">
     <title>Điện thoại</title>
      <!-- css-------------------------------------------------------------- -->
      <link
@@ -42,14 +42,14 @@
             <a href="index.html" class="menu-link ">Trang chủ</a>
           </li>
           <li class="menu-item">
-            <a href="store.html" class="menu-link ">Cửa hàng</a>
+            <a href="store.html" class="menu-link active">Cửa hàng</a>
           </li>
           <li class="menu-item">
             <a href="" class="menu-link">Loại sản phẩm</a>
 
             <ul class="sub-menu">
               <li class="sub-item">
-                <a href="dienthoai.html" class="sub-link">Di động</a>
+                <a href="phone.html" class="sub-link">Di động</a>
                 <ul class="sub2-menu">
                   <li class="sub2-item">
                     <a href="" class="sub2-link">Iphone</a>
@@ -112,7 +112,7 @@
                 </ul>
               </li>
               <li class="sub-item">
-                <a href="phukien.html" class="sub-link">Phụ kiện</a>
+                <a href="accessories.html" class="sub-link">Phụ kiện</a>
                 <ul class="sub2-menu">
                   <li class="sub2-item">
                     <a href="" class="sub2-link">Tai nghe</a>
@@ -134,48 +134,56 @@
         </ul>
       </nav>
       <div class="icons">
-        <div class="fas fa-bars" id="menu-btn"></div>
+        
         <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="tooltip-1 ">
+          <a href="cart.html" class="fas fa-shopping-cart">
+          
+          </a>
+          <div class="tooltiptext-1">
+            <div class="shopping-cart">
+              <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="img/cart-1.jpg" alt="cart" />
+                <div class="content">
+                  <h3>Redmi Note 8 Pro</h3>
+                  <span class="price">5.130.000 VND/-</span>
+                  <span class="quantity">sl : 1</span>
+                </div>
+              </div>
+    
+              <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="img/cart-1.jpg" alt="cart" />
+                <div class="content">
+                  <h3>Redmi Note 8 Pro</h3>
+                  <span class="price">5.130.000 VND/-</span>
+                  <span class="quantity">sl : 1</span>
+                </div>
+              </div>
+    
+              <div class="box">
+                <i class="bi bi-trash-fill"></i>
+                <img src="img/cart-1.jpg" alt="cart" />
+                <div class="content">
+                  <h3>Redmi Note 8 Pro</h3>
+                  <span class="price">5.130.000 VND/-</span>
+                  <span class="quantity">sl : 1</span>
+                </div>
+              </div>
+    
+              <div class="total">Tổng : 15.390.000 VND</div>
+              <a href="#" class="btn">Thanh toán</a>
+            </div>
+          </div>
+        </div>
+        <div class="fas fa-bars" id="menu-btn"></div>
       </div>
       <form action="" class="search-form">
         <input type="search" id="search-box" placeholder="search here..." />
         <label for="search-box" class="fas fa-search"></label>
       </form>
-      <div class="shopping-cart">
-        <div class="box">
-          <i class="bi bi-trash-fill"></i>
-          <img src="img/cart-1.jpg" alt="cart" />
-          <div class="content">
-            <h3>Redmi Note 8 Pro</h3>
-            <span class="price">5.130.000 VND/-</span>
-            <span class="quantity">sl : 1</span>
-          </div>
-        </div>
-
-        <div class="box">
-          <i class="bi bi-trash-fill"></i>
-          <img src="img/cart-1.jpg" alt="cart" />
-          <div class="content">
-            <h3>Redmi Note 8 Pro</h3>
-            <span class="price">5.130.000 VND/-</span>
-            <span class="quantity">sl : 1</span>
-          </div>
-        </div>
-
-        <div class="box">
-          <i class="bi bi-trash-fill"></i>
-          <img src="img/cart-1.jpg" alt="cart" />
-          <div class="content">
-            <h3>Redmi Note 8 Pro</h3>
-            <span class="price">5.130.000 VND/-</span>
-            <span class="quantity">sl : 1</span>
-          </div>
-        </div>
-
-        <div class="total">Tổng : 15.390.000 VND</div>
-        <a href="#" class="btn">Thanh toán</a>
-      </div>
+      
     </div>
   </header>
     <section class="Breadcrumb-1">
@@ -183,7 +191,7 @@
             <nav aria-label="breadcrumb" style="padding-top: 8%;">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Điện thoại</li>
+                  <li class="breadcrumb-item active" aria-current="page">Phu kiện</li>
                 </ol>
               </nav>
         </div>
@@ -196,12 +204,12 @@
                     <div class="swiper banner-store-slider">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide slide">
-                            <a href="dienthoai.html">
+                            <a href="phone.html">
                                 <img src="img/banner-sto-2.png" alt="banner">
                             </a>
                           </div>
                           <div class="swiper-slide slide">
-                            <a href="dienthoai.html">
+                            <a href="phone.html">
                                 <img src="img/banner-sto-1.png" alt="banner">
                             </a>
                           </div>
@@ -484,7 +492,7 @@
                         <div class="product-header mb-3 p-3" >
                           <div class="d-flex "> 
                           
-                            <h1 class="product-header-name">Điện thoại</h1>
+                            <h1 class="product-header-name">Phụ kiện</h1>
                             <span class="Product-number" >(50 sản phẩm)</span>
                             
                           
@@ -516,7 +524,7 @@
                                     <div class="card-product">
                                       
                                         <div class="card" >
-                                          <a href="chitietsanpham.html" class="card-img-link">
+                                          <a href="" class="card-img-link">
                                             <img
                                             src="img/samsung-1.png"
                                             class="card-img-pk"
@@ -527,7 +535,7 @@
                                           
                                           
                                           <div class="card-body">
-                                            <a href="chitietsanpham.html"><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                                            <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
                                             
                                           </div>
                                           <ul
@@ -611,7 +619,7 @@
                                             </div>
                                             <div class="col-6">
                                               <div class="button-product-buy">
-                                                <a href="chitietsanpham.html" class="btn" style="color: white"
+                                                <a href="#" class="btn" style="color: white"
                                                   >Mua ngay</a
                                                 >
                                               </div>

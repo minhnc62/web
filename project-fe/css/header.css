@@ -157,7 +157,7 @@ img {
 }
 .header .navbar ul li ul li ul {
   left: 100%;
-  top: 0;
+  top: -1px;
 }
 .header .navbar ul li:focus-within > ul,
 .header .navbar ul li:hover > ul {
@@ -171,15 +171,22 @@ img {
   background: var(--grey);
 }
 
-.header .icons div {
+ .fa-bars , .fa-search {
   font-size: 1.6rem;
   color: var(--white);
   margin-left: 10px;
   cursor: pointer;
 }
-.header .icons div:hover {
-  color: var(--grey);
+.fa-shopping-cart{
+  
+  padding-left: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: var(--white);
 }
+/* .header .icons div:hover {
+  color: var(--grey);
+} */
 #menu-btn {
   display: none;
 }
@@ -225,32 +232,66 @@ img {
   color: var(--grey);
 }
 
-.header .shopping-cart {
-  position: absolute;
-  top: 110%;
-  right: -110%;
-  width: 35rem;
+
+/* -------------------------------------------------------------- */
+
+.tooltip-1 {
+  position: relative;
+  display: inline-block;
+  
+}
+.tooltip-1 a:hover{
+  color: #fff;
+}
+
+.tooltip-1 .tooltiptext-1 {
+  visibility: hidden;
+  width: 33rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 4px;
   padding: 1rem;
-  background: #fff;
-  border-radius: 0.4rem;
-  box-shadow: var(--box-shadow);
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  
+  left: -30rem;
+  
+  border: 1px solid #DDD;
 }
-.header .shopping-cart.active {
-  right: 2rem;
-  transition:all 0.5s ease;
+
+.tooltip-1 .tooltiptext-1::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 98%;
+  margin-left: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent rgb(255, 255, 255) transparent;
 }
-.header .shopping-cart .box {
+
+.tooltip-1:hover .tooltiptext-1 {
+  visibility: visible;
+}
+
+
+
+
+
+ .shopping-cart .box {
   display: flex;
   align-items: center;
   gap: 1rem;
   position: relative;
   margin: 1rem 0;
 }
-.header .shopping-cart .box img {
+ .shopping-cart .box img {
   height: 10rem;
   width: auto;
 }
-.header .shopping-cart .box .bi-trash-fill {
+ .shopping-cart .box .bi-trash-fill {
   font-size: 2rem;
   position: absolute;
   top: 40%;
@@ -258,36 +299,39 @@ img {
   cursor: pointer;
   transform: translate(-50%);
 }
-.header .shopping-cart .box .bi-trash-fill:hover {
+.shopping-cart .box .bi-trash-fill:hover {
   color: var(--grey);
 }
-.header .shopping-cart .box .content h3 {
-  font-size: 1.6rem;
-  font-weight: bold;
-  padding-bottom: 10rem;
-}
-.header .shopping-cart .box .content span {
+ .shopping-cart .box .content h3 {
   font-size: 1.4rem;
+  font-weight: bold;
+  
 }
-.header .shopping-cart .box .content .quantity {
+ .shopping-cart .box .content span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.shopping-cart .box .content .quantity {
   padding-left: 1rem;
 }
-.header .shopping-cart .total {
+.shopping-cart .total {
   font-size: 2rem;
   font-weight: bold;
   padding: 1rem 0;
   text-align: center;
-  color: #cb1c22;
+  color: #ff5353;
 }
-.header .shopping-cart .btn {
+ .shopping-cart .btn {
   display: block;
   text-align: center;
   margin: 1rem;
+  border:initial;
+  background-color: #ff5353;
+  color: #fff;
+} 
+.shopping-cart .btn:hover{
+  background-color:rgba(255, 83, 83, 0.8) ;
 }
-
-
-
-
 
 
 
@@ -301,7 +345,7 @@ img {
     .header {
       padding: 1.2rem;
     }
-    
+    .tooltiptext-1{display: none;}
     .banner-content h1 {
       font-size: 4rem;
       font-weight: 500;
@@ -328,7 +372,10 @@ img {
       border-top: var(--border-top);
       background: rgb(255, 255, 255);
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-      transition: 0.7 linear;
+      
+    }
+    .menu-link{
+      background-color: #fff;
     }
     .header .navbar a {
       margin: 1rem 2.5rem;
@@ -348,9 +395,14 @@ img {
     .header .navbar ul li a {
       padding: 1rem;
     }
+    header .navbar ul li ul a{
+      padding: 1rem!important;
+    }
     .header .navbar ul li ul li {
       background: #eee;
+      border: none;
     }
+    
     .header .navbar ul li ul li ul {
       width: 100%;
       left: 0;
@@ -368,7 +420,7 @@ img {
       position: absolute;
       top: 110%;
       right: -110%;
-      width: 16rem;
+      width: 20rem;
       height: 3rem;
       background: #fff;
       border-radius: 0.4rem;

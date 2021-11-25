@@ -38,7 +38,7 @@ ul {
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  padding: .8rem 3ewm;
+  padding: .8rem 3rem;
   font-size: 1.6rem;
   border-radius: 4px;
   border: 2px solid rgb(0, 0, 0);
@@ -105,6 +105,10 @@ img{
   padding: 0;
   padding-top: 8.3rem;
 }
+
+.content{
+  color: #fff;
+}
 .banner .banner-slide .slide{
 min-height: 65vh;
 display: flex;
@@ -163,7 +167,7 @@ line-height: 3.4rem;
   background: #fff;
   width: 100%;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 .featured{
   max-width: 100%;
@@ -197,27 +201,45 @@ line-height: 3.4rem;
   color: #000;
   padding-right: 4rem;
 }
-/* ---showcase ------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------showcase -----------------------------------------------------*/
 .show-case{
   width: 100%;
 }
 .row {
   margin-left: initial;
 }
+
 .card {
-  background-color: #f2f2f2;
-  border: initial;
-  
+  background-color: #ffffff;
+  border:1px solid #ddd;
   border-radius: 4px;
+  
+  
 }
+.cart-content{
+  position: relative;
+  transition: transform 500ms ease;
+}
+.card-body {
+  position: relative;
+  text-align: center;
+  padding: initial;
+  margin: 1rem 0 0.5rem 0;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
  .card-img-top-1{
-  width: 89%;
+  width: 70%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding: 5rem 0 0 0;
   
   
 }
+
+
 .card-img-top {
   width: 70%;
   height: 100%;
@@ -227,42 +249,164 @@ line-height: 3.4rem;
 }
 
 .card-title {
+  
   color: #000;
   text-align: center;
   font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 2.8rem;
+  font-size: 1.4rem;
+margin-bottom: initial;
+  
+  background-color: #fff;
+  
 }
+.cart-content-text{
+  position: relative;
+  text-align: center;
+  
+  padding: 1.5rem 0 3rem 0;
+  overflow: hidden;
+}
+
 .product-large-link .card {
   margin-bottom: initial;
 }
 .product-large-link .card-title {
   padding-top: 2rem;
 }
-.card-body {
-  position: relative;
+
+
+.cart-text{
   text-align: center;
-  padding-bottom: 4.5rem;
-}
-.card-body .btn-default {
   margin-top: initial;
-  padding: 1.2rem 1.4rem;
-  min-width: 11rem;
-  display: none;
+  display:block;
   position: absolute;
-  left: 50%;
- top: 50%;
-  font-size:1.4rem;
-  transform: translateX(-50%);
+  top: 100%;
+  left: 15%;
+  right: 15%;
+  
+  transform: translateY(-254%);
+  
+  font-size:1.0rem;
+  
+  transition: transform 500ms ease;
+
+}
+.card:hover .cart-text{
+  transform: translateY(-500%);
+  color: #000;
+  
   
 }
-.card:hover .card-body .btn-default {
-  display: block;
+
+ .btn-default-1 {
+  
+  padding: .8rem 1.4rem;
+  min-width: 11rem;
+  position: absolute;
+  left: 28%;
+  right: 25%;
+  font-size:1.4rem;
+  transform: translateY(85%);
+  transition: transform .5s ease;
+  background-color: #ff5353;
+  border-radius: 4px;
+  
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  
 }
+.btn-default-1:hover{
+  background-color: rgba(255, 83, 83, 0.8);
+}
+
+ .card:hover .btn-default-1{
+  transform: translateY(-30%);
+  color: #fff;
+  
+}
+
 .show-case {
   position: relative;
 }
+.product-small-link{
+  position: relative;
+}
+/* ---------------------------------cart-large------------------------------ */
+.card-body-large {
+  position: relative;
+  text-align: center;
+  
+  
+}
+.cart-content-large-text{
+  position: relative;
+  text-align: center;
+  
+  padding: 1.5rem 0 6rem 0;
+  overflow: hidden;
+}
+.card-title-large{
+  
+  color: #000;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+  left: 15%;
+  right: 15%;
+  padding: 0 5rem;
+  margin-top: 3rem;
+  
+  background-color: #fff;
+}
+.cart-text-large{
+  
+  
+  display:block;
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  right: 15%;
+  
+  transform: translateY(-400%);
+  font-size:1.2rem;
+  transition: transform 500ms ease;
+}
+.card:hover .cart-text-large{
+  transform: translateY(-580%);
+  color: #000;
+  
+  
+}
+.btn-default-large{
+  padding: 1rem 1.4rem;
+  min-width: 11rem;
+  position: absolute;
+  left: 35%;
+  right: 35%;
+  font-size:1.4rem;
+  transform: translateY(150%);
+  transition: transform .5s ease;
+  background-color: #ff5353;
+  border-radius: 4px;
+  
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-default-large:hover{
+  background-color: rgba(255, 83, 83, 0.8);
+}
 
+ .card:hover .btn-default-large{
+  transform: translateY(-20%);
+  color: #fff;
+  
+}
 
 /* -----------------------------------------------------------tab slide---------------------------------------------- */
 
@@ -276,12 +420,12 @@ line-height: 3.4rem;
 .section__list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -8px;
+  margin: 0 -.8rem;
 }
 
 .section__item {
   box-sizing: border-box;
-  padding: 0 8px 10px;
+  padding: 0 .8rem 1rem;
   flex-basis: 50%;
   max-width: 50%;
 }
@@ -332,7 +476,7 @@ line-height: 3.4rem;
 .slick-current.featured-links__item {
   background-color: #133881;
   color: #fff;
-  border-radius: 6px 6px 0 0;
+  border-radius: .4rem .4rem 0 0;
 }
 
 
@@ -368,8 +512,8 @@ line-height: 3.4rem;
 
 .tab-content--slider .slick-dots button {
   display: block;
-  width: 6px;
-  height: 6px;
+  width: .6rem;
+  height: .6rem;
   padding: 0;
   border: none;
   border-radius: 100%;
@@ -385,7 +529,7 @@ line-height: 3.4rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 23px;
+  bottom: 2.3rem;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -397,13 +541,13 @@ line-height: 3.4rem;
   border-bottom: 1px solid #d9e4e6;
   display: block;
   overflow: hidden;
-  padding: 14px 16px;
+  padding: 1.4rem 1.6rem;
 }
 
 .tab-info__link {
   color: #000;
   display: inline-block;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -422,12 +566,12 @@ line-height: 3.4rem;
 
 .slick-track .featured-links__item{
   width:auto!important;
-  font-size: 18px;
-    line-height: 28px;
+  font-size: 1.6rem;
+    
     text-align: center;
     color: #000;
     text-align: center;
-    margin: 16px 20px;
+    margin: 1.6rem 2rem;
     
 }
 
@@ -452,62 +596,56 @@ line-height: 3.4rem;
   width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
-
+.carousel-caption {
+  bottom: 3.5rem;
+}
 
 .carousel-caption h5{
-  font-size: 20px;
+  font-size: 2rem;
   color: #fff;
   /* padding-bottom: 40px; */
 }
-.carousel-caption .buttons .btn-default {
-  margin : 0 20px 0 20px;
-  padding: 18.5px 65px;
-  min-width: initial;
-  background: rgba(255, 255, 255, 0.1);
-  display: none;
-  font-size: 14px;
-  /* position: absolute;
-  left: 60%;
-  top: 50%;
-  
-  transform: translateX(-50%); */
-
-}
-.carousel-caption .buttons .btn-default-1{
-  margin : 0 20px 0 20px;
-  padding: 18.5px 42px;
-  min-width: initial;
-  font-weight: 500;
-  line-height: 0.8;
-  text-align: center;
-  border-radius: 4px;
-  
+.carousel-caption .buttons .btn-phone {
+  padding: 1.2rem 2rem;
+  background: rgba(163, 163, 163, 0.15);
+  border-radius: .4rem;
+  position: absolute;
+  left: 20%;
+    right: 53%;
+  font-size:1.4rem;
+  transform: translateY(105%);
+  transition: transform .5s ease;
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  display: none;
-  font-size: 14px;
-  /* position: absolute;
-  left: 33%;
-  top: 50%;
- 
-  transform: translateX(-50%); */
+  
+  
 }
-.show-case-phone:hover .carousel-caption .buttons .btn-default {
-  display: block;
+.carousel-caption .buttons .btn-phone-1{
+  padding: 1.2rem 2rem;
+  background: rgba(163, 163, 163, 0.15);
+  border-radius: .4rem;
+  position: absolute;
+  left: 53%;
+  right: 20%;
+  font-size:1.4rem;
+  transform: translateY(105%);
+  transition: transform .5s ease;
+  color: #fff;
+}
+.show-case-phone:hover .carousel-caption .buttons .btn-phone {
+  transform: translateY(-10%);
 
 }
-.show-case-phone:hover .carousel-caption .buttons .btn-default-1 {
-  display: block;
+.show-case-phone:hover .carousel-caption .buttons .btn-phone-1 {
+  transform: translateY(-10%);
 
 }
-.carousel-caption .buttons .btn-default:hover , .carousel-caption .buttons .btn-default-1:hover{
+.carousel-caption .buttons .btn-phone:hover , .carousel-caption .buttons .btn-phone-1:hover{
   background-color: #ff5353;
   color: rgb(255, 255, 255);
-  -webkit-transition: background 0.5s 0s ease;
-  -moz-transition: background 0.5s 0s ease;
-  -o-transition: background 0.5s 0s ease;
+  
   transition: background 0.5s 0s ease;
 }
 /* --------------------------------------------------------------------------------------------- */
@@ -520,23 +658,37 @@ line-height: 3.4rem;
   width: 100%;
   margin: 0 auto;
 }
-
-.card-img-laptop {
-  width: 36%;
+.product-laptop-1 .card{
+  border: none;
+}
+.product-laptop-1 .card-title{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+.product-laptop-1 .card-text{
+  font-size: 1.4rem;
+  color: #A6A6A6;
+}
+.show-case-laptop .card-img-laptop {
+  width: 90%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 .product-laptop .btn{
   border: 1px solid #D9D9D9;
 }
 .btn-button{
   background-color: #fff;
+  margin-right: 2rem;
 }
 
 .btn-button-1{
   background-color: #ff5353;
+}
+.btn-button-1:hover{
+  background-color: rgba(255, 83, 83, 0.8);
 }
 
 .product-laptop .btn-button-1{
@@ -546,64 +698,67 @@ line-height: 3.4rem;
 
 /* -----------------------------------------------------------product-pk---------------------------------------------- */
 
-.product-phukien {
+.product-accessories {
   max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
+  margin: 2rem auto;
   
 }
+.product-accessories .product-header{
+  margin-bottom: 3rem;
+}
   
-.product-phukien .swiper-pagination{
+.product-accessories .swiper-pagination{
   bottom: -3px;
   
 }
-.product-phukien .swiper-pagination-bullet{
+.product-accessories .swiper-pagination-bullet{
   background: #585858!important;
 }
-.product-phukien .card{
+.product-accessories .card{
   background-color: #fff;
   border: 1px solid rgba(0,0,0,.125);
   border-bottom: none;
    border-radius: initial;
 
 }
-.product-phukien .card:hover .card-img-pk{
+.product-accessories .card:hover .card-img-pk{
   transform: scale(1.1);
  
    
 }
-.product-phukien .card-img-link  {
+.product-accessories .card-img-link  {
   
-  margin: 10px 15;
+  margin: 1rem 1.5rem;
 }
 .card-img-pk {
   width: 90%;
   height: 100%;
-  margin: 10px auto;
+  margin: 1rem auto;
 }
-.product-phukien .card-body{
+.product-accessories .card-body{
   text-align: initial;
   padding-bottom: initial;
 }
-.product-phukien .card-body .card-title{
+.product-accessories .card-body .card-title{
   text-align: initial;
   font-weight: bold;
-font-size: 18px;
-line-height: 26px;
+font-size: 1.8rem;
+line-height: 2.6rem;
 }
-.product-phukien .card .list-group .list-group-item{
+.product-accessories .card .list-group .list-group-item{
   border-top: initial;
   border-bottom: initial;
 }
 .special-price{
   font-weight: 500;
-font-size: 18px;
-line-height: 26px;
+font-size: 1.8rem;
+line-height: 2.6rem;
 color: #ff5353;
 }
 .old-price{
-  font-size: 16px;
-line-height: 18px;
+  font-size:1.6rem;
+line-height: 1.8rem;
 color: #707070;
 text-decoration: line-through;
 }
@@ -615,20 +770,20 @@ background: #D9D9D9;
   background-color: #ff5353;
   
   }
-.product-phukien  .btn{
+.product-accessories  .btn{
   font-weight: 500;
-font-size: 14px;
-line-height: 22px;
+font-size: 1.4rem;
+line-height: 2.2rem;
 border: initial;
 margin-top: initial;
-padding: 9px 0;
+padding: .9rem 0;
 background: none;
 
 }
-.product-phukien  .btn:hover{
+.product-accessories  .btn:hover{
   color: initial;
 }
-.product-phukien  .btn:focus{
+.product-accessories  .btn:focus{
   box-shadow: none;
 }
 
@@ -683,10 +838,13 @@ background: none;
 
 /* -----------------------------------------------------------responsive---------------------------------------------- */
 
+
 @media (max-width: 991px) {
   html{
     font-size: 55%;
   }
+  
+  
   
 }
 
@@ -695,14 +853,35 @@ background: none;
 
 @media (max-width: 768px) {
   html{
-    font-size: 50%;
+    font-size: 45%;
+  }
+ 
+  .banner{
+    
+    padding-top: 5.3rem;
+  }
+  .slick-track .featured-links__item{
+    
+    font-size: 1.4rem;
+      
+      
+      
   }
   
 }
 
+ 
+
+
 @media (max-width: 450px) {
   html{
-    font-size: 45%;
+    font-size: 40%;
   }
+  section {
+    padding: 2rem 0;
+}
+.container{
+  padding: initial;
+}
  
 }

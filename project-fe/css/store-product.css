@@ -73,7 +73,7 @@
 
 
   .Featured-phone .card ,.Featured-laptop .card,
- .Featured-tv .card .Featured-phukien .card{
+ .Featured-tv .card .Featured-accessories .card{
   background-color: #fff;
   border-bottom: none;
   border-radius: initial;
@@ -111,7 +111,7 @@ display: block;
   
 } */
 .Featured-phone .card:hover .card-img-pk, .Featured-laptop .card:hover  .card-img-pk,
-.Featured-tv .card:hover  .card-img-pk, .Featured-phukien .card:hover  .card-img-pk{
+.Featured-tv .card:hover  .card-img-pk, .Featured-accessories .card:hover  .card-img-pk{
   transform: scale(1.09);
   
 }
@@ -125,7 +125,7 @@ display: block;
   border: initial;
 }
 .Featured-phone .card-img-link ,.Featured-laptop .card-img-link ,
-.Featured-tv .card-img-link ,.Featured-phukien .card-img-link  {
+.Featured-tv .card-img-link ,.Featured-accessories .card-img-link  {
   
   margin: 10px 15px;
 }
@@ -137,19 +137,19 @@ display: block;
 }
 
 .Featured-phone .card-body ,.Featured-laptop .card-body,
-.Featured-tv .card-body  ,.Featured-phukien .card-body {
+.Featured-tv .card-body  ,.Featured-accessories .card-body {
   text-align: initial;
   padding-bottom: initial;
 }
 .Featured-phone .card-body .card-title ,.Featured-laptop .card-body .card-title ,
-.Featured-tv .card-body .card-title ,.Featured-phukien .card-body .card-title {
+.Featured-tv .card-body .card-title ,.Featured-accessories .card-body .card-title {
   text-align: initial;
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
 }
 .Featured-phone .card .list-group .list-group-item ,.Featured-laptop .card .list-group .list-group-item,
-.Featured-tv .card .list-group .list-group-item,.Featured-phukien .card .list-group .list-group-item{
+.Featured-tv .card .list-group .list-group-item,.Featured-accessories .card .list-group .list-group-item{
   border-top: initial;
   border-bottom: initial;
 }
@@ -172,7 +172,7 @@ display: block;
   background-color: #ff5353;
 }
 .Featured-phone .btn ,.Featured-laptop .btn,
-.Featured-tv .btn ,.Featured-phukien .btn{
+.Featured-tv .btn ,.Featured-accessories .btn{
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
@@ -182,11 +182,11 @@ display: block;
   background: none;
 }
 .Featured-phone .btn:hover ,.Featured-laptop .btn:hover,
-.Featured-tv .btn:hover ,.Featured-phukien .btn:hover{
+.Featured-tv .btn:hover ,.Featured-accessories .btn:hover{
   color: initial;
 }
 .Featured-phone .btn:focus,.Featured-laptop .btn:focus,
-.Featured-tv .btn:focus ,.Featured-phukien .btn:focus {
+.Featured-tv .btn:focus ,.Featured-accessories .btn:focus {
   box-shadow: none;
 }
 .text-km{
