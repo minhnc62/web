@@ -302,16 +302,16 @@ img {
 .shopping-cart .box .bi-trash-fill:hover {
   color: var(--grey);
 }
- .shopping-cart .box .content h3 {
+ .shopping-cart .box .content-1 h3 {
   font-size: 1.4rem;
   font-weight: bold;
   
 }
- .shopping-cart .box .content span {
+ .shopping-cart .box .content-1 span {
   font-size: 1.2rem;
   font-weight: 400;
 }
-.shopping-cart .box .content .quantity {
+.shopping-cart .box .content-1 .quantity {
   padding-left: 1rem;
 }
 .shopping-cart .total {

@@ -583,6 +583,8 @@ margin-bottom: initial;
 }
 .slick-track p {
   font-weight: 400;
+  font-size: 1.2rem;
+  color: #dddddd;
 }
 
 
@@ -610,7 +612,7 @@ margin-bottom: initial;
 }
 .carousel-caption .buttons .btn-phone {
   padding: 1.2rem 2rem;
-  background: rgba(163, 163, 163, 0.15);
+  background: rgba(163, 163, 163, 0.25);
   border-radius: .4rem;
   position: absolute;
   left: 20%;
@@ -624,7 +626,7 @@ margin-bottom: initial;
 }
 .carousel-caption .buttons .btn-phone-1{
   padding: 1.2rem 2rem;
-  background: rgba(163, 163, 163, 0.15);
+  background: rgba(163, 163, 163, 0.25);
   border-radius: .4rem;
   position: absolute;
   left: 53%;
@@ -732,6 +734,7 @@ margin-bottom: initial;
   margin: 1rem 1.5rem;
 }
 .card-img-pk {
+  transition: all .5s;
   width: 90%;
   height: 100%;
   margin: 1rem auto;
@@ -743,12 +746,13 @@ margin-bottom: initial;
 .product-accessories .card-body .card-title{
   text-align: initial;
   font-weight: bold;
-font-size: 1.8rem;
-line-height: 2.6rem;
+font-size: 1.6rem;
+
 }
 .product-accessories .card .list-group .list-group-item{
   border-top: initial;
   border-bottom: initial;
+  padding: 0 1rem;
 }
 .special-price{
   font-weight: 500;

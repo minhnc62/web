@@ -28,6 +28,6 @@ menuBtn.addEventListener('click', ()=>{
 
 window.onscroll = () =>{
     searchForm.classList.remove('active');
-    shoppingCart.classList.remove('active');
+    
     
 }

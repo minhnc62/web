@@ -98,18 +98,36 @@
   .app-btn a.app-store i {
     color: #fff;
   }
+  
   .social-media a {
     display: inline-block;
     font-size: 1.4rem;
     color: #000;
-  }
-  .social-media a {
     background-color: #fff;
     line-height: 3.2rem;
     text-align: center;
     height: 3rem;
     width: 3rem;
     margin-right: 1rem;
+    border-radius: .4rem;
+  }
+  .social-media .icon-fb:hover {
+    background-color: #006df0;
+  }
+  .social-media a:hover .ti-facebook ,.social-media a:hover.icon-twitter,.social-media a:hover.icon-pinterest{
+    color: #fff;
+  }
+  .social-media a:hover.icon-instagram{
+    color: #ff5353;
+  }
+  .social-media .icon-twitter:hover {
+    background-color: #1ca1f3;
+  }
+  .social-media .icon-pinterest:hover {
+    background-color: #ff5353;
+  }
+  .social-media .icon-instagram:hover {
+    background-color: #ffffff;
   }
   
   
