@@ -40,6 +40,9 @@
 }
 
 /* -------------------------------------product----------------------------------------------------------- */
+.mr-0{
+  margin-right: .5rem;
+}
 .product .card-img-overlay {
   top: 50%;
   left: 55%;
@@ -54,6 +57,9 @@
 .product .btn-primary {
   color: #3f3f3f;
   background: #fff;
+}
+.product .btn-primary:hover{
+  background: rgb(83, 83, 83);
 }
 
 /* ------------------------------------------------featued-phone------------------------------------------------------------- */
@@ -199,9 +205,11 @@
 .button-product-cart {
   background: #d9d9d9;
 }
+
 .button-product-buy {
   background-color: #ff5353;
 }
+
 .featured-phone .btn ,.featured-laptop .btn,
 .featured-tv .btn ,.featured-accessories .btn{
   font-weight: 500;
@@ -350,6 +358,14 @@ line-height: 2rem;
   .Breadcrumb-1 {
     padding: 4rem 9% 0 9%;
   }
+  .card-button {
+    display: block;
+    position: relative;
+    font-size: 1.4rem;
+    transform: none;
+    
+    
+}
   
 }
 

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <LINK REL="SHORTCUT ICON"  HREF="img/icon-r.svg">
-    <title>Điện thoại</title>
+    <LINK REL="SHORTCUT ICON"  HREF="img/icon.svg">
+    <title>Tivi</title>
      <!-- css-------------------------------------------------------------- -->
      <link
      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -39,17 +39,20 @@
       <nav class="navbar">
         <ul class="menu">
           <li class="menu-item">
-            <a href="index.html" class="menu-link ">Trang chủ</a>
+            <a href="index.html" class="menu-link  ">Trang chủ</a>
           </li>
           <li class="menu-item">
-            <a href="store.html" class="menu-link active">Cửa hàng</a>
+            <a href="store.html" class="menu-link ">Cửa hàng</a>
           </li>
           <li class="menu-item">
-            <a href="" class="menu-link">Loại sản phẩm</a>
+            <a href="" class="menu-link d-flex align-items-center ">Loại sản phẩm 
+              <i class="  bi bi-chevron-down" style="padding-left: .5rem;"></i> </a>
 
             <ul class="sub-menu">
               <li class="sub-item">
-                <a href="phone.html" class="sub-link">Di động</a>
+                <a href="phone.html" class="sub-link " >Di động 
+                  
+                </a>
                 <ul class="sub2-menu">
                   <li class="sub2-item">
                     <a href="" class="sub2-link">Iphone</a>
@@ -70,14 +73,14 @@
               </li>
 
               <li class="sub-item">
-                <a href="laptop.html" class="sub-link">Laptop</a>
+                <a href="laptop.html" class="sub-link">Laptop </a>
 
                 <ul class="sub2-menu">
                   <li class="sub2-item">
-                    <a href="" class="sub2-link">Asus</a>
+                    <a href="" class="sub2-link">Apple</a>
                   </li>
                   <li class="sub2-item">
-                    <a href="" class="sub2-link">Apple</a>
+                    <a href="" class="sub2-link">Samsung</a>
                   </li>
                   <li class="sub2-item">
                     <a href="" class="sub2-link">HP</a>
@@ -86,16 +89,14 @@
                     <a href="" class="sub2-link">Dell</a>
                   </li>
                   <li class="sub2-item">
-                    <a href="" class="sub2-link">MSL</a>
+                    <a href="" class="sub2-link">Asus</a>
                   </li>
-                  <li class="sub2-item">
-                    <a href="" class="sub2-link">Lenovo</a>
-                  </li>
+                  
                 </ul>
               </li>
 
               <li class="sub-item">
-                <a href="tv.html" class="sub-link">TV & AV</a>
+                <a href="tv.html" class="sub-link">TV & AV </a>
                 <ul class="sub2-menu">
                   <li class="sub2-item">
                     <a href="" class="sub2-link">Sony</a>
@@ -112,13 +113,16 @@
                 </ul>
               </li>
               <li class="sub-item">
-                <a href="accessories.html" class="sub-link">Phụ kiện</a>
+                <a href="accessories.html" class="sub-link">Phụ kiện </a>
                 <ul class="sub2-menu">
                   <li class="sub2-item">
                     <a href="" class="sub2-link">Tai nghe</a>
                   </li>
                   <li class="sub2-item">
                     <a href="" class="sub2-link">bàn phím</a>
+                  </li>
+                  <li class="sub2-item">
+                    <a href="" class="sub2-link">Chuột</a>
                   </li>
                  
                 </ul>
@@ -129,11 +133,11 @@
             <a href="" class="menu-link">Giới Thiệu</a>
           </li>
           <li class="menu-item">
-            <a href="" class="menu-link">Liên hệ</a>
+            <a href="contact.html" class="menu-link">Liên hệ</a>
           </li>
         </ul>
       </nav>
-      <div class="icons">
+      <div class="icons-cart">
         
         <div class="fas fa-search" id="search-btn"></div>
         <div class="tooltip-1 ">
@@ -145,7 +149,7 @@
               <div class="box">
                 <i class="bi bi-trash-fill"></i>
                 <img src="img/cart-1.jpg" alt="cart" />
-                <div class="content">
+                <div class="content-1">
                   <h3>Redmi Note 8 Pro</h3>
                   <span class="price">5.130.000 VND/-</span>
                   <span class="quantity">sl : 1</span>
@@ -155,7 +159,7 @@
               <div class="box">
                 <i class="bi bi-trash-fill"></i>
                 <img src="img/cart-1.jpg" alt="cart" />
-                <div class="content">
+                <div class="content-1">
                   <h3>Redmi Note 8 Pro</h3>
                   <span class="price">5.130.000 VND/-</span>
                   <span class="quantity">sl : 1</span>
@@ -165,7 +169,7 @@
               <div class="box">
                 <i class="bi bi-trash-fill"></i>
                 <img src="img/cart-1.jpg" alt="cart" />
-                <div class="content">
+                <div class="content-1">
                   <h3>Redmi Note 8 Pro</h3>
                   <span class="price">5.130.000 VND/-</span>
                   <span class="quantity">sl : 1</span>
@@ -173,13 +177,13 @@
               </div>
     
               <div class="total">Tổng : 15.390.000 VND</div>
-              <a href="#" class="btn">Thanh toán</a>
+              <a href="checkout.html" class="btn">Thanh toán</a>
             </div>
           </div>
         </div>
         <div class="fas fa-bars" id="menu-btn"></div>
       </div>
-      <form action="" class="search-form">
+      <form  class="search-form">
         <input type="search" id="search-box" placeholder="search here..." />
         <label for="search-box" class="fas fa-search"></label>
       </form>
@@ -191,7 +195,7 @@
             <nav aria-label="breadcrumb" style="padding-top: 8%;">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Điện thoại</li>
+                  <li class="breadcrumb-item active" aria-current="page">Tivi</li>
                 </ol>
               </nav>
         </div>
@@ -204,22 +208,22 @@
                     <div class="swiper banner-store-slider">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide slide">
-                            <a href="phone.html">
+                            <a href="dienthoai.html">
                                 <img src="img/banner-sto-2.png" alt="banner">
                             </a>
                           </div>
                           <div class="swiper-slide slide">
-                            <a href="phone.html">
+                            <a href="dienthoai.html">
                                 <img src="img/banner-sto-1.png" alt="banner">
                             </a>
                           </div>
                           <div class="swiper-slide slide">
-                            <a href="">
+                            <a href="laptop.html">
                                 <img src="img/banner-sto-3.png" alt="banner">
                             </a>
                           </div>
                           <div class="swiper-slide slide">
-                            <a href="">
+                            <a href="accessories.html">
                                 <img src="img/banner-sto-4.png" alt="banner">
                             </a>
                           
@@ -233,287 +237,529 @@
         </div>
     </section>
 
-    <section class="Featured-tv">
+    <section class="products-tv">
         <div class="container">
             <div class="d-flex ">
-                <div class="col-3">
-                    <div class="filter  mb-5">
-                        <h3 class="filter-heading mb-3">Thương hiệu</h3>
-                        
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-6">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                      Tất cả
-                                    </label>
-                                  </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-check"style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Oppo
-                                    </label>
-                                  </div>
-                            </div>
+              <div class="col-3 d-md-block d-sm-none d-none">
+                
+                  <div class="filter  mb-5">
+                    <h3 class="filter-heading mb-3">Thương hiệu</h3>
+                    
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-6">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="trademark-1" checked>
+                                <label class="form-check-label" for="trademark-1">
+                                  Tất cả
+                                </label>
+                              </div>
                         </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-6">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Iphone
-                                    </label>
-                                  </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Xiaomi
-                                    </label>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-6">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Samsung
-                                    </label>
-                                  </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-check"style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Realme
-                                    </label>
-                                  </div>
-                            </div>
+                        <div class="col-6">
+                            <div class="form-check"style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="trademark-2" >
+                                <label class="form-check-label" for="trademark-2">
+                                    Oppo
+                                </label>
+                              </div>
                         </div>
                     </div>
-                    <div class="filter  mb-5">
-                        <h3 class="filter-heading mb-3">Mức giá</h3>
-                        
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                      Tất cả
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-6">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="trademark-3" >
+                                <label class="form-check-label" for="trademark-3">
+                                    Iphone
+                                </label>
+                              </div>
                         </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Dưới 2 triệu
-                                    </label>
-                                  </div>
-                            </div>
-                            
-                        </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Từ 2  - 4 triệu
-                                    </label>
-                                  </div>
-                            </div>
-                            
-                        </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Từ 4  - 7 triệu
-                                    </label>
-                                  </div>
-                            </div>
-                            
-                        </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Từ 7  - 13 triệu
-                                    </label>
-                                  </div>
-                            </div>
-                            
-                        </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Trên 13 triệu
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                        <div class="col-6">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="trademark-4" >
+                                <label class="form-check-label" for="trademark-4">
+                                    Xiaomi
+                                </label>
+                              </div>
                         </div>
                     </div>
-                    <div class="filter  mb-5">
-                        <h3 class="filter-heading mb-3">Màn hình</h3>
-                        
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                      Tất cả
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-6">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="trademark-5" >
+                                <label class="form-check-label" for="trademark-5">
+                                    Samsung
+                                </label>
+                              </div>
                         </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Màn hình dưới 5.0 inch
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                        <div class="col-6">
+                            <div class="form-check"style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="trademark-6" >
+                                <label class="form-check-label" for="trademark-6">
+                                    Realme
+                                </label>
+                              </div>
                         </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Màn hình dưới 6.0 inch
-                                    </label>
-                                  </div>
-                            </div>
-                            
-                        </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Trên 6.0 inch
-                                    </label>
-                                  </div>
-                            </div>
-                            
-                        </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Màn hình gập
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                    </div>
+                </div>
+                <div class="filter  mb-5">
+                    <h3 class="filter-heading mb-3">Mức giá</h3>
+                    
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="price-1" checked>
+                                <label class="form-check-label" for="price-1">
+                                  Tất cả
+                                </label>
+                              </div>
                         </div>
                         
                     </div>
-                    <div class="filter  mb-5">
-                        <h3 class="filter-heading mb-3">Dung lượng pin</h3>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="price-2" >
+                                <label class="form-check-label" for="price-2">
+                                    Dưới 2 triệu
+                                </label>
+                              </div>
+                        </div>
                         
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                      Tất cả
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="price-3" >
+                                <label class="form-check-label" for="price-3">
+                                    Từ 2  - 4 triệu
+                                </label>
+                              </div>
                         </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Dưới 3000 mah
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="price-4" >
+                                <label class="form-check-label" for="price-4">
+                                    Từ 4  - 7 triệu
+                                </label>
+                              </div>
                         </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Từ 3000 mah - 4000 mah
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="price-5" >
+                                <label class="form-check-label" for="price-5">
+                                    Từ 7  - 13 triệu
+                                </label>
+                              </div>
                         </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Siêu trâu : trên 4000 mah
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="price-6" >
+                                <label class="form-check-label" for="price-6">
+                                    Trên 13 triệu
+                                </label>
+                              </div>
                         </div>
-                        <div class="d-flex flex-wrap align-self-center mb-3">
-                            <div class="col-12">
-                                <div class="form-check" style="font-size: 14px;">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Màn hình gập
-                                    </label>
-                                  </div>
-                            </div>
-                            
+                        
+                    </div>
+                </div>
+                <div class="filter  mb-5">
+                    <h3 class="filter-heading mb-3">Màn hình</h3>
+                    
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="screen" checked>
+                                <label class="form-check-label" for="screen">
+                                  Tất cả
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="screen-1" >
+                                <label class="form-check-label" for="screen-1">
+                                    Màn hình dưới 5.0 inch
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="screen-2" >
+                                <label class="form-check-label" for="screen-2">
+                                    Màn hình dưới 6.0 inch
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="screen-3" >
+                                <label class="form-check-label" for="screen-3">
+                                    Trên 6.0 inch
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="screen-4" >
+                                <label class="form-check-label" for="screen-4">
+                                    Màn hình gập
+                                </label>
+                              </div>
                         </div>
                         
                     </div>
                     
                 </div>
-                <div class="col-9"> 
+                <div class="filter  mb-5">
+                    <h3 class="filter-heading mb-3">Dung lượng pin</h3>
+                    
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="battery-1" checked>
+                                <label class="form-check-label" for="battery-1">
+                                  Tất cả
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="battery-2" >
+                                <label class="form-check-label" for="battery-2">
+                                    Dưới 3000 mah
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="battery-3" >
+                                <label class="form-check-label" for="battery-3">
+                                    Từ 3000 mah - 4000 mah
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-wrap align-self-center mb-3">
+                        <div class="col-12">
+                            <div class="form-check" style="font-size: 14px;">
+                                <input class="form-check-input" type="checkbox" value="" id="battery-4" >
+                                <label class="form-check-label" for="battery-4">
+                                    Siêu trâu : trên 4000 mah
+                                </label>
+                              </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+                
+            </div>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title " id="offcanvasWithBothOptionsLabel" style="font-size: 2rem;">Tùy chọn</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body p-5">
+                  <div class="filter  mb-5">
+                      <h3 class="filter-heading mb-3">Thương hiệu</h3>
+                      
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-6">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="trademark-1" checked>
+                                  <label class="form-check-label" for="trademark-1">
+                                    Tất cả
+                                  </label>
+                                </div>
+                          </div>
+                          <div class="col-6">
+                              <div class="form-check"style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="trademark-2" >
+                                  <label class="form-check-label" for="trademark-2">
+                                      Oppo
+                                  </label>
+                                </div>
+                          </div>
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-6">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="trademark-3" >
+                                  <label class="form-check-label" for="trademark-3">
+                                      Iphone
+                                  </label>
+                                </div>
+                          </div>
+                          <div class="col-6">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="trademark-4" >
+                                  <label class="form-check-label" for="trademark-4">
+                                      Xiaomi
+                                  </label>
+                                </div>
+                          </div>
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-6">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="trademark-5" >
+                                  <label class="form-check-label" for="trademark-5">
+                                      Samsung
+                                  </label>
+                                </div>
+                          </div>
+                          <div class="col-6">
+                              <div class="form-check"style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="trademark-6" >
+                                  <label class="form-check-label" for="trademark-6">
+                                      Realme
+                                  </label>
+                                </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="filter  mb-5">
+                      <h3 class="filter-heading mb-3">Mức giá</h3>
+                      
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="price-1" checked>
+                                  <label class="form-check-label" for="price-1">
+                                    Tất cả
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="price-2" >
+                                  <label class="form-check-label" for="price-2">
+                                      Dưới 2 triệu
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="price-3" >
+                                  <label class="form-check-label" for="price-3">
+                                      Từ 2  - 4 triệu
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="price-4" >
+                                  <label class="form-check-label" for="price-4">
+                                      Từ 4  - 7 triệu
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="price-5" >
+                                  <label class="form-check-label" for="price-5">
+                                      Từ 7  - 13 triệu
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="price-6" >
+                                  <label class="form-check-label" for="price-6">
+                                      Trên 13 triệu
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+                  <div class="filter  mb-5">
+                      <h3 class="filter-heading mb-3">Màn hình</h3>
+                      
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="price-1" checked>
+                                  <label class="form-check-label" for="price-1">
+                                    Tất cả
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="screen-1" >
+                                  <label class="form-check-label" for="screen-1">
+                                      Màn hình dưới 5.0 inch
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="screen-2" >
+                                  <label class="form-check-label" for="screen-2">
+                                      Màn hình dưới 6.0 inch
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="screen-3" >
+                                  <label class="form-check-label" for="screen-3">
+                                      Trên 6.0 inch
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="screen-4" >
+                                  <label class="form-check-label" for="screen-4">
+                                      Màn hình gập
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      
+                  </div>
+                  <div class="filter  mb-5">
+                      <h3 class="filter-heading mb-3">Dung lượng pin</h3>
+                      
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="battery-1" checked>
+                                  <label class="form-check-label" for="battery-1">
+                                    Tất cả
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="battery-2" >
+                                  <label class="form-check-label" for="battery-2">
+                                      Dưới 3000 mah
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="battery-3" >
+                                  <label class="form-check-label" for="battery-3">
+                                      Từ 3000 mah - 4000 mah
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      <div class="d-flex flex-wrap align-self-center mb-3">
+                          <div class="col-12">
+                              <div class="form-check" style="font-size: 14px;">
+                                  <input class="form-check-input" type="checkbox" value="" id="battery-4" >
+                                  <label class="form-check-label" for="battery-4">
+                                      Siêu trâu : trên 4000 mah
+                                  </label>
+                                </div>
+                          </div>
+                          
+                      </div>
+                      
+                      
+                  </div>
+              </div>
+            </div>
+                <div class="col-md-9"> 
                     <div class="d-flex flex-column ">
                         <div class="product-header mb-3 p-3" >
                           <div class="d-flex "> 
                           
-                            <h1 class="product-header-name">Ti vi</h1>
+                            <h1 class="product-header-name">Tivi</h1>
                             <span class="Product-number" >(50 sản phẩm)</span>
                             
                           
                           
                           </div>
                           <div class="list-tab mt-3">
-                            <div class="d-flex align-items-center">
-                              <span>Sắp xếp theo : </span>
-                              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                                <label class="btn btn-outline-primary" for="btnradio1">Bán chạy nhất</label>
-                              
-                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                                <label class="btn btn-outline-primary" for="btnradio2">Giá cao</label>
-                              
-                                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                                <label class="btn btn-outline-primary" for="btnradio3">Giá thấp</label>
-
-                                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
-                                <label class="btn btn-outline-primary" for="btnradio4">Xem nhiều</label>
+                            <div class="d-flex align-items-center justify-content-between">
+                              <div>
+                                <span>Sắp xếp theo : </span>
+                                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                  <label class="btn btn-outline-primary" for="btnradio1">Bán chạy nhất</label>
+                                
+                                  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                  <label class="btn btn-outline-primary" for="btnradio2">Giá cao</label>
+                                
+                                  <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                                  <label class="btn btn-outline-primary" for="btnradio3">Giá thấp</label>
+  
+                                  <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                                  <label class="btn btn-outline-primary" for="btnradio4">Xem nhiều</label>
+                                </div>
                               </div>
+                              
+                              <button class="filter-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fas fa-bars"></i></button>
                             </div>
                           </div>
                             
@@ -521,228 +767,12 @@
                         <div class="product-box">
                             <div class="d-flex flex-wrap " >
                                 <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                                    <div class="card-product">
-                                      
-                                        <div class="card" >
-                                          <a href="" class="card-img-link">
-                                            <img
-                                            src="img/samsung-1.png"
-                                            class="card-img-pk"
-                                            alt="phukien"
-                                          />
-                                          
-                                          </a>
-                                          
-                                          
-                                          <div class="card-body">
-                                            <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
-                                            
-                                          </div>
-                                          <ul
-                                            class="list-group list-group-flush"
-                                            style="border-top: initial; border-bottom: initial"
-                                          >
-                                            <li class="list-group-item special-price">24.000.000 ₫</li>
-                                            <li class="list-group-item old-price">25.000.000 ₫</li>
-                                            <li class="list-group-item text-icon">
-                                                <div class="d-flex flex-wrap">
-                                                    <div class="col-6 icon-1">
-                                                      <div class="d-flex">
-                                                        <div class="col-2">
-                                                          <i class="bi bi-cpu-fill"></i>
-                                                        </div>
-                                                        <div class="col-9 icons">
-                                                          <p>Snapdragon 888</p>
-                                                          <p class="icon-name cpu">CPU</p>
-                                                        </div>
-                                                      </div>
-                                                      
-                                                      
-                                                    </div>
-                                                    <div class="col-6  icon-2">
-                                                      <div class="d-flex">
-                                                        <div class="col-2">
-                                                          <i class="bi bi-phone"></i>
-                                                        </div>
-                                                        <div class="col-9 icons">
-                                                          <p>6,5’’</p>
-                                                          <p class="icon-name mn">Màn hình</p>
-                                                        </div>
-                                                      </div>
-                                                      
-                                                      
-                                                    </div>
-                                                    <div class="col-6  icon-3">
-                                                      <div class="d-flex">
-                                                        <div class="col-2">
-                                                          <i class="fas fa-microchip"></i>
-                                                        </div>
-                                                        <div class="col-9 icons">
-                                                          <p>4GB</p>
-                                                          <p class="icon-name ram">Ram</p>
-                                                        </div>
-                                                      </div>
-                                                      
-                                                      
-                                                    </div>
-                                                    <div class="col-6  icon-4">
-                                                      <div class="d-flex">
-                                                        <div class="col-2">
-                                                          <i class="fas fa-hdd"></i>
-                                                        </div>
-                                                        <div class="col-9 icons">
-                                                          <p>120GB</p>
-                                                          <p class="icon-name bn">Bộ nhớ trong</p>
-                                                        </div>
-                                                      </div>
-                                                      
-                                                      
-                                                    </div>
-                                                    
-                                                </div>
-                                            </li>
-                                            
-                                            <li class="list-group-item text-km ">
-                                                <p>
-                                                    Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
-                                            </p>
-                                        </li>
-                                            
-                                          </ul>
-                                        </div>
-                                        <div class="card-body button-cart" style="padding: initial">
-                                          <div class="d-flex text-center">
-                                            <div class="col-6">
-                                              <div class="button-product-cart">
-                                                <a href="#" class="btn">Thêm vào giỏ</a>
-                                              </div>
-                                            </div>
-                                            <div class="col-6">
-                                              <div class="button-product-buy">
-                                                <a href="#" class="btn" style="color: white"
-                                                  >Mua ngay</a
-                                                >
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
                                   <div class="card-product">
-                                    
-                                      <div class="card" >
-                                        <a href="" class="card-img-link">
-                                          <img
-                                          src="img/samsung-1.png"
-                                          class="card-img-pk"
-                                          alt="phukien"
-                                        />
-                                        
-                                        </a>
-                                        
-                                        
-                                        <div class="card-body">
-                                          <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
-                                          
-                                        </div>
-                                        <ul
-                                          class="list-group list-group-flush"
-                                          style="border-top: initial; border-bottom: initial"
-                                        >
-                                          <li class="list-group-item special-price">24.000.000 ₫</li>
-                                          <li class="list-group-item old-price">25.000.000 ₫</li>
-                                          <li class="list-group-item text-icon">
-                                              <div class="d-flex flex-wrap">
-                                                  <div class="col-6 icon-1">
-                                                    <div class="d-flex">
-                                                      <div class="col-2">
-                                                        <i class="bi bi-cpu-fill"></i>
-                                                      </div>
-                                                      <div class="col-9 icons">
-                                                        <p>Snapdragon 888</p>
-                                                        <p class="icon-name cpu">CPU</p>
-                                                      </div>
-                                                    </div>
-                                                    
-                                                    
-                                                  </div>
-                                                  <div class="col-6  icon-2">
-                                                    <div class="d-flex">
-                                                      <div class="col-2">
-                                                        <i class="bi bi-phone"></i>
-                                                      </div>
-                                                      <div class="col-9 icons">
-                                                        <p>6,5’’</p>
-                                                        <p class="icon-name mn">Màn hình</p>
-                                                      </div>
-                                                    </div>
-                                                    
-                                                    
-                                                  </div>
-                                                  <div class="col-6  icon-3">
-                                                    <div class="d-flex">
-                                                      <div class="col-2">
-                                                        <i class="fas fa-microchip"></i>
-                                                      </div>
-                                                      <div class="col-9 icons">
-                                                        <p>4GB</p>
-                                                        <p class="icon-name ram">Ram</p>
-                                                      </div>
-                                                    </div>
-                                                    
-                                                    
-                                                  </div>
-                                                  <div class="col-6  icon-4">
-                                                    <div class="d-flex">
-                                                      <div class="col-2">
-                                                        <i class="fas fa-hdd"></i>
-                                                      </div>
-                                                      <div class="col-9 icons">
-                                                        <p>120GB</p>
-                                                        <p class="icon-name bn">Bộ nhớ trong</p>
-                                                      </div>
-                                                    </div>
-                                                    
-                                                    
-                                                  </div>
-                                                  
-                                              </div>
-                                          </li>
-                                          
-                                          <li class="list-group-item text-km ">
-                                              <p>
-                                                  Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
-                                          </p>
-                                      </li>
-                                          
-                                        </ul>
-                                      </div>
-                                      <div class="card-body button-cart" style="padding: initial">
-                                        <div class="d-flex text-center">
-                                          <div class="col-6">
-                                            <div class="button-product-cart">
-                                              <a href="#" class="btn">Thêm vào giỏ</a>
-                                            </div>
-                                          </div>
-                                          <div class="col-6">
-                                            <div class="button-product-buy">
-                                              <a href="#" class="btn" style="color: white"
-                                                >Mua ngay</a
-                                              >
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                              </div>
-                              <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                                <div class="card-product">
-                                  
-                                    <div class="card" >
-                                      <a href="" class="card-img-link">
+                
+                                    <div class="card" style="margin-bottom: initial">
+                                      <a href="product-details.html" class="card-img-link">
                                         <img
-                                        src="img/samsung-1.png"
+                                        src="img/tivi1.jpg"
                                         class="card-img-pk"
                                         alt="phukien"
                                       />
@@ -751,25 +781,25 @@
                                       
                                       
                                       <div class="card-body">
-                                        <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                                        <a href=""><h5 class="card-title">Samsung 55Q60A</h5></a>
                                         
                                       </div>
                                       <ul
                                         class="list-group list-group-flush"
                                         style="border-top: initial; border-bottom: initial"
                                       >
-                                        <li class="list-group-item special-price">24.000.000 ₫</li>
-                                        <li class="list-group-item old-price">25.000.000 ₫</li>
+                                        <li class="list-group-item special-price">21.400.000 ₫</li>
+                                        <li class="list-group-item old-price">31.900.000 ₫</li>
                                         <li class="list-group-item text-icon">
                                             <div class="d-flex flex-wrap">
                                                 <div class="col-6 icon-1">
                                                   <div class="d-flex">
                                                     <div class="col-2">
-                                                      <i class="bi bi-cpu-fill"></i>
+                                                      <i class="bi bi-badge-hd-fill"></i>
                                                     </div>
                                                     <div class="col-9 icons">
-                                                      <p>Snapdragon 888</p>
-                                                      <p class="icon-name cpu">CPU</p>
+                                                      <p>4K Ultra HD</p>
+                                                      <p class="icon-name cpu">Độ phân giải</p>
                                                     </div>
                                                   </div>
                                                   
@@ -778,55 +808,27 @@
                                                 <div class="col-6  icon-2">
                                                   <div class="d-flex">
                                                     <div class="col-2">
-                                                      <i class="bi bi-phone"></i>
+                                                      <i class="bi bi-tv"></i>
                                                     </div>
                                                     <div class="col-9 icons">
-                                                      <p>6,5’’</p>
+                                                      <p>55’’</p>
                                                       <p class="icon-name mn">Màn hình</p>
                                                     </div>
                                                   </div>
                                                   
                                                   
                                                 </div>
-                                                <div class="col-6  icon-3">
-                                                  <div class="d-flex">
-                                                    <div class="col-2">
-                                                      <i class="fas fa-microchip"></i>
-                                                    </div>
-                                                    <div class="col-9 icons">
-                                                      <p>4GB</p>
-                                                      <p class="icon-name ram">Ram</p>
-                                                    </div>
-                                                  </div>
-                                                  
-                                                  
-                                                </div>
-                                                <div class="col-6  icon-4">
-                                                  <div class="d-flex">
-                                                    <div class="col-2">
-                                                      <i class="fas fa-hdd"></i>
-                                                    </div>
-                                                    <div class="col-9 icons">
-                                                      <p>120GB</p>
-                                                      <p class="icon-name bn">Bộ nhớ trong</p>
-                                                    </div>
-                                                  </div>
-                                                  
-                                                  
-                                                </div>
+                                                
                                                 
                                             </div>
                                         </li>
                                         
-                                        <li class="list-group-item text-km ">
+                                        <li class="list-group-item text-km mb-5 ">
                                             <p>
-                                                Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                                Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                                         </p>
                                     </li>
-                                        
-                                      </ul>
-                                    </div>
-                                    <div class="card-body button-cart" style="padding: initial">
+                                    <div class="card-body card-button-tv" style="padding: initial">
                                       <div class="d-flex text-center">
                                         <div class="col-6">
                                           <div class="button-product-cart">
@@ -842,15 +844,101 @@
                                         </div>
                                       </div>
                                     </div>
+                                      </ul>
+                                    </div>
+                                    
                                   </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                              <div class="card-product">
-                                
-                                  <div class="card" >
-                                    <a href="" class="card-img-link">
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                                  <div class="card-product">
+              
+                                    <div class="card" style="margin-bottom: initial">
+                                      <a href="product-details.html" class="card-img-link">
+                                        <img
+                                        src="img/tivi2.jpg"
+                                        class="card-img-pk"
+                                        alt="phukien"
+                                      />
+                                      
+                                      </a>
+                                      
+                                      
+                                      <div class="card-body">
+                                        <a href=""><h5 class="card-title">Sony KD-55X80J</h5></a>
+                                        
+                                      </div>
+                                      <ul
+                                        class="list-group list-group-flush"
+                                        style="border-top: initial; border-bottom: initial"
+                                      >
+                                        <li class="list-group-item special-price">19.890.000 ₫</li>
+                                        <li class="list-group-item old-price">24.300.000 ₫</li>
+                                        <li class="list-group-item text-icon">
+                                            <div class="d-flex flex-wrap">
+                                                <div class="col-6 icon-1">
+                                                  <div class="d-flex">
+                                                    <div class="col-2">
+                                                      <i class="bi bi-badge-hd-fill"></i>
+                                                    </div>
+                                                    <div class="col-9 icons">
+                                                      <p>4K Ultra HD</p>
+                                                      <p class="icon-name cpu">Độ phân giải</p>
+                                                    </div>
+                                                  </div>
+                                                  
+                                                  
+                                                </div>
+                                                <div class="col-6  icon-2">
+                                                  <div class="d-flex">
+                                                    <div class="col-2">
+                                                      <i class="bi bi-tv"></i>
+                                                    </div>
+                                                    <div class="col-9 icons">
+                                                      <p>55’’</p>
+                                                      <p class="icon-name mn">Màn hình</p>
+                                                    </div>
+                                                  </div>
+                                                  
+                                                  
+                                                </div>
+                                                
+                                                
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="list-group-item text-km mb-5 ">
+                                            <p>
+                                                Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
+                                        </p>
+                                    </li>
+                                    <div class="card-body card-button-tv" style="padding: initial">
+                                      <div class="d-flex text-center">
+                                        <div class="col-6">
+                                          <div class="button-product-cart">
+                                            <a href="#" class="btn">Thêm vào giỏ</a>
+                                          </div>
+                                        </div>
+                                        <div class="col-6">
+                                          <div class="button-product-buy">
+                                            <a href="#" class="btn" style="color: white"
+                                              >Mua ngay</a
+                                            >
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                      </ul>
+                                    </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                                <div class="card-product">
+            
+                                  <div class="card" style="margin-bottom: initial">
+                                    <a href="product-details.html" class="card-img-link">
                                       <img
-                                      src="img/samsung-1.png"
+                                      src="img/tivi3.jpg"
                                       class="card-img-pk"
                                       alt="phukien"
                                     />
@@ -859,25 +947,25 @@
                                     
                                     
                                     <div class="card-body">
-                                      <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                                      <a href=""><h5 class="card-title"> Sony 65A80J</h5></a>
                                       
                                     </div>
                                     <ul
                                       class="list-group list-group-flush"
                                       style="border-top: initial; border-bottom: initial"
                                     >
-                                      <li class="list-group-item special-price">24.000.000 ₫</li>
-                                      <li class="list-group-item old-price">25.000.000 ₫</li>
+                                      <li class="list-group-item special-price">52.890.000 ₫</li>
+                                      <li class="list-group-item old-price">69.200.000 ₫</li>
                                       <li class="list-group-item text-icon">
                                           <div class="d-flex flex-wrap">
                                               <div class="col-6 icon-1">
                                                 <div class="d-flex">
                                                   <div class="col-2">
-                                                    <i class="bi bi-cpu-fill"></i>
+                                                    <i class="bi bi-badge-hd-fill"></i>
                                                   </div>
                                                   <div class="col-9 icons">
-                                                    <p>Snapdragon 888</p>
-                                                    <p class="icon-name cpu">CPU</p>
+                                                    <p>4K Ultra HD</p>
+                                                    <p class="icon-name cpu">Độ phân giải</p>
                                                   </div>
                                                 </div>
                                                 
@@ -886,55 +974,27 @@
                                               <div class="col-6  icon-2">
                                                 <div class="d-flex">
                                                   <div class="col-2">
-                                                    <i class="bi bi-phone"></i>
+                                                    <i class="bi bi-tv"></i>
                                                   </div>
                                                   <div class="col-9 icons">
-                                                    <p>6,5’’</p>
+                                                    <p>65’’</p>
                                                     <p class="icon-name mn">Màn hình</p>
                                                   </div>
                                                 </div>
                                                 
                                                 
                                               </div>
-                                              <div class="col-6  icon-3">
-                                                <div class="d-flex">
-                                                  <div class="col-2">
-                                                    <i class="fas fa-microchip"></i>
-                                                  </div>
-                                                  <div class="col-9 icons">
-                                                    <p>4GB</p>
-                                                    <p class="icon-name ram">Ram</p>
-                                                  </div>
-                                                </div>
-                                                
-                                                
-                                              </div>
-                                              <div class="col-6  icon-4">
-                                                <div class="d-flex">
-                                                  <div class="col-2">
-                                                    <i class="fas fa-hdd"></i>
-                                                  </div>
-                                                  <div class="col-9 icons">
-                                                    <p>120GB</p>
-                                                    <p class="icon-name bn">Bộ nhớ trong</p>
-                                                  </div>
-                                                </div>
-                                                
-                                                
-                                              </div>
+                                              
                                               
                                           </div>
                                       </li>
                                       
-                                      <li class="list-group-item text-km ">
+                                      <li class="list-group-item text-km mb-5 ">
                                           <p>
-                                              Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                              Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                                       </p>
                                   </li>
-                                      
-                                    </ul>
-                                  </div>
-                                  <div class="card-body button-cart" style="padding: initial">
+                                  <div class="card-body card-button-tv" style="padding: initial">
                                     <div class="d-flex text-center">
                                       <div class="col-6">
                                         <div class="button-product-cart">
@@ -950,15 +1010,18 @@
                                       </div>
                                     </div>
                                   </div>
+                                    </ul>
+                                  </div>
+                                  
                                 </div>
-                          </div>
-                          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                            <div class="card-product">
-                              
-                                <div class="card" >
-                                  <a href="" class="card-img-link">
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                              <div class="card-product">
+          
+                                <div class="card" style="margin-bottom: initial">
+                                  <a href="product-details.html" class="card-img-link">
                                     <img
-                                    src="img/samsung-1.png"
+                                    src="img/tivi4.jpg"
                                     class="card-img-pk"
                                     alt="phukien"
                                   />
@@ -967,25 +1030,25 @@
                                   
                                   
                                   <div class="card-body">
-                                    <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                                    <a href=""><h5 class="card-title">LG 43UP7720PTC</h5></a>
                                     
                                   </div>
                                   <ul
                                     class="list-group list-group-flush"
                                     style="border-top: initial; border-bottom: initial"
                                   >
-                                    <li class="list-group-item special-price">24.000.000 ₫</li>
-                                    <li class="list-group-item old-price">25.000.000 ₫</li>
+                                    <li class="list-group-item special-price">12.900.000 ₫</li>
+                                    <li class="list-group-item old-price">13.900.000 ₫</li>
                                     <li class="list-group-item text-icon">
                                         <div class="d-flex flex-wrap">
                                             <div class="col-6 icon-1">
                                               <div class="d-flex">
                                                 <div class="col-2">
-                                                  <i class="bi bi-cpu-fill"></i>
+                                                  <i class="bi bi-badge-hd-fill"></i>
                                                 </div>
                                                 <div class="col-9 icons">
-                                                  <p>Snapdragon 888</p>
-                                                  <p class="icon-name cpu">CPU</p>
+                                                  <p>4K Ultra HD</p>
+                                                  <p class="icon-name cpu">Độ phân giải</p>
                                                 </div>
                                               </div>
                                               
@@ -994,55 +1057,27 @@
                                             <div class="col-6  icon-2">
                                               <div class="d-flex">
                                                 <div class="col-2">
-                                                  <i class="bi bi-phone"></i>
+                                                  <i class="bi bi-tv"></i>
                                                 </div>
                                                 <div class="col-9 icons">
-                                                  <p>6,5’’</p>
+                                                  <p>43’’</p>
                                                   <p class="icon-name mn">Màn hình</p>
                                                 </div>
                                               </div>
                                               
                                               
                                             </div>
-                                            <div class="col-6  icon-3">
-                                              <div class="d-flex">
-                                                <div class="col-2">
-                                                  <i class="fas fa-microchip"></i>
-                                                </div>
-                                                <div class="col-9 icons">
-                                                  <p>4GB</p>
-                                                  <p class="icon-name ram">Ram</p>
-                                                </div>
-                                              </div>
-                                              
-                                              
-                                            </div>
-                                            <div class="col-6  icon-4">
-                                              <div class="d-flex">
-                                                <div class="col-2">
-                                                  <i class="fas fa-hdd"></i>
-                                                </div>
-                                                <div class="col-9 icons">
-                                                  <p>120GB</p>
-                                                  <p class="icon-name bn">Bộ nhớ trong</p>
-                                                </div>
-                                              </div>
-                                              
-                                              
-                                            </div>
+                                            
                                             
                                         </div>
                                     </li>
                                     
-                                    <li class="list-group-item text-km ">
+                                    <li class="list-group-item text-km mb-5 ">
                                         <p>
-                                            Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                            Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                                     </p>
                                 </li>
-                                    
-                                  </ul>
-                                </div>
-                                <div class="card-body button-cart" style="padding: initial">
+                                <div class="card-body card-button-tv" style="padding: initial">
                                   <div class="d-flex text-center">
                                     <div class="col-6">
                                       <div class="button-product-cart">
@@ -1058,15 +1093,18 @@
                                     </div>
                                   </div>
                                 </div>
+                                  </ul>
+                                </div>
+                                
                               </div>
-                        </div>                 
-                        <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                          <div class="card-product">
-                            
-                              <div class="card" >
-                                <a href="" class="card-img-link">
+                          </div>
+                          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                            <div class="card-product">
+        
+                              <div class="card" style="margin-bottom: initial">
+                                <a href="product-details.html" class="card-img-link">
                                   <img
-                                  src="img/samsung-1.png"
+                                  src="img/tivi5.jpg"
                                   class="card-img-pk"
                                   alt="phukien"
                                 />
@@ -1075,25 +1113,25 @@
                                 
                                 
                                 <div class="card-body">
-                                  <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                                  <a href=""><h5 class="card-title">LG 48C1PTB</h5></a>
                                   
                                 </div>
                                 <ul
                                   class="list-group list-group-flush"
                                   style="border-top: initial; border-bottom: initial"
                                 >
-                                  <li class="list-group-item special-price">24.000.000 ₫</li>
-                                  <li class="list-group-item old-price">25.000.000 ₫</li>
+                                  <li class="list-group-item special-price">31.900.000 ₫</li>
+                                  <li class="list-group-item old-price">39.900.000 ₫</li>
                                   <li class="list-group-item text-icon">
                                       <div class="d-flex flex-wrap">
                                           <div class="col-6 icon-1">
                                             <div class="d-flex">
                                               <div class="col-2">
-                                                <i class="bi bi-cpu-fill"></i>
+                                                <i class="bi bi-badge-hd-fill"></i>
                                               </div>
                                               <div class="col-9 icons">
-                                                <p>Snapdragon 888</p>
-                                                <p class="icon-name cpu">CPU</p>
+                                                <p>4K Ultra HD</p>
+                                                <p class="icon-name cpu">Độ phân giải</p>
                                               </div>
                                             </div>
                                             
@@ -1102,55 +1140,27 @@
                                           <div class="col-6  icon-2">
                                             <div class="d-flex">
                                               <div class="col-2">
-                                                <i class="bi bi-phone"></i>
+                                                <i class="bi bi-tv"></i>
                                               </div>
                                               <div class="col-9 icons">
-                                                <p>6,5’’</p>
+                                                <p>48’’</p>
                                                 <p class="icon-name mn">Màn hình</p>
                                               </div>
                                             </div>
                                             
                                             
                                           </div>
-                                          <div class="col-6  icon-3">
-                                            <div class="d-flex">
-                                              <div class="col-2">
-                                                <i class="fas fa-microchip"></i>
-                                              </div>
-                                              <div class="col-9 icons">
-                                                <p>4GB</p>
-                                                <p class="icon-name ram">Ram</p>
-                                              </div>
-                                            </div>
-                                            
-                                            
-                                          </div>
-                                          <div class="col-6  icon-4">
-                                            <div class="d-flex">
-                                              <div class="col-2">
-                                                <i class="fas fa-hdd"></i>
-                                              </div>
-                                              <div class="col-9 icons">
-                                                <p>120GB</p>
-                                                <p class="icon-name bn">Bộ nhớ trong</p>
-                                              </div>
-                                            </div>
-                                            
-                                            
-                                          </div>
+                                          
                                           
                                       </div>
                                   </li>
                                   
-                                  <li class="list-group-item text-km ">
+                                  <li class="list-group-item text-km mb-5 ">
                                       <p>
-                                          Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                          Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                                   </p>
                               </li>
-                                  
-                                </ul>
-                              </div>
-                              <div class="card-body button-cart" style="padding: initial">
+                              <div class="card-body card-button-tv" style="padding: initial">
                                 <div class="d-flex text-center">
                                   <div class="col-6">
                                     <div class="button-product-cart">
@@ -1166,15 +1176,18 @@
                                   </div>
                                 </div>
                               </div>
+                                </ul>
+                              </div>
+                              
                             </div>
-                      </div>
-                      <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                        <div class="card-product">
-                          
-                            <div class="card" >
-                              <a href="" class="card-img-link">
+                        </div>                 
+                        <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                          <div class="card-product">
+      
+                            <div class="card" style="margin-bottom: initial">
+                              <a href="product-details.html" class="card-img-link">
                                 <img
-                                src="img/samsung-1.png"
+                                src="img/tivi6.jpg"
                                 class="card-img-pk"
                                 alt="phukien"
                               />
@@ -1183,25 +1196,25 @@
                               
                               
                               <div class="card-body">
-                                <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                                <a href=""><h5 class="card-title">Samsung 55QN85A</h5></a>
                                 
                               </div>
                               <ul
                                 class="list-group list-group-flush"
                                 style="border-top: initial; border-bottom: initial"
                               >
-                                <li class="list-group-item special-price">24.000.000 ₫</li>
-                                <li class="list-group-item old-price">25.000.000 ₫</li>
+                                <li class="list-group-item special-price">34.400.000 ₫</li>
+                                <li class="list-group-item old-price">47.900.000 ₫</li>
                                 <li class="list-group-item text-icon">
                                     <div class="d-flex flex-wrap">
                                         <div class="col-6 icon-1">
                                           <div class="d-flex">
                                             <div class="col-2">
-                                              <i class="bi bi-cpu-fill"></i>
+                                              <i class="bi bi-badge-hd-fill"></i>
                                             </div>
                                             <div class="col-9 icons">
-                                              <p>Snapdragon 888</p>
-                                              <p class="icon-name cpu">CPU</p>
+                                              <p>4K Ultra HD</p>
+                                              <p class="icon-name cpu">Độ phân giải</p>
                                             </div>
                                           </div>
                                           
@@ -1210,55 +1223,27 @@
                                         <div class="col-6  icon-2">
                                           <div class="d-flex">
                                             <div class="col-2">
-                                              <i class="bi bi-phone"></i>
+                                              <i class="bi bi-tv"></i>
                                             </div>
                                             <div class="col-9 icons">
-                                              <p>6,5’’</p>
+                                              <p>55’’</p>
                                               <p class="icon-name mn">Màn hình</p>
                                             </div>
                                           </div>
                                           
                                           
                                         </div>
-                                        <div class="col-6  icon-3">
-                                          <div class="d-flex">
-                                            <div class="col-2">
-                                              <i class="fas fa-microchip"></i>
-                                            </div>
-                                            <div class="col-9 icons">
-                                              <p>4GB</p>
-                                              <p class="icon-name ram">Ram</p>
-                                            </div>
-                                          </div>
-                                          
-                                          
-                                        </div>
-                                        <div class="col-6  icon-4">
-                                          <div class="d-flex">
-                                            <div class="col-2">
-                                              <i class="fas fa-hdd"></i>
-                                            </div>
-                                            <div class="col-9 icons">
-                                              <p>120GB</p>
-                                              <p class="icon-name bn">Bộ nhớ trong</p>
-                                            </div>
-                                          </div>
-                                          
-                                          
-                                        </div>
+                                        
                                         
                                     </div>
                                 </li>
                                 
-                                <li class="list-group-item text-km ">
+                                <li class="list-group-item text-km mb-5 ">
                                     <p>
-                                        Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                        Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                                 </p>
                             </li>
-                                
-                              </ul>
-                            </div>
-                            <div class="card-body button-cart" style="padding: initial">
+                            <div class="card-body card-button-tv" style="padding: initial">
                               <div class="d-flex text-center">
                                 <div class="col-6">
                                   <div class="button-product-cart">
@@ -1274,15 +1259,18 @@
                                 </div>
                               </div>
                             </div>
+                              </ul>
+                            </div>
+                            
                           </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                      <div class="card-product">
-                        
-                          <div class="card" >
-                            <a href="" class="card-img-link">
+                      </div>
+                      <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                        <div class="card-product">
+    
+                          <div class="card" style="margin-bottom: initial">
+                            <a href="product-details.html" class="card-img-link">
                               <img
-                              src="img/samsung-1.png"
+                              src="img/tivi7.jpg"
                               class="card-img-pk"
                               alt="phukien"
                             />
@@ -1291,25 +1279,25 @@
                             
                             
                             <div class="card-body">
-                              <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                              <a href=""><h5 class="card-title"> TOSHIBA 32L5650</h5></a>
                               
                             </div>
                             <ul
                               class="list-group list-group-flush"
                               style="border-top: initial; border-bottom: initial"
                             >
-                              <li class="list-group-item special-price">24.000.000 ₫</li>
-                              <li class="list-group-item old-price">25.000.000 ₫</li>
+                              <li class="list-group-item special-price">5.700.000 ₫</li>
+                              <li class="list-group-item old-price">6.900.000 ₫</li>
                               <li class="list-group-item text-icon">
                                   <div class="d-flex flex-wrap">
                                       <div class="col-6 icon-1">
                                         <div class="d-flex">
                                           <div class="col-2">
-                                            <i class="bi bi-cpu-fill"></i>
+                                            <i class="bi bi-badge-hd-fill"></i>
                                           </div>
                                           <div class="col-9 icons">
-                                            <p>Snapdragon 888</p>
-                                            <p class="icon-name cpu">CPU</p>
+                                            <p>HD</p>
+                                            <p class="icon-name cpu">Độ phân giải</p>
                                           </div>
                                         </div>
                                         
@@ -1318,55 +1306,27 @@
                                       <div class="col-6  icon-2">
                                         <div class="d-flex">
                                           <div class="col-2">
-                                            <i class="bi bi-phone"></i>
+                                            <i class="bi bi-tv"></i>
                                           </div>
                                           <div class="col-9 icons">
-                                            <p>6,5’’</p>
+                                            <p>32’’</p>
                                             <p class="icon-name mn">Màn hình</p>
                                           </div>
                                         </div>
                                         
                                         
                                       </div>
-                                      <div class="col-6  icon-3">
-                                        <div class="d-flex">
-                                          <div class="col-2">
-                                            <i class="fas fa-microchip"></i>
-                                          </div>
-                                          <div class="col-9 icons">
-                                            <p>4GB</p>
-                                            <p class="icon-name ram">Ram</p>
-                                          </div>
-                                        </div>
-                                        
-                                        
-                                      </div>
-                                      <div class="col-6  icon-4">
-                                        <div class="d-flex">
-                                          <div class="col-2">
-                                            <i class="fas fa-hdd"></i>
-                                          </div>
-                                          <div class="col-9 icons">
-                                            <p>120GB</p>
-                                            <p class="icon-name bn">Bộ nhớ trong</p>
-                                          </div>
-                                        </div>
-                                        
-                                        
-                                      </div>
+                                      
                                       
                                   </div>
                               </li>
                               
-                              <li class="list-group-item text-km ">
+                              <li class="list-group-item text-km mb-5 ">
                                   <p>
-                                      Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                      Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                               </p>
                           </li>
-                              
-                            </ul>
-                          </div>
-                          <div class="card-body button-cart" style="padding: initial">
+                          <div class="card-body card-button-tv" style="padding: initial">
                             <div class="d-flex text-center">
                               <div class="col-6">
                                 <div class="button-product-cart">
@@ -1382,15 +1342,18 @@
                               </div>
                             </div>
                           </div>
+                            </ul>
+                          </div>
+                          
                         </div>
-                  </div>
-                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                    <div class="card-product">
-                      
-                        <div class="card" >
-                          <a href="" class="card-img-link">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                      <div class="card-product">
+    
+                        <div class="card" style="margin-bottom: initial">
+                          <a href="product-details.html" class="card-img-link">
                             <img
-                            src="img/samsung-1.png"
+                            src="img/tivi8.jpg"
                             class="card-img-pk"
                             alt="phukien"
                           />
@@ -1399,25 +1362,25 @@
                           
                           
                           <div class="card-body">
-                            <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                            <a href=""><h5 class="card-title"> TOSHIBA 40L5550</h5></a>
                             
                           </div>
                           <ul
                             class="list-group list-group-flush"
                             style="border-top: initial; border-bottom: initial"
                           >
-                            <li class="list-group-item special-price">24.000.000 ₫</li>
-                            <li class="list-group-item old-price">25.000.000 ₫</li>
+                            <li class="list-group-item special-price">10.400.000 ₫</li>
+                            <li class="list-group-item old-price">11.900.000 ₫</li>
                             <li class="list-group-item text-icon">
                                 <div class="d-flex flex-wrap">
                                     <div class="col-6 icon-1">
                                       <div class="d-flex">
                                         <div class="col-2">
-                                          <i class="bi bi-cpu-fill"></i>
+                                          <i class="bi bi-badge-hd-fill"></i>
                                         </div>
                                         <div class="col-9 icons">
-                                          <p>Snapdragon 888</p>
-                                          <p class="icon-name cpu">CPU</p>
+                                          <p>4K Ultra HD</p>
+                                          <p class="icon-name cpu">Độ phân giải</p>
                                         </div>
                                       </div>
                                       
@@ -1426,55 +1389,27 @@
                                     <div class="col-6  icon-2">
                                       <div class="d-flex">
                                         <div class="col-2">
-                                          <i class="bi bi-phone"></i>
+                                          <i class="bi bi-tv"></i>
                                         </div>
                                         <div class="col-9 icons">
-                                          <p>6,5’’</p>
+                                          <p>55’’</p>
                                           <p class="icon-name mn">Màn hình</p>
                                         </div>
                                       </div>
                                       
                                       
                                     </div>
-                                    <div class="col-6  icon-3">
-                                      <div class="d-flex">
-                                        <div class="col-2">
-                                          <i class="fas fa-microchip"></i>
-                                        </div>
-                                        <div class="col-9 icons">
-                                          <p>4GB</p>
-                                          <p class="icon-name ram">Ram</p>
-                                        </div>
-                                      </div>
-                                      
-                                      
-                                    </div>
-                                    <div class="col-6  icon-4">
-                                      <div class="d-flex">
-                                        <div class="col-2">
-                                          <i class="fas fa-hdd"></i>
-                                        </div>
-                                        <div class="col-9 icons">
-                                          <p>120GB</p>
-                                          <p class="icon-name bn">Bộ nhớ trong</p>
-                                        </div>
-                                      </div>
-                                      
-                                      
-                                    </div>
+                                    
                                     
                                 </div>
                             </li>
                             
-                            <li class="list-group-item text-km ">
+                            <li class="list-group-item text-km mb-5 ">
                                 <p>
-                                    Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                    Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                             </p>
                         </li>
-                            
-                          </ul>
-                        </div>
-                        <div class="card-body button-cart" style="padding: initial">
+                        <div class="card-body card-button-tv" style="padding: initial">
                           <div class="d-flex text-center">
                             <div class="col-6">
                               <div class="button-product-cart">
@@ -1490,15 +1425,18 @@
                             </div>
                           </div>
                         </div>
+                          </ul>
+                        </div>
+                        
                       </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                  <div class="card-product">
-                    
-                      <div class="card" >
-                        <a href="" class="card-img-link">
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                    <div class="card-product">
+  
+                      <div class="card" style="margin-bottom: initial">
+                        <a href="product-details.html" class="card-img-link">
                           <img
-                          src="img/samsung-1.png"
+                          src="img/tivi1.jpg"
                           class="card-img-pk"
                           alt="phukien"
                         />
@@ -1507,25 +1445,25 @@
                         
                         
                         <div class="card-body">
-                          <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                          <a href=""><h5 class="card-title">Samsung 55Q60A</h5></a>
                           
                         </div>
                         <ul
                           class="list-group list-group-flush"
                           style="border-top: initial; border-bottom: initial"
                         >
-                          <li class="list-group-item special-price">24.000.000 ₫</li>
-                          <li class="list-group-item old-price">25.000.000 ₫</li>
+                          <li class="list-group-item special-price">21.400.000 ₫</li>
+                          <li class="list-group-item old-price">31.900.000 ₫</li>
                           <li class="list-group-item text-icon">
                               <div class="d-flex flex-wrap">
                                   <div class="col-6 icon-1">
                                     <div class="d-flex">
                                       <div class="col-2">
-                                        <i class="bi bi-cpu-fill"></i>
+                                        <i class="bi bi-badge-hd-fill"></i>
                                       </div>
                                       <div class="col-9 icons">
-                                        <p>Snapdragon 888</p>
-                                        <p class="icon-name cpu">CPU</p>
+                                        <p>4K Ultra HD</p>
+                                        <p class="icon-name cpu">Độ phân giải</p>
                                       </div>
                                     </div>
                                     
@@ -1534,55 +1472,27 @@
                                   <div class="col-6  icon-2">
                                     <div class="d-flex">
                                       <div class="col-2">
-                                        <i class="bi bi-phone"></i>
+                                        <i class="bi bi-tv"></i>
                                       </div>
                                       <div class="col-9 icons">
-                                        <p>6,5’’</p>
+                                        <p>55’’</p>
                                         <p class="icon-name mn">Màn hình</p>
                                       </div>
                                     </div>
                                     
                                     
                                   </div>
-                                  <div class="col-6  icon-3">
-                                    <div class="d-flex">
-                                      <div class="col-2">
-                                        <i class="fas fa-microchip"></i>
-                                      </div>
-                                      <div class="col-9 icons">
-                                        <p>4GB</p>
-                                        <p class="icon-name ram">Ram</p>
-                                      </div>
-                                    </div>
-                                    
-                                    
-                                  </div>
-                                  <div class="col-6  icon-4">
-                                    <div class="d-flex">
-                                      <div class="col-2">
-                                        <i class="fas fa-hdd"></i>
-                                      </div>
-                                      <div class="col-9 icons">
-                                        <p>120GB</p>
-                                        <p class="icon-name bn">Bộ nhớ trong</p>
-                                      </div>
-                                    </div>
-                                    
-                                    
-                                  </div>
+                                  
                                   
                               </div>
                           </li>
                           
-                          <li class="list-group-item text-km ">
+                          <li class="list-group-item text-km mb-5 ">
                               <p>
-                                  Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                  Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                           </p>
                       </li>
-                          
-                        </ul>
-                      </div>
-                      <div class="card-body button-cart" style="padding: initial">
+                      <div class="card-body card-button-tv" style="padding: initial">
                         <div class="d-flex text-center">
                           <div class="col-6">
                             <div class="button-product-cart">
@@ -1598,15 +1508,101 @@
                           </div>
                         </div>
                       </div>
+                        </ul>
+                      </div>
+                      
                     </div>
-              </div>
-              <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-                <div class="card-product">
-                  
-                    <div class="card" >
-                      <a href="" class="card-img-link">
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                    <div class="card-product">
+
+                      <div class="card" style="margin-bottom: initial">
+                        <a href="product-details.html" class="card-img-link">
+                          <img
+                          src="img/tivi2.jpg"
+                          class="card-img-pk"
+                          alt="phukien"
+                        />
+                        
+                        </a>
+                        
+                        
+                        <div class="card-body">
+                          <a href=""><h5 class="card-title">Sony KD-55X80J</h5></a>
+                          
+                        </div>
+                        <ul
+                          class="list-group list-group-flush"
+                          style="border-top: initial; border-bottom: initial"
+                        >
+                          <li class="list-group-item special-price">19.890.000 ₫</li>
+                          <li class="list-group-item old-price">24.300.000 ₫</li>
+                          <li class="list-group-item text-icon">
+                              <div class="d-flex flex-wrap">
+                                  <div class="col-6 icon-1">
+                                    <div class="d-flex">
+                                      <div class="col-2">
+                                        <i class="bi bi-badge-hd-fill"></i>
+                                      </div>
+                                      <div class="col-9 icons">
+                                        <p>4K Ultra HD</p>
+                                        <p class="icon-name cpu">Độ phân giải</p>
+                                      </div>
+                                    </div>
+                                    
+                                    
+                                  </div>
+                                  <div class="col-6  icon-2">
+                                    <div class="d-flex">
+                                      <div class="col-2">
+                                        <i class="bi bi-tv"></i>
+                                      </div>
+                                      <div class="col-9 icons">
+                                        <p>55’’</p>
+                                        <p class="icon-name mn">Màn hình</p>
+                                      </div>
+                                    </div>
+                                    
+                                    
+                                  </div>
+                                  
+                                  
+                              </div>
+                          </li>
+                          
+                          <li class="list-group-item text-km mb-5 ">
+                              <p>
+                                  Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
+                          </p>
+                      </li>
+                      <div class="card-body card-button-tv" style="padding: initial">
+                        <div class="d-flex text-center">
+                          <div class="col-6">
+                            <div class="button-product-cart">
+                              <a href="#" class="btn">Thêm vào giỏ</a>
+                            </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="button-product-buy">
+                              <a href="#" class="btn" style="color: white"
+                                >Mua ngay</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        </ul>
+                      </div>
+                      
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                  <div class="card-product">
+
+                    <div class="card" style="margin-bottom: initial">
+                      <a href="product-details.html" class="card-img-link">
                         <img
-                        src="img/samsung-1.png"
+                        src="img/tivi3.jpg"
                         class="card-img-pk"
                         alt="phukien"
                       />
@@ -1615,25 +1611,25 @@
                       
                       
                       <div class="card-body">
-                        <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                        <a href=""><h5 class="card-title"> Sony 65A80J</h5></a>
                         
                       </div>
                       <ul
                         class="list-group list-group-flush"
                         style="border-top: initial; border-bottom: initial"
                       >
-                        <li class="list-group-item special-price">24.000.000 ₫</li>
-                        <li class="list-group-item old-price">25.000.000 ₫</li>
+                        <li class="list-group-item special-price">52.890.000 ₫</li>
+                        <li class="list-group-item old-price">69.200.000 ₫</li>
                         <li class="list-group-item text-icon">
                             <div class="d-flex flex-wrap">
                                 <div class="col-6 icon-1">
                                   <div class="d-flex">
                                     <div class="col-2">
-                                      <i class="bi bi-cpu-fill"></i>
+                                      <i class="bi bi-badge-hd-fill"></i>
                                     </div>
                                     <div class="col-9 icons">
-                                      <p>Snapdragon 888</p>
-                                      <p class="icon-name cpu">CPU</p>
+                                      <p>4K Ultra HD</p>
+                                      <p class="icon-name cpu">Độ phân giải</p>
                                     </div>
                                   </div>
                                   
@@ -1642,55 +1638,27 @@
                                 <div class="col-6  icon-2">
                                   <div class="d-flex">
                                     <div class="col-2">
-                                      <i class="bi bi-phone"></i>
+                                      <i class="bi bi-tv"></i>
                                     </div>
                                     <div class="col-9 icons">
-                                      <p>6,5’’</p>
+                                      <p>65’’</p>
                                       <p class="icon-name mn">Màn hình</p>
                                     </div>
                                   </div>
                                   
                                   
                                 </div>
-                                <div class="col-6  icon-3">
-                                  <div class="d-flex">
-                                    <div class="col-2">
-                                      <i class="fas fa-microchip"></i>
-                                    </div>
-                                    <div class="col-9 icons">
-                                      <p>4GB</p>
-                                      <p class="icon-name ram">Ram</p>
-                                    </div>
-                                  </div>
-                                  
-                                  
-                                </div>
-                                <div class="col-6  icon-4">
-                                  <div class="d-flex">
-                                    <div class="col-2">
-                                      <i class="fas fa-hdd"></i>
-                                    </div>
-                                    <div class="col-9 icons">
-                                      <p>120GB</p>
-                                      <p class="icon-name bn">Bộ nhớ trong</p>
-                                    </div>
-                                  </div>
-                                  
-                                  
-                                </div>
+                                
                                 
                             </div>
                         </li>
                         
-                        <li class="list-group-item text-km ">
+                        <li class="list-group-item text-km mb-5 ">
                             <p>
-                                Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                                Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                         </p>
                     </li>
-                        
-                      </ul>
-                    </div>
-                    <div class="card-body button-cart" style="padding: initial">
+                    <div class="card-body card-button-tv" style="padding: initial">
                       <div class="d-flex text-center">
                         <div class="col-6">
                           <div class="button-product-cart">
@@ -1706,15 +1674,18 @@
                         </div>
                       </div>
                     </div>
+                      </ul>
+                    </div>
+                    
                   </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
-              <div class="card-product">
-                
-                  <div class="card" >
-                    <a href="" class="card-img-link">
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+                <div class="card-product">
+
+                  <div class="card" style="margin-bottom: initial">
+                    <a href="product-details.html" class="card-img-link">
                       <img
-                      src="img/samsung-1.png"
+                      src="img/tivi4.jpg"
                       class="card-img-pk"
                       alt="phukien"
                     />
@@ -1723,25 +1694,25 @@
                     
                     
                     <div class="card-body">
-                      <a href=""><h5 class="card-title">Samsung Galaxy Z Flip3</h5></a>
+                      <a href=""><h5 class="card-title">LG 43UP7720PTC</h5></a>
                       
                     </div>
                     <ul
                       class="list-group list-group-flush"
                       style="border-top: initial; border-bottom: initial"
                     >
-                      <li class="list-group-item special-price">24.000.000 ₫</li>
-                      <li class="list-group-item old-price">25.000.000 ₫</li>
+                      <li class="list-group-item special-price">12.900.000 ₫</li>
+                      <li class="list-group-item old-price">13.900.000 ₫</li>
                       <li class="list-group-item text-icon">
                           <div class="d-flex flex-wrap">
                               <div class="col-6 icon-1">
                                 <div class="d-flex">
                                   <div class="col-2">
-                                    <i class="bi bi-cpu-fill"></i>
+                                    <i class="bi bi-badge-hd-fill"></i>
                                   </div>
                                   <div class="col-9 icons">
-                                    <p>Snapdragon 888</p>
-                                    <p class="icon-name cpu">CPU</p>
+                                    <p>4K Ultra HD</p>
+                                    <p class="icon-name cpu">Độ phân giải</p>
                                   </div>
                                 </div>
                                 
@@ -1750,55 +1721,27 @@
                               <div class="col-6  icon-2">
                                 <div class="d-flex">
                                   <div class="col-2">
-                                    <i class="bi bi-phone"></i>
+                                    <i class="bi bi-tv"></i>
                                   </div>
                                   <div class="col-9 icons">
-                                    <p>6,5’’</p>
+                                    <p>43’’</p>
                                     <p class="icon-name mn">Màn hình</p>
                                   </div>
                                 </div>
                                 
                                 
                               </div>
-                              <div class="col-6  icon-3">
-                                <div class="d-flex">
-                                  <div class="col-2">
-                                    <i class="fas fa-microchip"></i>
-                                  </div>
-                                  <div class="col-9 icons">
-                                    <p>4GB</p>
-                                    <p class="icon-name ram">Ram</p>
-                                  </div>
-                                </div>
-                                
-                                
-                              </div>
-                              <div class="col-6  icon-4">
-                                <div class="d-flex">
-                                  <div class="col-2">
-                                    <i class="fas fa-hdd"></i>
-                                  </div>
-                                  <div class="col-9 icons">
-                                    <p>120GB</p>
-                                    <p class="icon-name bn">Bộ nhớ trong</p>
-                                  </div>
-                                </div>
-                                
-                                
-                              </div>
+                              
                               
                           </div>
                       </li>
                       
-                      <li class="list-group-item text-km ">
+                      <li class="list-group-item text-km mb-5 ">
                           <p>
-                              Thông tin khuyến mại: Tặng bạn voucher sản phẩm trị giá lên đến 800.000 VND 
+                              Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
                       </p>
                   </li>
-                      
-                    </ul>
-                  </div>
-                  <div class="card-body button-cart" style="padding: initial">
+                  <div class="card-body card-button-tv" style="padding: initial">
                     <div class="d-flex text-center">
                       <div class="col-6">
                         <div class="button-product-cart">
@@ -1814,20 +1757,271 @@
                       </div>
                     </div>
                   </div>
+                    </ul>
+                  </div>
+                  
                 </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+              <div class="card-product">
+
+                <div class="card" style="margin-bottom: initial">
+                  <a href="product-details.html" class="card-img-link">
+                    <img
+                    src="img/tivi5.jpg"
+                    class="card-img-pk"
+                    alt="phukien"
+                  />
+                  
+                  </a>
+                  
+                  
+                  <div class="card-body">
+                    <a href=""><h5 class="card-title">LG 48C1PTB</h5></a>
+                    
+                  </div>
+                  <ul
+                    class="list-group list-group-flush"
+                    style="border-top: initial; border-bottom: initial"
+                  >
+                    <li class="list-group-item special-price">31.900.000 ₫</li>
+                    <li class="list-group-item old-price">39.900.000 ₫</li>
+                    <li class="list-group-item text-icon">
+                        <div class="d-flex flex-wrap">
+                            <div class="col-6 icon-1">
+                              <div class="d-flex">
+                                <div class="col-2">
+                                  <i class="bi bi-badge-hd-fill"></i>
+                                </div>
+                                <div class="col-9 icons">
+                                  <p>4K Ultra HD</p>
+                                  <p class="icon-name cpu">Độ phân giải</p>
+                                </div>
+                              </div>
+                              
+                              
+                            </div>
+                            <div class="col-6  icon-2">
+                              <div class="d-flex">
+                                <div class="col-2">
+                                  <i class="bi bi-tv"></i>
+                                </div>
+                                <div class="col-9 icons">
+                                  <p>48’’</p>
+                                  <p class="icon-name mn">Màn hình</p>
+                                </div>
+                              </div>
+                              
+                              
+                            </div>
+                            
+                            
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item text-km mb-5 ">
+                        <p>
+                            Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
+                    </p>
+                </li>
+                <div class="card-body card-button-tv" style="padding: initial">
+                  <div class="d-flex text-center">
+                    <div class="col-6">
+                      <div class="button-product-cart">
+                        <a href="#" class="btn">Thêm vào giỏ</a>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="button-product-buy">
+                        <a href="#" class="btn" style="color: white"
+                          >Mua ngay</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  </ul>
+                </div>
+                
+              </div>
+          </div>                 
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+            <div class="card-product">
+
+              <div class="card" style="margin-bottom: initial">
+                <a href="product-details.html" class="card-img-link">
+                  <img
+                  src="img/tivi6.jpg"
+                  class="card-img-pk"
+                  alt="phukien"
+                />
+                
+                </a>
+                
+                
+                <div class="card-body">
+                  <a href=""><h5 class="card-title">Samsung 55QN85A</h5></a>
+                  
+                </div>
+                <ul
+                  class="list-group list-group-flush"
+                  style="border-top: initial; border-bottom: initial"
+                >
+                  <li class="list-group-item special-price">34.400.000 ₫</li>
+                  <li class="list-group-item old-price">47.900.000 ₫</li>
+                  <li class="list-group-item text-icon">
+                      <div class="d-flex flex-wrap">
+                          <div class="col-6 icon-1">
+                            <div class="d-flex">
+                              <div class="col-2">
+                                <i class="bi bi-badge-hd-fill"></i>
+                              </div>
+                              <div class="col-9 icons">
+                                <p>4K Ultra HD</p>
+                                <p class="icon-name cpu">Độ phân giải</p>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                          <div class="col-6  icon-2">
+                            <div class="d-flex">
+                              <div class="col-2">
+                                <i class="bi bi-tv"></i>
+                              </div>
+                              <div class="col-9 icons">
+                                <p>55’’</p>
+                                <p class="icon-name mn">Màn hình</p>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                          
+                          
+                      </div>
+                  </li>
+                  
+                  <li class="list-group-item text-km mb-5 ">
+                      <p>
+                          Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
+                  </p>
+              </li>
+              <div class="card-body card-button-tv" style="padding: initial">
+                <div class="d-flex text-center">
+                  <div class="col-6">
+                    <div class="button-product-cart">
+                      <a href="#" class="btn">Thêm vào giỏ</a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="button-product-buy">
+                      <a href="#" class="btn" style="color: white"
+                        >Mua ngay</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+                </ul>
+              </div>
+              
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-4 mb-5 p-2">
+          <div class="card-product">
+
+            <div class="card" style="margin-bottom: initial">
+              <a href="product-details.html" class="card-img-link">
+                <img
+                src="img/tivi7.jpg"
+                class="card-img-pk"
+                alt="phukien"
+              />
+              
+              </a>
+              
+              
+              <div class="card-body">
+                <a href=""><h5 class="card-title"> TOSHIBA 32L5650</h5></a>
+                
+              </div>
+              <ul
+                class="list-group list-group-flush"
+                style="border-top: initial; border-bottom: initial"
+              >
+                <li class="list-group-item special-price">5.700.000 ₫</li>
+                <li class="list-group-item old-price">6.900.000 ₫</li>
+                <li class="list-group-item text-icon">
+                    <div class="d-flex flex-wrap">
+                        <div class="col-6 icon-1">
+                          <div class="d-flex">
+                            <div class="col-2">
+                              <i class="bi bi-badge-hd-fill"></i>
+                            </div>
+                            <div class="col-9 icons">
+                              <p>HD</p>
+                              <p class="icon-name cpu">Độ phân giải</p>
+                            </div>
+                          </div>
+                          
+                          
+                        </div>
+                        <div class="col-6  icon-2">
+                          <div class="d-flex">
+                            <div class="col-2">
+                              <i class="bi bi-tv"></i>
+                            </div>
+                            <div class="col-9 icons">
+                              <p>32’’</p>
+                              <p class="icon-name mn">Màn hình</p>
+                            </div>
+                          </div>
+                          
+                          
+                        </div>
+                        
+                        
+                    </div>
+                </li>
+                
+                <li class="list-group-item text-km mb-5 ">
+                    <p>
+                        Thông tin khuyến mại: Giảm 1 triệu khi thanh toán qua ví Moca, thẻ tín dụng ACB
+                </p>
+            </li>
+            <div class="card-body card-button-tv" style="padding: initial">
+              <div class="d-flex text-center">
+                <div class="col-6">
+                  <div class="button-product-cart">
+                    <a href="#" class="btn">Thêm vào giỏ</a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="button-product-buy">
+                    <a href="#" class="btn" style="color: white"
+                      >Mua ngay</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+              </ul>
+            </div>
+            
           </div>
+      </div>
+                  
+                  
+      
+                 
+                    
               <div class="col-12">
                 <div class="d-flex justify-content-center">
                   <button type="button" class="btn-new">Xem thêm</button>
                 </div>
-                
               </div>
-
-                                
-                
-                            </div>
-                        </div>
-                        
+                          
                     </div>
                     
                 </div>
@@ -1893,10 +2087,10 @@
             <div class="widget widget-social">
               <h4 class="widget-title">Online shopping</h4>
               <div class="social-media">
-                <a href="#"><i class="ti-facebook"></i></a
-                ><a href="#"><i class="ti-twitter-alt"></i></a
-                ><a href="#"><i class="ti-pinterest"></i></a
-                ><a href="#"><i class="ti-instagram"></i></a>
+                <a href="#" class="icon-fb" ><i class="ti-facebook"></i></a
+                ><a href="#" class="icon-twitter"><i class="ti-twitter-alt"></i></a
+                ><a href="#" class="icon-pinterest"><i class="ti-pinterest"></i></a
+                ><a href="#" class="icon-instagram"><i class="ti-instagram"></i></a>
               </div>
             </div>
           </div>
