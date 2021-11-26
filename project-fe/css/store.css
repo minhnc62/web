@@ -42,7 +42,7 @@
 /* -------------------------------------product----------------------------------------------------------- */
 .product .card-img-overlay {
   top: 50%;
-  left: 61%;
+  left: 55%;
 }
 .product h5 {
   font-size: 1.8rem;
@@ -68,35 +68,36 @@
   background: white;
 }
 
-.Featured-phone .swiper-pagination {
+.featured-phone .swiper-pagination {
   bottom: -3px;
 }
-.Featured-phone .swiper-pagination-bullet {
+.featured-phone .swiper-pagination-bullet {
   background: #585858 !important;
 }
-.Featured-phone .card ,.Featured-laptop .card,
- .Featured-tv .card .Featured-accessories .card{
+.featured-phone .card ,.featured-laptop .card,
+ .featured-tv .card .featured-accessories .card{
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   
   border-radius: initial;
 }
 .card-img-pk{
   transition: all .5s;
 }
-.Featured-phone .card:hover .card-img-pk, .Featured-laptop .card:hover  .card-img-pk,
-.Featured-tv .card:hover  .card-img-pk, .Featured-accessories .card:hover  .card-img-pk{
+.featured-phone .card:hover .card-img-pk, .featured-laptop .card:hover  .card-img-pk,
+.featured-tv .card:hover  .card-img-pk, .featured-accessories .card:hover  .card-img-pk{
   transform: scale(1.09);
   
 }
-.card{
+
+
+.card-product{
+  box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+  border-radius: .4rem;
+  position: relative;
   overflow: hidden;
 }
-.card-product{
-  position: relative;
-}
-.Featured-phone .card-img-link ,.Featured-laptop .card-img-link ,
-.Featured-tv .card-img-link ,.Featured-accessories .card-img-link  {
+.featured-phone .card-img-link ,.featured-laptop .card-img-link ,
+.featured-tv .card-img-link ,.featured-accessories .card-img-link  {
   
   margin: 1rem 1.5rem;
 }
@@ -106,20 +107,20 @@
   
 }
 
-.Featured-phone .card-body ,.Featured-laptop .card-body,
-.Featured-tv .card-body  ,.Featured-accessories .card-body {
+.featured-phone .card-body ,.featured-laptop .card-body,
+.featured-tv .card-body  ,.featured-accessories .card-body {
   text-align: initial;
   padding-bottom: initial;
 }
-.Featured-phone .card-body .card-title ,.Featured-laptop .card-body .card-title ,
-.Featured-tv .card-body .card-title ,.Featured-accessories .card-body .card-title {
+.featured-phone .card-body .card-title ,.featured-laptop .card-body .card-title ,
+.featured-tv .card-body .card-title ,.featured-accessories .card-body .card-title {
   text-align: initial;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.6rem;
 }
-.Featured-phone .card .list-group .list-group-item ,.Featured-laptop .card .list-group .list-group-item,
-.Featured-tv .card .list-group .list-group-item,.Featured-accessories .card .list-group .list-group-item{
+.featured-phone .card .list-group .list-group-item ,.featured-laptop .card .list-group .list-group-item,
+.featured-tv .card .list-group .list-group-item,.featured-accessories .card .list-group .list-group-item{
   border-top: initial;
   border-bottom: initial;
 }
@@ -132,7 +133,7 @@
 .old-price {
   font-size: 1.6rem;
   line-height: 1.8rem;
-  color: #707070;
+  color: #A6A6A6;
   text-decoration: line-through;
 }
 .card-button{
@@ -148,6 +149,8 @@
   color: #fff;
   
 }
+
+
 .card-button-laptop{
   position: absolute;
   left: 0;
@@ -161,14 +164,46 @@
   color: #fff;
   
 }
+
+
+.card-button-tv{
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size:1.4rem;
+  transform: translateY(520%);
+  transition: transform 500ms ease;
+}
+.card:hover .card-button-tv{
+  transform: translateY(392%);
+  color: #fff;
+  
+}
+
+
+.card-button-pk{
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size:1.4rem;
+  transform: translateY(420%);
+  transition: transform 500ms ease;
+}
+.card:hover .card-button-pk{
+  transform: translateY(286%);
+  color: #fff;
+  
+}
+
+
 .button-product-cart {
   background: #d9d9d9;
 }
 .button-product-buy {
   background-color: #ff5353;
 }
-.Featured-phone .btn ,.Featured-laptop .btn,
-.Featured-tv .btn ,.Featured-accessories .btn{
+.featured-phone .btn ,.featured-laptop .btn,
+.featured-tv .btn ,.featured-accessories .btn{
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 2.2rem;
@@ -177,12 +212,12 @@
   padding: .9rem 0;
   background: none;
 }
-.Featured-phone .btn:hover ,.Featured-laptop .btn:hover,
-.Featured-tv .btn:hover ,.Featured-accessories .btn:hover{
+.featured-phone .btn:hover ,.featured-laptop .btn:hover,
+.featured-tv .btn:hover ,.featured-accessories .btn:hover{
   color: initial;
 }
-.Featured-phone .btn:focus,.Featured-laptop .btn:focus,
-.Featured-tv .btn:focus ,.Featured-accessories .btn:focus {
+.featured-phone .btn:focus,.featured-laptop .btn:focus,
+.featured-tv .btn:focus ,.featured-accessories .btn:focus {
   box-shadow: none;
 }
 .text-km{
@@ -192,7 +227,7 @@ line-height: 2rem;
 
 .text-icon {
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 2.2rem;
   color: #6A7687;
 }
@@ -248,41 +283,7 @@ line-height: 2rem;
 
 
 /* -----------------------------------------------------------responsive---------------------------------------------- */
-@media (max-width: 1322px) {
-  html {
-    font-size: 55%;
-  }
-  .Breadcrumb-1 {
-    padding: 2rem 9% 0 9%;
-  }
-  .card-button{
-    position: absolute;
-    left: 0;
-    right: 0;
-    font-size:1.4rem;
-    transform: translateY(700%);
-    transition: transform 500ms ease;
-  }
-  .card:hover .card-button{
-    transform: translateY(470%);
-    color: #fff;
-    
-  }
-  .card-button-laptop{
-    position: absolute;
-    left: 0;
-    right: 0;
-    font-size:1.4rem;
-    transform: translateY(720%);
-    transition: transform 500ms ease;
-  }
-  .card:hover .card-button-laptop{
-    transform: translateY(606%);
-    color: #fff;
-    
-  }
-  
-}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -344,7 +345,7 @@ line-height: 2rem;
 
 @media (max-width: 450px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
   .Breadcrumb-1 {
     padding: 4rem 9% 0 9%;
