@@ -168,17 +168,17 @@ var swiper2 = new Swiper(".mySwiper2", {
 
 
 // // form danh gia chi tiet san pham
-// let commentBtn= document.querySelector('#comment-btn')
-// let formReview = document.querySelector('.form-review');
-// let formClose= document.querySelector('#form-close')
+let commentBtn= document.querySelector('#comment-btn')
+let formReview = document.querySelector('.form-review');
+let formClose= document.querySelector('#form-close')
 
-// commentBtn.addEventListener('click', ()=>{
-//   formReview.classList.add('active');
-// })
+commentBtn.addEventListener('click', ()=>{
+  formReview.classList.add('active');
+})
 
-// formClose.addEventListener('click', ()=>{
-//   formReview.classList.remove('active');
-// })
+formClose.addEventListener('click', ()=>{
+  formReview.classList.remove('active');
+})
 
 
 
