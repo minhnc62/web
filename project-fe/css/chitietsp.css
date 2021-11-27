@@ -232,6 +232,7 @@ border: 1px solid #ddd;
 }
 .btn-2:hover{
   background-color: rgba(255, 83, 83, 0.8);
+  color: #FFF;
 }
 
 
@@ -627,7 +628,7 @@ background-color: #ff5353 ;
 
 @media (max-width: 450px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
   .Breadcrumb-1 {
     padding: 4rem 9% 0 9%;

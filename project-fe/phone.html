@@ -35,11 +35,11 @@
 
   <header class="header">
     <div class="container">
-      <a href="#" class="logo">GREENTECH</a>
+      <a href="index.html" class="logo">GREENTECH</a>
       <nav class="navbar">
         <ul class="menu">
           <li class="menu-item">
-            <a href="index.html" class="menu-link active ">Trang chủ</a>
+            <a href="index.html" class="menu-link  ">Trang chủ</a>
           </li>
           <li class="menu-item">
             <a href="store.html" class="menu-link ">Cửa hàng</a>
@@ -141,8 +141,11 @@
         
         <div class="fas fa-search" id="search-btn"></div>
         <div class="tooltip-1 ">
-          <a href="cart.html" class="fas fa-shopping-cart">
-          
+          <a href="cart.html" class="fas fa-shopping-cart position-relative">
+            <span class="position-absolute number   badge  ">
+              3
+              
+            </span>
           </a>
           <div class="tooltiptext-1">
             <div class="shopping-cart">
@@ -183,7 +186,7 @@
         </div>
         <div class="fas fa-bars" id="menu-btn"></div>
       </div>
-      <form action="" class="search-form">
+      <form  class="search-form">
         <input type="search" id="search-box" placeholder="search here..." />
         <label for="search-box" class="fas fa-search"></label>
       </form>
@@ -249,7 +252,7 @@
                     <div class="d-flex flex-wrap align-self-center mb-3">
                         <div class="col-6">
                             <div class="form-check" style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="trademark-1" checked>
+                                <input class="form-check-input input-all" type="checkbox" value="Tất cả" id="trademark-1" category="trademark" checked >
                                 <label class="form-check-label" for="trademark-1">
                                   Tất cả
                                 </label>
@@ -257,7 +260,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-check"style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="trademark-2" >
+                                <input class="form-check-input input-item " type="checkbox" value="Oppo" category="trademark" id="trademark-2" >
                                 <label class="form-check-label" for="trademark-2">
                                     Oppo
                                 </label>
@@ -267,7 +270,7 @@
                     <div class="d-flex flex-wrap align-self-center mb-3">
                         <div class="col-6">
                             <div class="form-check" style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="trademark-3" >
+                                <input class="form-check-input input-item" type="checkbox" value="Iphone" category="trademark" id="trademark-3" >
                                 <label class="form-check-label" for="trademark-3">
                                     Iphone
                                 </label>
@@ -275,7 +278,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-check" style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="trademark-4" >
+                                <input class="form-check-input input-item" type="checkbox" value="Xiaomi" category="trademark" category="trademark"id="trademark-4" >
                                 <label class="form-check-label" for="trademark-4">
                                     Xiaomi
                                 </label>
@@ -285,7 +288,7 @@
                     <div class="d-flex flex-wrap align-self-center mb-3">
                         <div class="col-6">
                             <div class="form-check" style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="trademark-5" >
+                                <input class="form-check-input input-item" type="checkbox" value="Samsung" category="trademark" id="trademark-5" >
                                 <label class="form-check-label" for="trademark-5">
                                     Samsung
                                 </label>
@@ -293,7 +296,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-check"style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="trademark-6" >
+                                <input class="form-check-input input-item" type="checkbox" value="Realme" category="trademark" id="trademark-6" >
                                 <label class="form-check-label" for="trademark-6">
                                     Realme
                                 </label>
@@ -307,7 +310,7 @@
                     <div class="d-flex flex-wrap align-self-center mb-3">
                         <div class="col-12">
                             <div class="form-check" style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="price-1" checked>
+                                <input class="form-check-input input-all" type="checkbox" value="Tất cả" id="price-1" checked>
                                 <label class="form-check-label" for="price-1">
                                   Tất cả
                                 </label>
@@ -377,7 +380,7 @@
                     <div class="d-flex flex-wrap align-self-center mb-3">
                         <div class="col-12">
                             <div class="form-check" style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="screen" checked>
+                                <input class="form-check-input input-all" type="checkbox" value="Tất cả" id="screen" checked>
                                 <label class="form-check-label" for="screen">
                                   Tất cả
                                 </label>
@@ -437,7 +440,7 @@
                     <div class="d-flex flex-wrap align-self-center mb-3">
                         <div class="col-12">
                             <div class="form-check" style="font-size: 14px;">
-                                <input class="form-check-input" type="checkbox" value="" id="battery-1" checked>
+                                <input class="form-check-input input-all" type="checkbox" value=" Tất cả" id="battery-1" checked>
                                 <label class="form-check-label" for="battery-1">
                                   Tất cả
                                 </label>
@@ -741,6 +744,15 @@
                           
                           
                           </div>
+                          <div class="result-box">
+                            <div class="result-title">
+                                <h3>Danh sách bộ lọc:</h3>
+                                <button class="btn-remove-filter">Xóa bộ lọc</button>
+                            </div>
+                            <ul class="result">
+                                
+                            </ul>
+                        </div>
                           <div class="list-tab mt-3">
                             <div class="d-flex align-items-center justify-content-between">
                               <div>
@@ -2448,6 +2460,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/filter.js"></script>
     <script src="js/script.js"></script>
     <script src="js/header.js"></script>
 </body>

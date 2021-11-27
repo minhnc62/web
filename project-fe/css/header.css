@@ -234,6 +234,15 @@ img {
 
 
 /* -------------------------------------------------------------- */
+.number{
+  transform: translate(-26%,-70%);
+  background: #ff5353;
+  border-radius: 50%;
+}
+.badge{
+  padding: .5rem .8rem ;
+  font-size: 1rem;
+}
 
 .tooltip-1 {
   position: relative;
