@@ -69,12 +69,9 @@ ul {
   text-decoration: none;
 }
 .btn-default:hover {
-  background-color: white;
-  color: rgb(0, 0, 0);
-  -webkit-transition: background 0.5s 0s ease;
-  -moz-transition: background 0.5s 0s ease;
-  -o-transition: background 0.5s 0s ease;
-  transition: background 0.5s 0s ease;
+  background-color: rgba(255, 83, 83, 0.8);
+  color: rgb(255, 255, 255);
+  
 }
 
 img{
@@ -104,10 +101,13 @@ img{
 .banner{
   padding: 0;
   padding-top: 8rem;
+  max-width: 100%;
 }
 
 .content{
   color: #fff;
+    max-width: 100%;
+  
 }
 .banner .banner-slide .slide{
 min-height: 65vh;
@@ -120,13 +120,13 @@ background-position: center!important;
 }
 .banner .banner-slide .slide .content h1{
   font-weight: bold;
-font-size: 6rem;
-line-height: 5.4rem;
+font-size: 5rem;
+
 }
 .banner .banner-slide .slide .content span{
   font-weight: 500;
-font-size: 2.6rem;
-line-height: 3.4rem;
+font-size: 2.2rem;
+
 }
 .banner .swiper-button-next{
   top:90%;
@@ -165,15 +165,15 @@ line-height: 3.4rem;
 
 .Featured-product {
   background: #fff;
-  width: 100%;
-    max-width: 1440px;
-    margin: 2rem auto;
-}
-.featured{
   max-width: 100%;
+  margin: 2rem auto;
 }
-.Featured-product .container {
+
+.Featured-product .container ,.product-phone .container ,.product-tv .container ,.product-accessories .container{
   padding: initial;
+  
+    max-width: 100%;
+  
 }
 .product-header {
   text-align: center;
@@ -407,6 +407,16 @@ margin-bottom: initial;
   color: #fff;
   
 }
+ .button-product-cart:hover{
+  background-color:  rgba(217, 217, 217, 0.8);
+
+  
+}
+ .button-product-buy:hover{
+  background-color:  rgba(255, 83, 83, 0.8);
+
+  
+}
 
 /* -----------------------------------------------------------tab slide---------------------------------------------- */
 
@@ -595,8 +605,7 @@ margin-bottom: initial;
 /* -----------------------------------------------------------product-phone---------------------------------------------- */
 .product-phone {
   background: #fff;
-  width: 100%;
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 2rem;
 }
@@ -656,8 +665,7 @@ margin-bottom: initial;
   display: inline-block;
 }
 .product-laptop, .product-tv{
-  max-width: 1440px;
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 .product-laptop-1 .card{
@@ -681,8 +689,9 @@ margin-bottom: initial;
 .product-laptop .btn{
   border: 1px solid #D9D9D9;
 }
+
 .btn-button{
-  background-color: #fff;
+  background-color: #d9d9d9;
   margin-right: 2rem;
 }
 
@@ -701,8 +710,7 @@ margin-bottom: initial;
 /* -----------------------------------------------------------product-pk---------------------------------------------- */
 
 .product-accessories {
-  max-width: 1440px;
-  width: 100%;
+  max-width: 100%;
   margin: 2rem auto;
   
 }
@@ -737,7 +745,7 @@ margin-bottom: initial;
   transition: all .5s;
   width: 90%;
   height: 100%;
-  margin: 1rem auto;
+  margin: 1rem 1rem 1rem 1.5rem;
 }
 .product-accessories .card-body{
   text-align: initial;
@@ -857,29 +865,19 @@ background: none;
 
 @media (max-width: 768px) {
   html{
-    font-size: 45%;
+    font-size: 50%;
   }
- 
   .banner{
-    
     padding-top: 5.3rem;
   }
   .slick-track .featured-links__item{
-    
-    font-size: 1.4rem;
-      
-      
-      
+    margin: 1.6rem 1.6rem;
   }
-  
 }
-
- 
-
 
 @media (max-width: 450px) {
   html{
-    font-size: 40%;
+    font-size: 50%;
   }
   section {
     padding: 2rem 0;
@@ -887,5 +885,17 @@ background: none;
 .container{
   padding: initial;
 }
- 
+.featured-title .featured .slick-list .slick-track{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carousel-caption{
+  bottom: .5rem;
+}
+ #realme{
+  margin: 0 8rem 1.6rem 8rem;
+}
+
 }

@@ -53,6 +53,7 @@
 .product .btn {
   border: var(--border);
   font-size: 1.3rem;
+  
 }
 .product .btn-primary {
   color: #3f3f3f;
@@ -346,18 +347,20 @@ line-height: 2rem;
 
 @media (max-width: 768px) {
   html {
-    font-size: 45%;
-  }
-  
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
+    font-size: 50%;
   }
   .Breadcrumb-1 {
-    padding: 4rem 9% 0 9%;
+    padding: 5rem 9% 0 9%;
   }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 45%;
+  }
+  .Breadcrumb-1 {
+    padding: 5rem 9% 0 9%;
+  }
+
   .card-button {
     display: block;
     position: relative;
@@ -370,26 +373,5 @@ line-height: 2rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* -----------------------------------------------------------responsive---------------------------------------------- */
 
 

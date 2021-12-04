@@ -41,7 +41,7 @@ ul {
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  padding: 0.8rem 30px;
+  padding: 0.8rem 3rem;
   font-size: 1.6rem;
   border-radius: 4px;
   border: 2px solid rgb(0, 0, 0);
@@ -70,14 +70,7 @@ ul {
   padding: 2.2rem 2.5rem;
   text-decoration: none;
 }
-.btn-default:hover {
-  background-color: white;
-  color: rgb(0, 0, 0);
-  -webkit-transition: background 0.5s 0s ease;
-  -moz-transition: background 0.5s 0s ease;
-  -o-transition: background 0.5s 0s ease;
-  transition: background 0.5s 0s ease;
-}
+
 
 img {
   width: 100%;
@@ -94,12 +87,14 @@ img {
   padding: 1rem 9%;
   background: #cb1c22;
   box-shadow: var(--box-shadow);
+  
 }
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding: initial;
@@ -187,6 +182,9 @@ img {
 /* .header .icons div:hover {
   color: var(--grey);
 } */
+.icons-cart{
+  margin-left: 9rem;
+}
 #menu-btn {
   display: none;
 }
@@ -194,7 +192,7 @@ img {
   position: absolute;
   top: 110%;
   right: -110%;
-  width: 30rem;
+  width: 50rem;
   height: 4rem;
   background: #fff;
   border-radius: 4px;
@@ -234,6 +232,8 @@ img {
 
 
 /* -------------------------------------------------------------- */
+
+
 .number{
   transform: translate(-26%,-70%);
   background: #ff5353;
@@ -243,50 +243,22 @@ img {
   padding: .5rem .8rem ;
   font-size: 1rem;
 }
-
-.tooltip-1 {
-  position: relative;
-  display: inline-block;
-  
-}
-.tooltip-1 a:hover{
-  color: #fff;
-}
-
-.tooltip-1 .tooltiptext-1 {
-  visibility: hidden;
-  width: 33rem;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  text-align: center;
-  border-radius: 4px;
+.header .shopping-cart  {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  width: 35rem;
   padding: 1rem;
-  position: absolute;
-  z-index: 1;
-  top: 150%;
-  
-  left: -30rem;
-  
-  border: 1px solid #DDD;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+ text-align: center;
+  border: var(--border);
 }
-
-.tooltip-1 .tooltiptext-1::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 98%;
-  margin-left: -6px;
-  border-width: 6px;
-  border-style: solid;
-  border-color: transparent transparent rgb(255, 255, 255) transparent;
+.header .shopping-cart.active {
+  right: 2rem;
+  transition: 500ms linear;
 }
-
-.tooltip-1:hover .tooltiptext-1 {
-  visibility: visible;
-}
-
-
-
 
 
  .shopping-cart .box {
@@ -333,7 +305,8 @@ img {
  .shopping-cart .btn {
   display: block;
   text-align: center;
-  margin: 1rem;
+  
+  padding: 0.8rem 3.5rem;
   border:initial;
   background-color: #ff5353;
   color: #fff;
@@ -341,10 +314,14 @@ img {
 .shopping-cart .btn:hover{
   background-color:rgba(255, 83, 83, 0.8) ;
 }
-
+.shopping-cart .btn-cart{
+  background-color: #d9d9d9;
+  color: #000000  ;
+}
 
 
 /* -----------------------------------------------------------responsive---------------------------------------------- */
+
 
 
 @media (max-width: 991px) {
@@ -352,7 +329,7 @@ img {
       font-size: 55%;
     }
     .header {
-      padding: 1.2rem;
+      padding: 2rem;
     }
     .tooltiptext-1{display: none;}
     .banner-content h1 {
@@ -383,10 +360,16 @@ img {
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
       
     }
+    .icons-cart{
+      margin-left: 0;
+    }
+    .fa-shopping-cart{
+      margin-right: 1rem;
+    }
     .menu-link{
       background-color: #fff;
     }
-    .header .navbar a {
+    .header .navbar .menu-link {
       margin: 1rem 2.5rem;
       display: block;
       color: #000000 !important;
@@ -419,6 +402,51 @@ img {
     .header .navbar a:hover {
       background: none;
     }
+    .header .navbar ul li a {
+      color: #000000;
+      font-size: 1.4rem;
+    }
+    
+    .accordion-item{
+      border: initial;
+      margin: 1rem 2.5rem;
+      
+      font-size: 1.4rem;
+    }
+    .accordion-button{
+      font-size: 1.4rem;
+      
+    }
+    .header .navbar .accordion-link a{
+      margin: 0;
+      color: #000000;
+
+    }
+    .accordion-button:not(.collapsed){
+      color: #000000;
+      background: #fff;
+      box-shadow: none;
+    }
+    .accordion-button:focus{
+      border-color: initial;
+      box-shadow: none;
+    }
+    .accordion-header{
+      /* border: 1px solid #ddd;
+      border-radius: .4rem; */
+      font-size: 1.4rem;
+      width: 5rem;
+      text-align: center;
+    }
+    .accordion-body{
+      padding: 0;
+      color: #000000;
+    }
+    
+    .accordion-box{
+      margin: 1.5rem 0;
+    }
+
   }
   
   @media (max-width: 450px) {
@@ -429,7 +457,7 @@ img {
       position: absolute;
       top: 110%;
       right: -110%;
-      width: 20rem;
+      width: 30rem;
       height: 3rem;
       background: #fff;
       border-radius: 0.4rem;
@@ -440,4 +468,5 @@ img {
     .header .navbar ul li a {
       padding: 0.5rem;
     }
+    
   }

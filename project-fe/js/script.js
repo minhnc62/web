@@ -34,13 +34,10 @@ var swiper = new Swiper(".banner-slide", {
   centeredSlides: true,
   loop: true,
   autoplay: {
-    delay: 4500,
+    delay: 3000,
     disableOnInteraction: false,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  
 });
 
 
@@ -80,13 +77,10 @@ var swiper = new Swiper(".pk-slider", {
 
 var swiper = new Swiper(".banner-store-slider", {
   autoplay: {
-    delay: 4500,
+    delay: 2000,
     disableOnInteraction: false,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  
   centeredSlides: true,
   loop: true,
 });
