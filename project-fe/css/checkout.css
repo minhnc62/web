@@ -108,7 +108,9 @@
 }
   
 
-  
+.form-check-label{
+  font-size: 1.4rem;
+}
   
   
   /* RESPONSIVE CSS
@@ -134,10 +136,10 @@
   
   @media (max-width: 991px) {
     html {
-      font-size: 50%;
+      font-size: 55%;
     }
     .breadcrumb-1 {
-      padding: 3rem 9% 0 9%;
+      padding: 5rem 9% 0 9%;
     }
   }
   
@@ -146,31 +148,21 @@
       font-size: 50%;
     }
     .breadcrumb-1 {
-      padding: 3rem 9% 0 9%;
+      padding: 5rem 2rem 0 2rem;
     }
     .checkout{
-        padding: 0 5%;
+        padding: 2rem;
     }
     
   }
   
-  @media (max-width: 576px) {
-    html {
-      font-size: 45%;
-    }
-    .breadcrumb-1 {
-      padding: 3rem 9% 0 9%;
-    }
-    
-    
-  }
   
   @media (max-width: 450px) {
     html {
-      font-size: 40%;
+      font-size: 50%;
     }
     .breadcrumb-1 {
-      padding: 4rem 9% 0 9%;
+      padding: 6rem 9% 0 9%;
   
   }
 }

@@ -415,7 +415,7 @@ img {
     }
     .accordion-button{
       font-size: 1.4rem;
-      
+      align-self: center!important;
     }
     .header .navbar .accordion-link a{
       margin: 0;
@@ -431,18 +431,25 @@ img {
       border-color: initial;
       box-shadow: none;
     }
+    .accordion-button{
+      padding: 1rem 1.25rem 1rem 0;
+    }
+    
     .accordion-header{
       /* border: 1px solid #ddd;
       border-radius: .4rem; */
       font-size: 1.4rem;
-      width: 5rem;
-      text-align: center;
+      
+      
+      text-align: start;
     }
     .accordion-body{
       padding: 0;
       color: #000000;
     }
-    
+    .accordion-body a{
+      margin: 1.5rem 0;
+    }
     .accordion-box{
       margin: 1.5rem 0;
     }

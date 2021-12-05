@@ -97,6 +97,7 @@
 }
 
 
+
 .card-product{
   box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
   border-radius: .4rem;
@@ -111,7 +112,7 @@
  .card-img-pk {
   width: 90%;
   height: 100%;
-  
+  margin: 0 1.5rem;
 }
 
 .featured-phone .card-body ,.featured-laptop .card-body,
@@ -294,9 +295,9 @@ line-height: 2rem;
 /* -----------------------------------------------------------responsive---------------------------------------------- */
 
 @media (max-width: 1200px) {
-  html {
+  /* html {
     font-size: 55%;
-  }
+  } */
   .Breadcrumb-1 {
     padding: 2rem 9% 0 9%;
   }
@@ -313,12 +314,12 @@ line-height: 2rem;
     color: #fff;
     
   }
-  .card-button-laptop{
+  .card-button-laptop , .card-button-tv ,.card-button-pk{
     position: absolute;
     left: 0;
     right: 0;
     font-size:1.4rem;
-    transform: translateY(720%);
+    transform: translateY(800%);
     transition: transform 500ms ease;
   }
   .card:hover .card-button-laptop{
@@ -331,7 +332,7 @@ line-height: 2rem;
 
 @media (max-width: 991px) {
   html {
-    font-size: 45%;
+    font-size: 55%;
   }
   .Breadcrumb-1 {
     padding: 3rem 9% 0 9%;
@@ -355,19 +356,21 @@ line-height: 2rem;
 }
 @media (max-width: 450px) {
   html {
-    font-size: 45%;
+    font-size: 50%;
   }
   .Breadcrumb-1 {
     padding: 5rem 9% 0 9%;
   }
 
-  .card-button {
+  .card-button, .card-button-laptop , .card-button-tv ,.card-button-pk {
     display: block;
     position: relative;
     font-size: 1.4rem;
-    transform: none;
-    
-    
+    transform: none;  
+}
+.card:hover .card-button{
+  transform: none; 
+  
 }
   
 }

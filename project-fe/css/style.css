@@ -116,7 +116,7 @@ align-items: center;
 padding: 2rem;
 padding-left: 9%;
 background-size: cover!important;
-background-position: center!important;
+background-position: right!important;
 }
 .banner .banner-slide .slide .content h1{
   font-weight: bold;
@@ -407,16 +407,7 @@ margin-bottom: initial;
   color: #fff;
   
 }
- .button-product-cart:hover{
-  background-color:  rgba(217, 217, 217, 0.8);
 
-  
-}
- .button-product-buy:hover{
-  background-color:  rgba(255, 83, 83, 0.8);
-
-  
-}
 
 /* -----------------------------------------------------------tab slide---------------------------------------------- */
 
@@ -593,7 +584,7 @@ margin-bottom: initial;
 }
 .slick-track p {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #dddddd;
 }
 
@@ -781,6 +772,16 @@ background: #D9D9D9;
 .button-product-buy{
   background-color: #ff5353;
   
+  }
+  .button-product-cart:hover{
+    background-color:  rgba(217, 217, 217, 0.8);
+  
+    
+  }
+   .button-product-buy:hover{
+    background-color:  rgba(255, 83, 83, 0.8);
+  
+    
   }
 .product-accessories  .btn{
   font-weight: 500;
