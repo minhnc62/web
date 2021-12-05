@@ -898,5 +898,15 @@ background: none;
  #realme{
   margin: 0 8rem 1.6rem 8rem;
 }
-
+.banner .banner-slide .slide{
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+  padding-left: 9%;
+  background-size: cover!important;
+  background-position: right!important;
+  }
 }
