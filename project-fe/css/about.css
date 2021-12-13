@@ -1,0 +1,84 @@
+.breadcrumb-1 {
+    padding: 0 9%;
+  }
+  .breadcrumb-1 .container {
+    padding-left: initial;
+  }
+  
+  .breadcrumb-item {
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+.container{
+    padding-left: initial;
+    padding-right: initial;
+}
+
+.content-heading{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+
+}
+.content-text{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.about img{
+    width: 100%;
+}
+
+
+
+  /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 1200px) {
+        html {
+          font-size: 55%;
+        }
+        .breadcrumb-1 {
+          padding: 1rem 9% 0 9%;
+        }
+      }
+      
+  
+  @media (max-width: 991px) {
+    html {
+      font-size: 55%;
+    }
+    .breadcrumb-1 {
+      padding: 5rem 9% 0 9%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 50%;
+    }
+    .breadcrumb-1 {
+      padding: 5rem 9% 0 9%;
+    }
+    
+    
+  }
+  @media (max-width: 576px) {
+    .pr-0{
+      padding-right: 0;
+    }
+    .pl-0{
+      padding-left: 0;
+    }
+}
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+    .breadcrumb-1 {
+      padding: 6rem 9% 0 9%;
+  
+  }
+}
