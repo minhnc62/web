@@ -37,7 +37,12 @@ ul {
 .pd-left {
   padding-left: initial !important;
 }
-
+.p-r-0{
+  padding-right: .5rem;
+}
+.p-l-0{
+  padding-left: .5rem;
+}
 .btn {
   margin-top: 1rem;
   display: inline-block;
