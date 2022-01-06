@@ -91,7 +91,7 @@ const user = [
 const Item = (props)=>(
     
         <div className="item">
-        <h2>{props.first_name}</h2>
+        <h2 className="first_name">{props.first_name}</h2>
     <p className="email">{props.email}</p>
     <img className="avata" src={props.avatar} alt="anh" />
    
