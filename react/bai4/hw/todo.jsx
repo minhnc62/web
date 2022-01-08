@@ -28,9 +28,7 @@ const Todo = () =>{
 
     //cập nhập filter
     const filterBy = (value)=>{
-        setFilter({
-            filter:value,
-        });
+        setFilter(value);
 
     }
 
@@ -51,9 +49,7 @@ const Todo = () =>{
             
             newTodo[index] = todo;
             // khởi tạo lại state
-            setTodos({
-                todos : newTodo, 
-            });
+            setTodos(newTodo);
 
         }
     }
@@ -68,9 +64,9 @@ const Todo = () =>{
         const newTodo = [...todos];
         newTodo.push(todo);
 
-        setTodos({
-            todos : newTodo, 
-        });
+        setTodos(
+            newTodo
+        );
     }
 
 
