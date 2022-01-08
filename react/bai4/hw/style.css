@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    background: #dddcdc;
+}
+ul{
+    list-style: none;
+}
+.todos ,.tip-caculator,.caro{
+    padding: 2rem 9%;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
+.todos .container{
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 2rem;
+    background-color: white;
+
+}
+.todos-heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.todos .form{
+    margin-bottom: 1.5rem;
+}
+.todos .form .input {
+    width: 84%;
+    height: 3.8rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: .5rem;
+    padding-left: 1rem ;
+
+}
+.form .btn-add{
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border: none;
+    margin-left: 1rem;
+    background-color: #2c89c7;
+    color: white;
+    border-radius: .5rem;
+
+    
+
+}
+.filter{
+    font-size: 1.6rem;
+}
+.filter-oftion{
+    margin-top: 1rem;
+    
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.filter-item{
+    
+    margin-right: 1rem;
+}
+
+.todo-text{
+    font-size: 1.6rem;
+}
+.todo-item{
+    margin-bottom: .5rem;
+}
+.item{
+    margin-right: .5rem;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+.caro .container{
+    
+    background-color: white;
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+   
+
+}
+.caro h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.game-board{
+    display: table;
+    border-collapse: collapse;
+}
+.row{
+    display: table-row;
+    flex-direction: row;
+}
+.cell{
+    display: table-cell;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid grey;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 3rem;
+}
+  
