@@ -36,8 +36,8 @@ class AppSearch extends React.Component{
         fetch(randomURL)
             .then((res)=>res.json())
             .then((meal)=>{
-                this.setState({meal: meal.meals[0]});
-                this.setState({loading:false});
+                this.setState({meal: meal.meals[0],loading:false});
+                
             });
         
 
@@ -45,6 +45,7 @@ class AppSearch extends React.Component{
 
     componentDidMount = ()=>{
         this.getRandomMeal();
+     
 
     }
     componentDidUpdate = ()=>{
@@ -55,8 +56,8 @@ class AppSearch extends React.Component{
             fetch(searchURL + this.setState.keyword , {signal: controller.signal})
                 .then((res)=>res.json())
                 .then((meal)=>{
-                    this.setState({meal: meal.meals[0]});
-                    this.setState({loading:false});
+                    this.setState({meal: meal.meals[0],loading:false});
+
                 });
     }
          return ()=>{
